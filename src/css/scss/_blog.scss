@@ -1,0 +1,31 @@
+@use 'variables';
+
+/* ============================= BLOG BLOCK ============================= */
+
+.blog__image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog__content {
+    margin: 1rem;
+}
+
+.blog__header {
+    border-top: 2px solid #df2d00;
+    padding: 1.5rem 0;
+    font-size: variables.$font-size-enormous;
+    line-height: 90%;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.blog__text {
+    font-size: variables.$font-size-small;
+}
+
+.blog {
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,91 @@
+@use 'variables';
+
+/* ============================= PRODUCT BLOCK ============================= */
+
+.product__stars {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-right: 1em;
+    gap: 2px;
+}
+
+.product__stars img {
+    width: auto;
+    height: auto;
+}
+
+.product__info {
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: variables.$gray-color;
+}
+
+.product__price-block {
+    text-wrap: nowrap;
+    gap: 10px;
+}
+
+.product__title-block {
+
+    align-items: flex-end;
+}
+
+.product__price-block {
+    align-items: center;
+}
+
+.product__name {
+    font-weight: 700;
+    font-size: variables.$font-size-small;
+}
+
+.product__title-reviews-amount {
+    color: #0066B4;
+    font-size: variables.$font-size-small;
+}
+
+.price-old {
+    font-size: variables.$font-size-small;
+    text-decoration: line-through;
+}
+
+.price-new {
+    font-size: variables.$font-size-big;
+    color: red;
+    font-weight: 600;
+}
+
+.product__features {
+    padding: 1rem;
+    font-size: variables.$font-size-small;
+}
+
+.product__features ul {
+    padding-left: 26px;
+}
+
+.product__features li {
+    list-style: url(./img/icons/plus.svg);
+    font-size: variables.$font-size-smaller;
+}
+
+.product__availability {
+    color: #127840;
+    padding: .5rem 0;
+}
+
+.product__buy-reason {
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    font-size: variables.$font-size-smaller;
+    gap: 10px;
+}
+
+.product__buy-reason span {
+    width: 100%;
+}

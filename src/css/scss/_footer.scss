@@ -1,0 +1,37 @@
+@use 'variables';
+
+/* ============================= FOOTER BLOCK ============================= */
+.footer {
+    padding: 1rem 1rem 5rem;
+    background-color: #3732FF;
+    height: 7rem;
+}
+
+
+.footer__logo-wrapper {
+    height: 100%;
+}
+
+.footer__logo-wrapper img {
+    width: 100%;
+}
+
+.footer__text-box {
+    height: 3rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer__harlan {
+    height: 100%;
+}
+
+.footer__harlan img {
+    height: 100%;
+    width: 100%;
+}
+
+.footer__text {
+    font-size: variables.$font-size-smaller;
+    color: #ffffffde;
+}

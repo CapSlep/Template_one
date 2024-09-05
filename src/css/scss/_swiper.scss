@@ -1,0 +1,73 @@
+@use "variables";
+
+/* ============================= SWIPER BLOCK ============================= */
+
+.swiper {
+    height: 25rem;
+    position: relative;
+    user-select: none;
+}
+
+.cerificate {
+    position: absolute;
+    top: 1rem;
+    left: .75rem;
+    width: 5rem;
+    height: 6rem;
+    z-index: 10;
+}
+
+.cerificate img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.swiper-pagination-bullet {
+    width: 1rem !important;
+    height: 0.125rem !important;
+    border-radius: unset !important;
+    vertical-align: middle;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #000 !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 1.25rem !important;
+    font-weight: 600 !important;
+    color: #000 !important;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.color__selection {
+    gap: 1rem;
+    padding: 0 1rem 1rem;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.selector__button {
+    height: 24px;
+    width: 24px;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    background-color: transparent;
+    user-select: none;
+}
+
+.selector__button img {
+    width: 24px;
+    height: 24px;
+    border-radius: 0;
+    background-size: cover;
+    border: .063em solid rgba(0, 0, 0, .1);
+}

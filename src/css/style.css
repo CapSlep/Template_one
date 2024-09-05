@@ -1,0 +1,581 @@
+/* ============================================================ BASE STYLE EDIT BLOCK ============================================================ */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  line-height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  color: rgb(39, 37, 31);
+  font-family: "abc-diatype", "ABC Diatype", "roc-grotesk", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: clamp(1rem, 0.3rem + 3.5vw, 1.5rem);
+}
+
+input,
+button,
+textarea {
+  font-family: "Pan Display", sans-serif;
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+  outline-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+body.lock {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+p {
+  font-size: clamp(1rem, 0.3rem + 3.5vw, 1.5rem);
+  margin: 0;
+}
+
+ol {
+  list-style-type: none;
+  text-align: center;
+  font-size: clamp(1rem, 0.3rem + 3.5vw, 1.5rem);
+  padding-left: 0;
+}
+
+.container {
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* ============================= HEADER BLOCK ============================= */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #3732FF;
+}
+
+.nav__component {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.icon {
+  display: block;
+  height: 25px;
+  width: 25px;
+  fill: #fff;
+}
+
+.icon img {
+  height: 100%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.burger {
+  width: 100%;
+  fill: #fff;
+}
+
+.shipping-promo {
+  padding: 10px 0;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  background-color: #4C56FF;
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+}
+
+/* ============================= SWIPER BLOCK ============================= */
+.swiper {
+  height: 25rem;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.cerificate {
+  position: absolute;
+  top: 1rem;
+  left: 0.75rem;
+  width: 5rem;
+  height: 6rem;
+  z-index: 10;
+}
+
+.cerificate img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.swiper-pagination-bullet {
+  width: 1rem !important;
+  height: 0.125rem !important;
+  border-radius: unset !important;
+  vertical-align: middle;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.color__selection {
+  gap: 1rem;
+  padding: 0 1rem 1rem;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.selector__button {
+  height: 24px;
+  width: 24px;
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+  background-color: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.selector__button img {
+  width: 24px;
+  height: 24px;
+  border-radius: 0;
+  background-size: cover;
+  border: 0.063em solid rgba(0, 0, 0, 0.1);
+}
+
+/* ============================= PRODUCT BLOCK ============================= */
+.product__stars {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-right: 1em;
+  gap: 2px;
+}
+
+.product__stars img {
+  width: auto;
+  height: auto;
+}
+
+.product__info {
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #F2F3F5;
+}
+
+.product__price-block {
+  text-wrap: nowrap;
+  gap: 10px;
+}
+
+.product__title-block {
+  align-items: flex-end;
+}
+
+.product__price-block {
+  align-items: center;
+}
+
+.product__name {
+  font-weight: 700;
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+}
+
+.product__title-reviews-amount {
+  color: #0066B4;
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+}
+
+.price-old {
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+  text-decoration: line-through;
+}
+
+.price-new {
+  font-size: clamp(1.5rem, 0.3rem + 3.5vw, 2rem);
+  color: red;
+  font-weight: 600;
+}
+
+.product__features {
+  padding: 1rem;
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+}
+
+.product__features ul {
+  padding-left: 26px;
+}
+
+.product__features li {
+  list-style: url(./img/icons/plus.svg);
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 0.95rem);
+}
+
+.product__availability {
+  color: #127840;
+  padding: 0.5rem 0;
+}
+
+.product__buy-reason {
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 0.95rem);
+  gap: 10px;
+}
+
+.product__buy-reason span {
+  width: 100%;
+}
+
+/* ============================= BLOG BLOCK ============================= */
+.blog__image-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.blog__content {
+  margin: 1rem;
+}
+
+.blog__header {
+  border-top: 2px solid #df2d00;
+  padding: 1.5rem 0;
+  font-size: clamp(2.25rem, 0.3rem + 3.5vw, 4.85rem);
+  line-height: 90%;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+.blog__text {
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+}
+
+.blog {
+  margin-bottom: 2rem;
+}
+
+/* ============================= REVIEWS BLOCK ============================= */
+.reviews__header {
+  font-size: clamp(2rem, 0.3rem + 3.5vw, 3rem);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -1px;
+  padding: 2rem 0;
+  margin: 1rem 0;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.comment {
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.comment__header {
+  gap: 1rem;
+}
+
+.comment__validation {
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+}
+
+.comment__images-wrapper {
+  gap: 3px;
+}
+
+.comment__image {
+  width: 175px;
+  height: 175px;
+  overflow: hidden;
+  display: inline-block;
+  padding: 2px;
+}
+
+.comment__image img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.comment__title {
+  font-weight: 700;
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+}
+
+.comment__name {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.comment__validation-text {
+  font-size: 10px;
+}
+
+.comment__time {
+  font-size: 13px;
+}
+
+.comment__text {
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  line-height: 19.5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, Frutiger, Univers, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-bottom: 5px;
+  word-break: break-word;
+}
+
+/* ============================= FOOTER BLOCK ============================= */
+.footer {
+  padding: 1rem 1rem 5rem;
+  background-color: #3732FF;
+  height: 7rem;
+}
+
+.footer__logo-wrapper {
+  height: 100%;
+}
+
+.footer__logo-wrapper img {
+  width: 100%;
+}
+
+.footer__text-box {
+  height: 3rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__harlan {
+  height: 100%;
+}
+
+.footer__harlan img {
+  height: 100%;
+  width: 100%;
+}
+
+.footer__text {
+  font-size: clamp(0.75rem, 0.3rem + 3.5vw, 0.95rem);
+  color: rgba(255, 255, 255, 0.8705882353);
+}
+
+/* ============================= POPS BLOCK ============================= */
+/* Base styles for the modal */
+.pop__modal {
+  position: fixed;
+  visibility: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  will-change: opacity, transform;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup__container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure it stays centered during the initial render */
+.popup-enter {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.9);
+  /* Maintain center positioning */
+}
+
+.popup-enter-active {
+  transform: translate(-50%, -50%) scale(1);
+  visibility: visible;
+  opacity: 1;
+  /* Correct scaling */
+  transition: opacity 300ms, transform 300ms;
+}
+
+.popup-enter-done {
+  visibility: visible;
+}
+
+.popup-exit {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  /* Ensure proper exit */
+}
+
+.popup-exit-active {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* ============================= STARTUP POP BLOCK ============================= */
+.popup__button-close {
+  background-color: #fff;
+  box-shadow: 0 0 0 2px #e4e7eb;
+  padding: 0.5rem;
+  border-radius: 50em;
+  line-height: 75%;
+}
+
+.startup__pop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20rem;
+  gap: 10px;
+}
+
+.popup__button-close {
+  align-self: flex-end;
+}
+
+.startup__pop-img-wrapper {
+  width: 100%;
+}
+
+.startup__pop-text {
+  text-align: center;
+  line-height: 120%;
+}
+
+/* ============================= GENERAL BLOCK ============================= */
+.buy-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 65px;
+  background-color: #F2F3F5;
+  padding: 0.5rem 1rem;
+}
+
+.buy__button {
+  width: 100%;
+  height: 100%;
+  background-color: #3732FF;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50em;
+}

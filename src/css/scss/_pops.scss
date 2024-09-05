@@ -1,0 +1,93 @@
+@use 'variables';
+
+/* ============================= POPS BLOCK ============================= */
+
+/* Base styles for the modal */
+.pop__modal {
+    position: fixed;
+    visibility: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba($color: #000000, $alpha: .1);
+    z-index: 1000;
+    will-change: opacity, transform;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup__container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure it stays centered during the initial render */
+.popup-enter {
+    // visibility: visible;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+    /* Maintain center positioning */
+}
+
+.popup-enter-active {
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+    opacity: 1;
+    /* Correct scaling */
+    transition: opacity 300ms, transform 300ms;
+}
+
+.popup-enter-done {
+    visibility: visible;
+}
+
+.popup-exit {
+    // visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    /* Ensure proper exit */
+}
+
+.popup-exit-active {
+    // visibility: visible;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+}
+
+
+/* ============================= STARTUP POP BLOCK ============================= */
+
+.popup__button-close {
+    background-color: #fff;
+    box-shadow: 0 0 0 2px #e4e7eb;
+    padding: .5rem;
+    border-radius: 50em;
+    line-height: 75%;
+}
+
+.startup__pop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    gap: 10px;
+}
+
+.popup__button-close {
+    align-self: flex-end;
+}
+
+.startup__pop-img-wrapper {
+    width: 100%;
+}
+
+.startup__pop-text {
+    text-align: center;
+    line-height: 120%;
+}
