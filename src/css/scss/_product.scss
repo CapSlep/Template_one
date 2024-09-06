@@ -63,12 +63,23 @@
 }
 
 .product__features ul {
-    padding-left: 26px;
+    // padding-left: 26px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style-position: inside;
 }
 
 .product__features li {
-    list-style: url(./img/icons/plus.svg);
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-size: variables.$font-size-smaller;
+}
+
+.product__features li::before {
+    content: url(./img/icons/plus.svg);
 }
 
 .product__availability {

@@ -26,9 +26,11 @@ export default function Product({ product, setProduct }) {
                             <img src="./img/icons/star.svg" alt="" />
                             <img src="./img/icons/star.svg" alt="" />
                             <img src="./img/icons/star-half.svg" alt="" />
+                            <div className="product__title-reviews-amount">
+                                (90)
+                            </div>
                         </div>
                     </div>
-                    <div className="product__title-reviews-amount">(90)</div>
                 </div>
                 <div className="product__price-block flex-row">
                     <div className="price-new">{data.newPrice}</div>

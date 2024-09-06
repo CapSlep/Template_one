@@ -302,12 +302,21 @@ header nav {
 }
 
 .product__features ul {
-  padding-left: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style-position: inside;
 }
 
 .product__features li {
-  list-style: url(./img/icons/plus.svg);
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: clamp(0.75rem, 0.3rem + 3.5vw, 0.95rem);
+}
+
+.product__features li::before {
+  content: url(./img/icons/plus.svg);
 }
 
 .product__availability {
@@ -556,6 +565,68 @@ header nav {
 
 .startup__pop-text {
   text-align: center;
+  line-height: 120%;
+}
+
+.startup__accept {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  border-radius: 50em;
+  background-color: #3732ff;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* ============================= DESCRIPTION BLOCK ============================= */
+.table {
+  position: relative;
+  border-collapse: separate;
+  border-spacing: 0 4px;
+  width: 100%;
+}
+
+.table__head {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  padding: 16px 8px;
+  text-align: left;
+}
+
+.table__body .table__row .table__cell[scope=row] {
+  background-color: #e4e7eb;
+  border-radius: 4px 0 0 4px;
+  width: 30%;
+}
+
+.table__body .table__row .table__cell:nth-child(2) {
+  border-radius: 0 4px 4px 0;
+  width: 70%;
+}
+
+.table__body .table__row .table__cell {
+  background-color: #f2f3f5;
+}
+
+.table__cell {
+  padding: 8px;
+  text-align: left;
+}
+
+.description__title {
+  font-weight: 600;
+  font-size: clamp(1.5rem, 0.3rem + 3.5vw, 2rem);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1rem 0;
+}
+
+.descriptin__text {
   line-height: 120%;
 }
 

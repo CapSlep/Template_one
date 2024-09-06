@@ -6,9 +6,9 @@
         "shippingText": "Livraison gratuite & retour gratuit"
     },
     "productFeatures": [
-        "Son JBL Pro ultra-portable avec des basses plus percutantes",
-        "Jusqu'à 7 heures d'autonomie plus 2 heures avec le Playtime Boost",
-        "Étanche et résistant à la poussière"
+        "Poêles empilables avec manche amovible et interchangeable, facile à utiliser et peu encombrantes.",
+        "Revêtement en titane antiadhésif et anti-rayures, résistant et durable jusqu'à 6 fois plus longtemps.",
+        "Technologie Thermo-Signal pour une cuisson optimale et uniforme."
     ],
     "productAvailabillity": "En stock. Livraison estimée en 3 à 4 jours ouvrables.",
     "buyReasons": [
@@ -16,6 +16,55 @@
         "Retour gratuit",
         "Support à vie"
     ],
+    "description": {
+        "descriptionTitle": "Descriptif technique",
+        "descriptionTextMain": "Compatible avec les types de cuisinieres suivantes : gaz, electrique, vitroceramique et halogene. Ne convient pas pour l'induction Concu et fabrique en France Facile a nettoyer grace a son revetement antiadhesif haute performance a l'interieur et a l'exterieur pour une grande fonctionnalite",
+        "descriptionTable": [
+            {
+                "tableTitle": "Informations générales sur le produit",
+                "tableRows": [
+                    {
+                        "rowTitle": "Marque",
+                        "rowText": "TEFAL"
+                    },
+                    {
+                        "rowTitle": "Nom du produit",
+                        "rowText": "Tefal Ingenio Easy On Lot de 3 poeles + manche amovible 3 poeles 22/24/26 cm, manche amovible, poeles antiadhesives, revetem"
+                    },
+                    {
+                        "rowTitle": "Catégorie",
+                        "rowText": "BATTERIE DE CUISINE"
+                    }
+                ]
+            },
+            {
+                "tableTitle": "Général",
+                "tableRows": [
+                    {
+                        "rowTitle": "Nombre de pièces",
+                        "rowText": "3 pièces"
+                    },
+                    {
+                        "rowTitle": "Revêtement intérieur",
+                        "rowText": "Anti-adhésif"
+                    }
+                ]
+            },
+            {
+                "tableTitle": "Caractéristiques",
+                "tableRows": [
+                    {
+                        "rowTitle": "Compatibilité feux",
+                        "rowText": "Tous feux sauf induction"
+                    },
+                    {
+                        "rowTitle": "Type de poignée",
+                        "rowText": "Amovible"
+                    }
+                ]
+            }
+        ]
+    },
     "blogs": [
         {
             "image": "./img/blog/blog1.webp",
@@ -85,6 +134,7 @@
     "footerText": "© 2024 Harman International Industries, Incorporated. Tous droits réservés.",
     "buyButtonText": "Acheter maintenant (9,99 €)",
     "startupPopText": "À l'occasion de l'anniversaire de TEFAL en France, profitez d'une réduction de -75% sur le set de cuisine TEFAL INGENIO dans la boutique en ligne Cdiscount !",
+    "startupPopButton": "OBTENIR UNE RÉDUCTION",
     "products": {
         "product_1": {
             "name": "black",

@@ -6,6 +6,7 @@ import Footer from "./modules/Footer";
 import BuyButton from "./modules/BuyButton";
 import Facebook from "./modules/Facebook";
 import PopManager from "./modules/PopManager";
+import Description from "./modules/Description";
 
 import { useData } from "./DataContext"; // Import the custom hook
 import { useState } from "react";
@@ -69,6 +70,7 @@ export default function App() {
             <Header></Header>
             <Product product={product} setProduct={setProduct}></Product>
             {/* <Blog></Blog> */}
+            <Description></Description>
             <Reviews></Reviews>
             <Footer></Footer>
             <Facebook></Facebook>

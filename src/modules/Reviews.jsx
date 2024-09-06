@@ -17,9 +17,9 @@ export default function Reviews() {
                                     <img src="./img/icons/star.svg" alt="" />
                                     <img src="./img/icons/star.svg" alt="" />
                                 </div>
-                                <h3 className="comment__title">
+                                {/* <h3 className="comment__title">
                                     {comment.header}
-                                </h3>
+                                </h3> */}
                                 <div className="comment__name">
                                     {comment.name}
                                 </div>
