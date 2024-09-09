@@ -577,9 +577,13 @@ header nav {
   width: 100%;
   padding: 1rem 0.5rem;
   border-radius: 50em;
-  background-color: #3732ff;
+  background-color: #FFD814;
   color: #fff;
   font-weight: 600;
+}
+
+.startup__accept:hover {
+  background-color: #f7ce04;
 }
 
 /* ============================= DESCRIPTION BLOCK ============================= */
