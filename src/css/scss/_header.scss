@@ -7,7 +7,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: variables.$background-color;
+    background-color: variables.$header-background-color;
 }
 
 .nav__component {
@@ -29,6 +29,7 @@ header nav {
 }
 
 .logo {
+    padding-top: 5px;
     fill: #fff;
     width: 40%;
 }
@@ -45,8 +46,8 @@ header nav {
 .shipping-promo {
     padding: 10px 0;
     font-weight: 600;
-    color: #000;
+    color: #fff;
     text-align: center;
-    background-color: variables.$additional-background-color;
+    background-color: variables.$header-additional-background-color;
     font-size: variables.$font-size-small;
 }

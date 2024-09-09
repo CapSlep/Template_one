@@ -3,8 +3,7 @@
 /* ============================= FOOTER BLOCK ============================= */
 .footer {
     padding: 1rem 1rem 5rem;
-    background-color: variables.$background-color;
-    height: 12rem;
+    background-color: variables.$header-background-color;
     color: #fff;
 }
 
@@ -22,6 +21,7 @@
 .footer__text-box {
     height: 3rem;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
 }
 

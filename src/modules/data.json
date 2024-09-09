@@ -1,65 +1,65 @@
 {
-    "productName": "Tefal Ingenio Easy On Set van 3 pannen + afneembare handgreep 3 pannen 22/24/26 cm, afneembare handgreep, antiaanbakpannen, coating",
+    "productName": "Tefal Ingenio Easy On Set di 3 padelle + manico rimovibile 3 padelle 22/24/26 cm, manico rimovibile, padelle antiaderenti, rivestimento",
     "oldPrice": "75,11€",
     "newPrice": "9,99 €",
     "header": {
-        "shippingText": "Gratis levering & gratis retour"
+        "shippingText": "Consegna gratuita e reso gratuito"
     },
     "productFeatures": [
-        "Stapelbare pannen met een afneembare en verwisselbare handgreep, gemakkelijk te gebruiken en ruimtebesparend.",
-        "Titanium anti-aanbaklaag en krasbestendig, duurzaam en gaat tot 6 keer langer mee.",
-        "Thermo-Signal technologie voor optimale en gelijkmatige kookresultaten."
+        "Padelle impilabili con manico rimovibile e intercambiabile, facili da usare e salvaspazio.",
+        "Rivestimento in titanio antiaderente e resistente ai graffi, durevole e fino a 6 volte più duraturo.",
+        "Tecnologia Thermo-Signal per risultati di cottura ottimali e uniformi."
     ],
-    "productAvailabillity": "Op voorraad. Geschatte levering in 3 tot 4 werkdagen.",
+    "productAvailabillity": "Disponibile. Consegna stimata in 3-4 giorni lavorativi.",
     "buyReasons": [
-        "Gratis levering",
-        "Gratis retour",
-        "Levenslange ondersteuning"
+        "Consegna gratuita",
+        "Reso gratuito",
+        "Supporto a vita"
     ],
     "description": {
-        "descriptionTitle": "Technische beschrijving",
-        "descriptionTextMain": "Compatibel met de volgende soorten fornuizen: gas, elektrisch, keramisch en halogeen. Niet geschikt voor inductie. Ontworpen en gemaakt in Frankrijk. Gemakkelijk schoon te maken dankzij de hoogpresterende antiaanbaklaag aan de binnen- en buitenkant voor uitstekende functionaliteit.",
+        "descriptionTitle": "Descrizione tecnica",
+        "descriptionTextMain": "Compatibile con i seguenti tipi di fornelli: gas, elettrico, vetroceramica e alogeno. Non adatto per l'induzione. Progettato e prodotto in Francia. Facile da pulire grazie al rivestimento antiaderente ad alte prestazioni all'interno e all'esterno per una grande funzionalità.",
         "descriptionTable": [
             {
-                "tableTitle": "Algemene productinformatie",
+                "tableTitle": "Informazioni generali sul prodotto",
                 "tableRows": [
                     {
-                        "rowTitle": "Merk",
+                        "rowTitle": "Marca",
                         "rowText": "TEFAL"
                     },
                     {
-                        "rowTitle": "Productnaam",
-                        "rowText": "Tefal Ingenio Easy On Set van 3 pannen + afneembare handgreep 3 pannen 22/24/26 cm, afneembare handgreep, antiaanbakpannen, coating"
+                        "rowTitle": "Nome del prodotto",
+                        "rowText": "Tefal Ingenio Easy On Set di 3 padelle + manico rimovibile 3 padelle 22/24/26 cm, manico rimovibile, padelle antiaderenti, rivestimento"
                     },
                     {
-                        "rowTitle": "Categorie",
-                        "rowText": "KEUKENGEREI"
+                        "rowTitle": "Categoria",
+                        "rowText": "BATERIA DA CUCINA"
                     }
                 ]
             },
             {
-                "tableTitle": "Algemeen",
+                "tableTitle": "Generale",
                 "tableRows": [
                     {
-                        "rowTitle": "Aantal stuks",
-                        "rowText": "3 stuks"
+                        "rowTitle": "Numero di pezzi",
+                        "rowText": "3 pezzi"
                     },
                     {
-                        "rowTitle": "Binnenbekleding",
-                        "rowText": "Antiaanbaklaag"
+                        "rowTitle": "Rivestimento interno",
+                        "rowText": "Antiaderente"
                     }
                 ]
             },
             {
-                "tableTitle": "Kenmerken",
+                "tableTitle": "Caratteristiche",
                 "tableRows": [
                     {
-                        "rowTitle": "Geschikt voor",
-                        "rowText": "Alle kookplaten behalve inductie"
+                        "rowTitle": "Compatibilità fuochi",
+                        "rowText": "Tutti i fuochi eccetto induzione"
                     },
                     {
-                        "rowTitle": "Handgreeptype",
-                        "rowText": "Afneembaar"
+                        "rowTitle": "Tipo di manico",
+                        "rowText": "Rimovibile"
                     }
                 ]
             }
@@ -68,82 +68,82 @@
     "blogs": [
         {
             "image": "./img/blog/blog1.webp",
-            "header": "Ultraportabel JBL Pro-geluid met krachtigere bas",
-            "text": "Laat u niet misleiden door het kleine formaat. De JBL Go 4 levert indrukwekkend JBL Pro-geluid met krachtige bas. Uw vrienden zullen niet geloven hoeveel kwaliteit JBL Pro-geluid uit zo'n kleine luidspreker komt."
+            "header": "Audio JBL Pro ultraportatile con bassi più potenti",
+            "text": "Non lasciarti ingannare dalle piccole dimensioni. JBL Go 4 offre un suono JBL Pro impressionante con bassi potenti. I tuoi amici non crederanno a quanta qualità JBL Pro esce da un altoparlante così piccolo."
         },
         {
             "image": "./img/blog/blog2.webp",
-            "header": "Tot 7 uur batterijduur plus 2 uur met de Playtime Boost",
-            "text": "Maak u geen zorgen over kleine details zoals het opladen van uw batterij. De JBL Go 4 biedt tot 7 uur batterijduur met één keer opladen. Druk gewoon op Playtime Boost om de batterijduur te verlengen, waardoor tot 2 uur extra wordt toegevoegd. Het past de prestaties aan en optimaliseert deze voor een luider en helderder geluid."
+            "header": "Fino a 7 ore di autonomia più 2 ore con Playtime Boost",
+            "text": "Non preoccuparti per dettagli minori come la ricarica della batteria. JBL Go 4 offre fino a 7 ore di autonomia con una singola carica. Basta premere Playtime Boost per prolungare l'autonomia, aggiungendo fino a 2 ore extra. Regola e ottimizza le prestazioni per un suono più forte e più chiaro."
         },
         {
             "image": "./img/blog/blog3.webp",
-            "header": "Waterdicht en stofbestendig",
-            "text": "De JBL Go 4, met zijn IP67-normering voor waterdichtheid en stofbestendigheid, garandeert dat deze draagbare luidspreker bijna elke omgeving aankan, van een zwembadfeest tot een picknick aan zee."
+            "header": "Impermeabile e resistente alla polvere",
+            "text": "JBL Go 4, con la sua certificazione IP67 impermeabile e resistente alla polvere, garantisce che questo altoparlante portatile possa affrontare quasi tutti gli ambienti, da una festa in piscina a un picnic sul mare."
         }
     ],
-    "reviewsHeader": "Beoordelingen",
-    "reviewValidation": "Incentivized Review",
+    "reviewsHeader": "Recensioni",
+    "reviewValidation": "Recensione incentivata",
     "comments": [
         {
-            "header": "Klein formaat, groot geluid",
+            "header": "Piccole dimensioni, grande suono",
             "name": "Ghislaine d'Oliveira da Silva Bago",
-            "time": "4 maanden geleden",
-            "text": "Ik liet ze bij mijn dochter bezorgen die zei dat het een heel mooi cadeau was. De levering vond plaats op de aangegeven dag.",
+            "time": "4 mesi fa",
+            "text": "Le ho fatte consegnare a casa di mia figlia che ha detto che è stato un bellissimo regalo. La consegna è avvenuta nel giorno indicato.",
             "images": [
                 "./img/comments/comment_1/comment_1.jpg"
             ]
         },
         {
-            "header": "Kleine, krachtige en stijlvolle luidspreker",
+            "header": "Piccolo altoparlante potente ed elegante",
             "name": "Claire",
-            "time": "2 maanden geleden",
-            "text": "Mooie set Tefal-pannen. De welbekende kwaliteit van het merk.",
+            "time": "2 mesi fa",
+            "text": "Bel set di padelle Tefal. La qualità ben nota del marchio.",
             "images": [
                 "./img/comments/comment_2/comment_2.jpg"
             ]
         },
         {
-            "header": "Wow, ongelooflijk geluid! In een kleine draagbare luidspreker",
+            "header": "Wow, suono incredibile! In un piccolo portatile",
             "name": "Christian Taltavull",
-            "time": "4 maanden geleden",
-            "text": "Voor in de keuken is het perfect! Ze gaan van de vitro naar de oven. Perfect!",
+            "time": "4 mesi fa",
+            "text": "Per la cucina, è perfetto! Passano dal vitro al forno. Perfetto!",
             "images": [
                 "./img/comments/comment_3/comment_3.jpg"
             ]
         },
         {
-            "header": "Klein maar krachtig",
+            "header": "Piccolo ma potente",
             "name": "Muller Olivier",
-            "time": "4 maanden geleden",
-            "text": "Goed product, ik beveel het aan.",
+            "time": "4 mesi fa",
+            "text": "Buon prodotto, lo consiglio.",
             "images": [
                 "./img/comments/comment_4/comment_4.jpg"
             ]
         },
         {
-            "header": "Ongelooflijke kleine luidspreker - Perfect op zoveel manieren",
+            "header": "Incredibile piccolo altoparlante - Perfetto in tanti modi",
             "name": "D.Bartoli",
-            "time": "4 maanden geleden",
-            "text": "Bekende pannen, maar na verloop van tijd moesten ze worden vervangen, dus ik heb dezelfde opnieuw gekocht. Bedankt voor de snelle verzending.",
+            "time": "4 mesi fa",
+            "text": "Padelle che conosciamo, ma con l'uso nel tempo dovevano essere sostituite, quindi ho acquistato di nuovo le stesse. Grazie per la spedizione rapida.",
             "images": [
                 "./img/comments/comment_5/comment_5.jpg"
             ]
         }
     ],
-    "footerText": "© 2024 Harman International Industries, Incorporated. Alle rechten voorbehouden.",
-    "buyButtonText": "Koop nu (9,99 €)",
-    "startupPopText": "Ter gelegenheid van het jubileum van TEFAL in België, ontvang 75% korting op de TEFAL INGENIO keukenset in de BOL-webshop!",
-    "startupPopButton": "KRIJG KORTING",
+    "footerText": "© 2024, Amazon.com, Inc. o società affiliate.",
+    "buyButtonText": "Acquista ora (9,99 €)",
+    "startupPopText": "In occasione dell'anniversario di TEFAL in Italia, ottieni uno sconto del 75% sul set da cucina TEFAL INGENIO nel negozio online Amazon!",
+    "startupPopButton": "OTTIENI LO SCONTO",
     "products": {
         "product_1": {
             "name": "black",
             "selectorIcon": "./img/slides/black.jpg",
             "slider": [
                 "./img/slides/slide_1/slide-1-1.webp",
-                "./img/slides/slide_1/1-be.png",
-                "./img/slides/slide_1/2-be.png",
-                "./img/slides/slide_1/3-be.png"
+                "./img/slides/slide_1/1-it.png",
+                "./img/slides/slide_1/2-it.png",
+                "./img/slides/slide_1/3-it.png"
             ]
         }
     }
