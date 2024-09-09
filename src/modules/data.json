@@ -141,9 +141,9 @@
             "selectorIcon": "./img/slides/black.jpg",
             "slider": [
                 "./img/slides/slide_1/slide-1-1.webp",
-                "./img/slides/slide_1/slide-1-2.webp",
-                "./img/slides/slide_1/slide-1-3.webp",
-                "./img/slides/slide_1/slide-1-4.webp"
+                "./img/slides/slide_1/1-be.png",
+                "./img/slides/slide_1/2-be.png",
+                "./img/slides/slide_1/3-be.png"
             ]
         }
     }
