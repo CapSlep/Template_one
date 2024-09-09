@@ -3,16 +3,19 @@
 /* ============================= FOOTER BLOCK ============================= */
 .footer {
     padding: 1rem 1rem 5rem;
-    background-color: #3732FF;
-    height: 7rem;
+    background-color: variables.$background-color;
+    height: 12rem;
+    color: #fff;
 }
 
 
 .footer__logo-wrapper {
     height: 100%;
+    fill: #fff;
 }
 
-.footer__logo-wrapper img {
+.footer__logo-wrapper svg {
+    height: 100%;
     width: 100%;
 }
 

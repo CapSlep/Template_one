@@ -23,6 +23,9 @@ export default function App() {
         // const redirectLink = offerButton.getAttribute("data-offer");
 
         let redirectLink = document.querySelector("#redirectLink").href;
+        let selectedProductPath = document.querySelector(
+            "#selectedProductPath"
+        ).src;
 
         if (!redirectLink) {
             console.error("Offer link not found");
@@ -31,7 +34,6 @@ export default function App() {
 
         // Set parameters for redirection
         let adRedirectName = data.productName;
-        let img_url = product.slider[0];
 
         // Send the fbq event
         fbq("track", "InitiateCheckout");
@@ -46,7 +48,7 @@ export default function App() {
             "adRedirectName=" +
             encodeURIComponent(adRedirectName) +
             "&adRedirectImg=" +
-            encodeURIComponent(img_url);
+            encodeURIComponent(selectedProductPath);
     }
 
     function buyHandler(event) {
@@ -69,7 +71,6 @@ export default function App() {
             ></PopManager>
             <Header></Header>
             <Product product={product} setProduct={setProduct}></Product>
-            {/* <Blog></Blog> */}
             <Description></Description>
             <Reviews></Reviews>
             <Footer></Footer>

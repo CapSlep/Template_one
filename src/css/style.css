@@ -122,7 +122,7 @@ header nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: #3732FF;
+  background-color: #0000A3;
 }
 
 .nav__component {
@@ -144,7 +144,8 @@ header nav {
 }
 
 .logo {
-  width: 100%;
+  fill: #fff;
+  width: 40%;
 }
 
 .logo img {
@@ -152,16 +153,16 @@ header nav {
 }
 
 .burger {
-  width: 100%;
+  padding-right: 2rem;
   fill: #fff;
 }
 
 .shipping-promo {
   padding: 10px 0;
   font-weight: 600;
-  color: #fff;
+  color: #000;
   text-align: center;
-  background-color: #4C56FF;
+  background-color: #fff;
   font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
 }
 
@@ -450,15 +451,18 @@ header nav {
 /* ============================= FOOTER BLOCK ============================= */
 .footer {
   padding: 1rem 1rem 5rem;
-  background-color: #3732FF;
-  height: 7rem;
+  background-color: #0000A3;
+  height: 12rem;
+  color: #fff;
 }
 
 .footer__logo-wrapper {
   height: 100%;
+  fill: #fff;
 }
 
-.footer__logo-wrapper img {
+.footer__logo-wrapper svg {
+  height: 100%;
   width: 100%;
 }
 
@@ -644,9 +648,13 @@ header nav {
 .buy__button {
   width: 100%;
   height: 100%;
-  background-color: #3732FF;
+  background-color: #0000FF;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
   border-radius: 50em;
+}
+
+.buy__button:hover {
+  background-color: #0000e7;
 }

@@ -7,7 +7,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #3732FF;
+    background-color: variables.$background-color;
 }
 
 .nav__component {
@@ -29,7 +29,8 @@ header nav {
 }
 
 .logo {
-    width: 100%;
+    fill: #fff;
+    width: 40%;
 }
 
 .logo img {
@@ -37,15 +38,15 @@ header nav {
 }
 
 .burger {
-    width: 100%;
+    padding-right: 2rem;
     fill: #fff;
 }
 
 .shipping-promo {
     padding: 10px 0;
     font-weight: 600;
-    color: #fff;
+    color: #000;
     text-align: center;
-    background-color: variables.$aquatic-color;
+    background-color: variables.$additional-background-color;
     font-size: variables.$font-size-small;
 }

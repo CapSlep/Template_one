@@ -37,6 +37,12 @@ export default function Product({ product, setProduct }) {
                     <div className="price-old">{data.oldPrice}</div>
                 </div>
             </div>
+
+            <img
+                id="selectedProductPath"
+                src={product.slider[0]}
+                style={{ display: "none" }}
+            />
             <Slider slidesToShow={product.slider}></Slider>
             <div className="product__info container">
                 <div className="product__features">
