@@ -57,7 +57,7 @@ export default function Header({}) {
                             <path d="M6.229 4.5H21.75a.75.75 0 0 1 .735.897l-1.5 7.5a.75.75 0 0 1-.735.603H7.129l.3 3H18.75a.75.75 0 1 1 0 1.5h-12a.75.75 0 0 1-.746-.675L4.57 3H2.25a.75.75 0 0 1 0-1.5h3a.75.75 0 0 1 .746.675L6.23 4.5zm.15 1.5l.6 6h12.656l1.2-6H6.38zM7.5 22.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm10.5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path>
                         </svg>
                         <span>Trolley</span>
-                        <span class="icon__cart-number">1</span>
+                        <span className="icon__cart-number">1</span>
                     </a>
                 </div>
             </nav>
