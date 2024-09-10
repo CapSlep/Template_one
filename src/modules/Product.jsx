@@ -1,5 +1,6 @@
 import { useData } from "../DataContext"; // Import the custom hook
 import Slider from "./Slider";
+import Timer from "./Timer";
 
 export default function Product({ product, setProduct }) {
     const data = useData(); // Access data from the context
@@ -38,12 +39,8 @@ export default function Product({ product, setProduct }) {
                 </div>
             </div>
 
-            <img
-                id="selectedProductPath"
-                src={product.slider[0]}
-                style={{ display: "none" }}
-            />
             <Slider slidesToShow={product.slider}></Slider>
+            <Timer startTime={3} setsAmount={4}></Timer>
             <div className="product__info container">
                 <div className="product__features">
                     <ul>

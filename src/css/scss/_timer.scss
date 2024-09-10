@@ -1,0 +1,25 @@
+@use 'variables';
+
+
+/* ============================= FOOTER BLOCK ============================= */
+
+.timer {
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.timer__countdown {
+    font-size: variables.$font-size-enormous;
+}
+
+.timer__text-promo {
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}

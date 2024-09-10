@@ -4,13 +4,14 @@
 .footer {
     padding: 1rem 1rem 5rem;
     background-color: variables.$header-background-color;
-    color: #fff;
+    color: #000;
+    border-top: 1px solid rgb(216, 216, 216);
 }
 
 
 .footer__logo-wrapper {
     height: 100%;
-    fill: #fff;
+    fill: #000;
 }
 
 .footer__logo-wrapper svg {
@@ -36,5 +37,5 @@
 
 .footer__text {
     font-size: variables.$font-size-smaller;
-    color: #ffffffde;
+    color: #000;
 }

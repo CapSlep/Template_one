@@ -9,6 +9,8 @@
 @use 'footer';
 @use 'pops';
 @use 'description';
+@use 'timer';
+@use 'checkout';
 
 /* ============================= GENERAL BLOCK ============================= */
 .buy-wrapper {
@@ -19,6 +21,7 @@
     height: 65px;
     background-color: variables.$background-color;
     padding: .5rem 1rem;
+    border-top: 1px solid rgb(216, 216, 216);
 }
 
 .buy__button {
@@ -26,7 +29,7 @@
     height: 100%;
     background-color: variables.$button-color;
     text-transform: uppercase;
-    color: #000;
+    color: variables.$button-text-color;
     font-weight: 600;
     border-radius: 50em;
 }

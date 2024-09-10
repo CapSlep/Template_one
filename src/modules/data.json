@@ -1,65 +1,66 @@
 {
-    "productName": "Tefal Ingenio Easy On Set di 3 padelle + manico rimovibile 3 padelle 22/24/26 cm, manico rimovibile, padelle antiaderenti, rivestimento",
-    "oldPrice": "75,11€",
-    "newPrice": "9,99 €",
+    "productName": "Tefal Ingenio Easy On Set of 3 pans + removable handle 3 pans 22/24/26 cm, removable handle, non-stick pans, coating",
+    "oldPrice": "£69,90",
+    "newPrice": "£9,99",
+    "zeroPrice": "£0,00",
     "header": {
-        "shippingText": "Consegna gratuita e reso gratuito"
+        "shippingText": "Free delivery & free returns"
     },
     "productFeatures": [
-        "Padelle impilabili con manico rimovibile e intercambiabile, facili da usare e salvaspazio.",
-        "Rivestimento in titanio antiaderente e resistente ai graffi, durevole e fino a 6 volte più duraturo.",
-        "Tecnologia Thermo-Signal per risultati di cottura ottimali e uniformi."
+        "Stackable pans with a removable and interchangeable handle, easy to use and space-saving.",
+        "Titanium non-stick coating and scratch-resistant, durable and lasts up to 6 times longer.",
+        "Thermo-Signal technology for optimal and even cooking results."
     ],
-    "productAvailabillity": "Disponibile. Consegna stimata in 3-4 giorni lavorativi.",
+    "productAvailabillity": "In stock. Estimated delivery in 3 to 4 working days.",
     "buyReasons": [
-        "Consegna gratuita",
-        "Reso gratuito",
-        "Supporto a vita"
+        "Free delivery",
+        "Free returns",
+        "Lifetime support"
     ],
     "description": {
-        "descriptionTitle": "Descrizione tecnica",
-        "descriptionTextMain": "Compatibile con i seguenti tipi di fornelli: gas, elettrico, vetroceramica e alogeno. Non adatto per l'induzione. Progettato e prodotto in Francia. Facile da pulire grazie al rivestimento antiaderente ad alte prestazioni all'interno e all'esterno per una grande funzionalità.",
+        "descriptionTitle": "Technical Description",
+        "descriptionTextMain": "Compatible with the following types of hobs: gas, electric, ceramic, and halogen. Not suitable for induction. Designed and made in France. Easy to clean thanks to the high-performance non-stick coating inside and outside for excellent functionality.",
         "descriptionTable": [
             {
-                "tableTitle": "Informazioni generali sul prodotto",
+                "tableTitle": "General Product Information",
                 "tableRows": [
                     {
-                        "rowTitle": "Marca",
+                        "rowTitle": "Brand",
                         "rowText": "TEFAL"
                     },
                     {
-                        "rowTitle": "Nome del prodotto",
-                        "rowText": "Tefal Ingenio Easy On Set di 3 padelle + manico rimovibile 3 padelle 22/24/26 cm, manico rimovibile, padelle antiaderenti, rivestimento"
+                        "rowTitle": "Product Name",
+                        "rowText": "Tefal Ingenio Easy On Set of 3 pans + removable handle 3 pans 22/24/26 cm, removable handle, non-stick pans, coating"
                     },
                     {
-                        "rowTitle": "Categoria",
-                        "rowText": "BATERIA DA CUCINA"
+                        "rowTitle": "Category",
+                        "rowText": "COOKWARE"
                     }
                 ]
             },
             {
-                "tableTitle": "Generale",
+                "tableTitle": "General",
                 "tableRows": [
                     {
-                        "rowTitle": "Numero di pezzi",
-                        "rowText": "3 pezzi"
+                        "rowTitle": "Number of pieces",
+                        "rowText": "3 pieces"
                     },
                     {
-                        "rowTitle": "Rivestimento interno",
-                        "rowText": "Antiaderente"
+                        "rowTitle": "Inner Coating",
+                        "rowText": "Non-stick"
                     }
                 ]
             },
             {
-                "tableTitle": "Caratteristiche",
+                "tableTitle": "Features",
                 "tableRows": [
                     {
-                        "rowTitle": "Compatibilità fuochi",
-                        "rowText": "Tutti i fuochi eccetto induzione"
+                        "rowTitle": "Hob Compatibility",
+                        "rowText": "All hobs except induction"
                     },
                     {
-                        "rowTitle": "Tipo di manico",
-                        "rowText": "Rimovibile"
+                        "rowTitle": "Handle Type",
+                        "rowText": "Removable"
                     }
                 ]
             }
@@ -68,82 +69,115 @@
     "blogs": [
         {
             "image": "./img/blog/blog1.webp",
-            "header": "Audio JBL Pro ultraportatile con bassi più potenti",
-            "text": "Non lasciarti ingannare dalle piccole dimensioni. JBL Go 4 offre un suono JBL Pro impressionante con bassi potenti. I tuoi amici non crederanno a quanta qualità JBL Pro esce da un altoparlante così piccolo."
+            "header": "Ultra-portable JBL Pro sound with more powerful bass",
+            "text": "Don't be fooled by the small size. The JBL Go 4 delivers impressive JBL Pro sound with powerful bass. Your friends won't believe how much JBL Pro sound comes from such a small speaker."
         },
         {
             "image": "./img/blog/blog2.webp",
-            "header": "Fino a 7 ore di autonomia più 2 ore con Playtime Boost",
-            "text": "Non preoccuparti per dettagli minori come la ricarica della batteria. JBL Go 4 offre fino a 7 ore di autonomia con una singola carica. Basta premere Playtime Boost per prolungare l'autonomia, aggiungendo fino a 2 ore extra. Regola e ottimizza le prestazioni per un suono più forte e più chiaro."
+            "header": "Up to 7 hours of battery life plus 2 hours with Playtime Boost",
+            "text": "Don't worry about minor details like charging your battery. The JBL Go 4 offers up to 7 hours of battery life on a single charge. Simply press Playtime Boost to extend the battery life, adding up to 2 extra hours. It adjusts and optimises performance for louder and clearer sound."
         },
         {
             "image": "./img/blog/blog3.webp",
-            "header": "Impermeabile e resistente alla polvere",
-            "text": "JBL Go 4, con la sua certificazione IP67 impermeabile e resistente alla polvere, garantisce che questo altoparlante portatile possa affrontare quasi tutti gli ambienti, da una festa in piscina a un picnic sul mare."
+            "header": "Waterproof and dust-resistant",
+            "text": "The JBL Go 4, with its IP67 waterproof and dust-resistant rating, ensures that this portable speaker can handle almost any environment, from a pool party to a seaside picnic."
         }
     ],
-    "reviewsHeader": "Recensioni",
-    "reviewValidation": "Recensione incentivata",
+    "reviewsHeader": "Reviews",
+    "reviewValidation": "Incentivised Review",
     "comments": [
         {
-            "header": "Piccole dimensioni, grande suono",
+            "header": "Small size, big sound",
             "name": "Ghislaine d'Oliveira da Silva Bago",
-            "time": "4 mesi fa",
-            "text": "Le ho fatte consegnare a casa di mia figlia che ha detto che è stato un bellissimo regalo. La consegna è avvenuta nel giorno indicato.",
+            "time": "4 months ago",
+            "text": "I had them delivered to my daughter's house who said it was a lovely gift. Delivery took place on the indicated day.",
             "images": [
                 "./img/comments/comment_1/comment_1.jpg"
             ]
         },
         {
-            "header": "Piccolo altoparlante potente ed elegante",
+            "header": "Small, powerful, and stylish speaker",
             "name": "Claire",
-            "time": "2 mesi fa",
-            "text": "Bel set di padelle Tefal. La qualità ben nota del marchio.",
+            "time": "2 months ago",
+            "text": "Nice set of Tefal pans. The well-known quality of the brand.",
             "images": [
                 "./img/comments/comment_2/comment_2.jpg"
             ]
         },
         {
-            "header": "Wow, suono incredibile! In un piccolo portatile",
+            "header": "Wow, incredible sound! In a small portable speaker",
             "name": "Christian Taltavull",
-            "time": "4 mesi fa",
-            "text": "Per la cucina, è perfetto! Passano dal vitro al forno. Perfetto!",
+            "time": "4 months ago",
+            "text": "For the kitchen, it's perfect! They go from vitro to oven. Perfect!",
             "images": [
                 "./img/comments/comment_3/comment_3.jpg"
             ]
         },
         {
-            "header": "Piccolo ma potente",
+            "header": "Small but powerful",
             "name": "Muller Olivier",
-            "time": "4 mesi fa",
-            "text": "Buon prodotto, lo consiglio.",
+            "time": "4 months ago",
+            "text": "Good product, I recommend it.",
             "images": [
                 "./img/comments/comment_4/comment_4.jpg"
             ]
         },
         {
-            "header": "Incredibile piccolo altoparlante - Perfetto in tanti modi",
+            "header": "Incredible small speaker - Perfect in so many ways",
             "name": "D.Bartoli",
-            "time": "4 mesi fa",
-            "text": "Padelle che conosciamo, ma con l'uso nel tempo dovevano essere sostituite, quindi ho acquistato di nuovo le stesse. Grazie per la spedizione rapida.",
+            "time": "4 months ago",
+            "text": "Pans we know, but over time with use, they needed to be replaced, so I bought the same ones again. Thanks for the quick shipping.",
             "images": [
                 "./img/comments/comment_5/comment_5.jpg"
             ]
         }
     ],
-    "footerText": "© 2024, Amazon.com, Inc. o società affiliate.",
-    "buyButtonText": "Acquista ora (9,99 €)",
-    "startupPopText": "In occasione dell'anniversario di TEFAL in Italia, ottenete uno sconto del 75% sul set da cucina TEFAL INGENIO su Amazon!",
-    "startupPopButton": "OTTIENI LO SCONTO",
+    "footerText": "© Argos Limited 2024. All Rights Reserved.",
+    "buyButtonText": "Buy now (£9.99)",
+    "startupPopText": "To celebrate TEFAL's anniversary in the UK, get a 75% discount on the TEFAL INGENIO cookware set at ARGOS!",
+    "startupPopButton": "GET DISCOUNT",
+    "timer": {
+        "timerText": "Stock is running out. Hurry and place your order.",
+        "timerSets": "sets available."
+    },
+    "checkout": {
+        "countryCode": "gb",
+        "countryPhone": "44",
+        "delivery": {
+            "title": "Delivery",
+            "city": "City",
+            "address": "Delivery Address",
+            "postcode": "Postcode"
+        },
+        "info": {
+            "title": "Personal Information",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "phone": "Phone Number",
+            "email": "Email Address"
+        },
+        "payment": {
+            "title": "Payment Methods",
+            "text": "Online Payment by Credit Card"
+        },
+        "summary": {
+            "title": "Order Details",
+            "deliveryTime": "Time to delivery",
+            "deliveryDays": "3 days",
+            "subtotal": "Subtotal",
+            "deliveryAmountTitle": "Delivery",
+            "total": "Total"
+        }
+    },
     "products": {
         "product_1": {
             "name": "black",
             "selectorIcon": "./img/slides/black.jpg",
             "slider": [
                 "./img/slides/slide_1/slide-1-1.webp",
-                "./img/slides/slide_1/1-it.png",
-                "./img/slides/slide_1/2-it.png",
-                "./img/slides/slide_1/3-it.png"
+                "./img/slides/slide_1/1-uk.png",
+                "./img/slides/slide_1/2-uk.png",
+                "./img/slides/slide_1/3-uk.png"
             ]
         }
     }
