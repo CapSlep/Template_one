@@ -7,10 +7,10 @@ export default function Header({}) {
             <div className="shipping-promo">{data.header.shippingText}</div>
             <nav>
                 <div className="logo">
-                    <img src="./img/header/logo.webp" alt="LOGO" />
+                    <img src="./img/header/logo.png" alt="LOGO" />
                 </div>
                 <div className="nav__component">
-                    <a href="#" className="icon burger">
+                    {/* <a href="#" className="icon burger">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
@@ -45,7 +45,7 @@ export default function Header({}) {
                             <path d="M21.6 5.55l.07.115c2.73 5.458-.506 10.582-9.32 15.248a.75.75 0 0 1-.7 0C2.835 16.247-.4 11.123 2.33 5.665l.073-.119C4.83 2.351 8.86 2.182 12.006 4.97c3.221-2.796 7.185-2.625 9.594.58zm-1.24.847c-1.968-2.56-5.154-2.542-7.83.133a.75.75 0 0 1-1.068-.007C8.88 3.866 5.628 3.843 3.64 6.399c-2.182 4.453.483 8.748 8.36 13 7.878-4.253 10.543-8.548 8.36-13.002z"></path>
                         </svg>
                         <span>Wishlist</span>
-                    </a>
+                    </a> */}
                     <a href="#" className="icon icon__cart">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -57,6 +57,7 @@ export default function Header({}) {
                             <path d="M6.229 4.5H21.75a.75.75 0 0 1 .735.897l-1.5 7.5a.75.75 0 0 1-.735.603H7.129l.3 3H18.75a.75.75 0 1 1 0 1.5h-12a.75.75 0 0 1-.746-.675L4.57 3H2.25a.75.75 0 0 1 0-1.5h3a.75.75 0 0 1 .746.675L6.23 4.5zm.15 1.5l.6 6h12.656l1.2-6H6.38zM7.5 22.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm10.5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path>
                         </svg>
                         <span>Trolley</span>
+                        <span class="icon__cart-number">1</span>
                     </a>
                 </div>
             </nav>

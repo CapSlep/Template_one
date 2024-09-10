@@ -150,7 +150,6 @@ header {
 
 .logo {
   fill: #fff;
-  max-width: 49px;
 }
 
 .logo img {
@@ -168,6 +167,29 @@ header {
   text-align: center;
   background-color: #D62014;
   font-size: clamp(0.75rem, 0.3rem + 3.5vw, 1rem);
+}
+
+.icon__cart {
+  position: relative;
+}
+
+.icon__cart-number {
+  font-weight: 600;
+  box-sizing: content-box;
+  height: 15px;
+  width: 14px;
+  position: absolute;
+  top: -10px;
+  right: 5px;
+  color: #fff;
+  background: #d42114;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ============================= SWIPER BLOCK ============================= */
@@ -663,6 +685,10 @@ header {
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
+}
+
+.timer__text-strong {
+  font-weight: 700;
 }
 
 /* ============================= CHECKOUT BLOCK ============================= */

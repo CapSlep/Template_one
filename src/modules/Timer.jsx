@@ -52,8 +52,9 @@ export default function Timer({ startTime = 1, setsAmount = 1 }) {
     return (
         <div className="timer container flex-column" ref={timerRef}>
             <p className="timer__countdown">{formatTime(timeLeft)}</p>
-            <p className="timer__text-promo">
-                {data.timer.timerText} ({setsAmount}) {data.timer.timerSets}
+            <p className="timer__text-promo">{data.timer.timerText}</p>
+            <p className="timer__text-promo timer__text-strong">
+                ({setsAmount}) {data.timer.timerSets}
             </p>
         </div>
     );
