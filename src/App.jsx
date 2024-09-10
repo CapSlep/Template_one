@@ -91,7 +91,7 @@ export default function App() {
         console.log("Form submitted successfully!", constructedLink);
     }
 
-    function getUrl() {
+    function sendWithoutForm() {
         // Retrieve the macro from the button's data-attribute
         // const offerButton = document.querySelector(".checkout__button");
         // const redirectLink = offerButton.getAttribute("data-offer");
