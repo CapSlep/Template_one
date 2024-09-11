@@ -186,7 +186,7 @@ export default function App() {
             <PopManager
                 popupTypes={popupsHolder.popupTypes}
                 popupsToShow={popupsHolder.popups}
-                showStartup={false}
+                showStartup={true}
             ></PopManager>
             <img
                 id="selectedProductPath"

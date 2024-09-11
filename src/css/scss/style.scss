@@ -32,8 +32,37 @@
     color: variables.$button-text-color;
     font-weight: 600;
     // border-radius: 50em;
+
+    &:after {
+        background: #fff;
+        content: "";
+        height: 155px;
+        left: -75px;
+        opacity: .2;
+        position: absolute;
+        top: -50px;
+        transform: rotate(35deg);
+        // transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+        width: 50px;
+        z-index: 10001;
+        animation: flash 6s infinite;
+    }
 }
 
 .buy__button:hover {
     background-color: variables.$button-hover-color;
+}
+
+@keyframes flash {
+    0% {
+        left: -120%;
+    }
+
+    30% {
+        left: 120%;
+    }
+
+    100% {
+        left: 120%;
+    }
 }
