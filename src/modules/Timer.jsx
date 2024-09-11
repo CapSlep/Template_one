@@ -54,7 +54,8 @@ export default function Timer({ startTime = 1, setsAmount = 1 }) {
             <p className="timer__countdown">{formatTime(timeLeft)}</p>
             <p className="timer__text-promo">{data.timer.timerText}</p>
             <p className="timer__text-promo timer__text-strong">
-                ({setsAmount}) {data.timer.timerSets}
+                {data.timer.timerSetsStart} ({setsAmount}){" "}
+                {data.timer.timerSetsEnd}
             </p>
         </div>
     );

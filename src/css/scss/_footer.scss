@@ -12,11 +12,17 @@
 .footer__logo-wrapper {
     height: 100%;
     fill: #000;
+    text-align: center;
 }
 
 .footer__logo-wrapper svg {
     height: 100%;
     width: 100%;
+}
+
+.footer__logo-wrapper img {
+    height: 75%;
+    width: 75%;
 }
 
 .footer__text-box {

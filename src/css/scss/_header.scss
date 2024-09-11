@@ -8,6 +8,7 @@ header nav {
     align-items: center;
     padding: 1rem;
     background-color: variables.$header-background-color;
+    gap: 1rem;
 }
 
 header {
@@ -41,8 +42,9 @@ header {
     width: 100%;
 }
 
-.burger {
-    fill: #fff;
+.header__icon-svg {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .shipping-promo {
@@ -62,10 +64,10 @@ header {
     font-weight: 600;
     box-sizing: content-box;
     height: 15px;
-    width: 14px;
+    width: 15px;
     position: absolute;
     top: -10px;
-    right: 5px;
+    right: -10px;
     color: #fff;
     background: #d42114;
     border: 2px solid #fff;

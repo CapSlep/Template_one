@@ -1,66 +1,66 @@
 {
-    "productName": "Tefal Ingenio Easy On Set of 3 pans + removable handle 3 pans 22/24/26 cm, removable handle, non-stick pans, coating",
-    "oldPrice": "£69,90",
-    "newPrice": "£9,99",
-    "zeroPrice": "£0,00",
+    "productName": "Tefal Ingenio Easy On Set de 3 poêles + poignée amovible 3 poêles 22/24/26 cm, poignée amovible, poêles antiadhésives, revêtement",
+    "oldPrice": "69,90 €",
+    "newPrice": "9,99 €",
+    "zeroPrice": "0,00 €",
     "header": {
-        "shippingText": "Free delivery & free returns"
+        "shippingText": "Livraison gratuite et retours gratuits"
     },
     "productFeatures": [
-        "Stackable pans with a removable and interchangeable handle, easy to use and space-saving.",
-        "Titanium non-stick coating and scratch-resistant, durable and lasts up to 6 times longer.",
-        "Thermo-Signal technology for optimal and even cooking results."
+        "Poêles empilables avec poignée amovible et interchangeable, faciles à utiliser et économes en espace.",
+        "Revêtement en titane antiadhésif et résistant aux rayures, durable et jusqu'à 6 fois plus durable.",
+        "Technologie Thermo-Signal pour des résultats de cuisson optimaux et uniformes."
     ],
-    "productAvailabillity": "In stock. Estimated delivery in 3 to 4 working days.",
+    "productAvailabillity": "En stock. Livraison estimée sous 3 à 4 jours ouvrables.",
     "buyReasons": [
-        "Free delivery",
-        "Free returns",
-        "Lifetime support"
+        "Livraison gratuite",
+        "Retours gratuits",
+        "Support à vie"
     ],
     "description": {
-        "descriptionTitle": "Technical Description",
-        "descriptionTextMain": "Compatible with the following types of hobs: gas, electric, ceramic, and halogen. Not suitable for induction. Designed and made in France. Easy to clean thanks to the high-performance non-stick coating inside and outside for excellent functionality.",
+        "descriptionTitle": "Description technique",
+        "descriptionTextMain": "Compatible avec les types de plaques suivants : gaz, électrique, céramique et halogène. Non adapté pour l'induction. Conçu et fabriqué en France. Facile à nettoyer grâce au revêtement antiadhésif haute performance à l'intérieur et à l'extérieur pour une excellente fonctionnalité.",
         "descriptionTable": [
             {
-                "tableTitle": "General Product Information",
+                "tableTitle": "Informations générales sur le produit",
                 "tableRows": [
                     {
-                        "rowTitle": "Brand",
+                        "rowTitle": "Marque",
                         "rowText": "TEFAL"
                     },
                     {
-                        "rowTitle": "Product Name",
-                        "rowText": "Tefal Ingenio Easy On Set of 3 pans + removable handle 3 pans 22/24/26 cm, removable handle, non-stick pans, coating"
+                        "rowTitle": "Nom du produit",
+                        "rowText": "Tefal Ingenio Easy On Set de 3 poêles + poignée amovible 3 poêles 22/24/26 cm, poignée amovible, poêles antiadhésives, revêtement"
                     },
                     {
-                        "rowTitle": "Category",
-                        "rowText": "COOKWARE"
+                        "rowTitle": "Catégorie",
+                        "rowText": "BATTERIE DE CUISINE"
                     }
                 ]
             },
             {
-                "tableTitle": "General",
+                "tableTitle": "Général",
                 "tableRows": [
                     {
-                        "rowTitle": "Number of pieces",
-                        "rowText": "3 pieces"
+                        "rowTitle": "Nombre de pièces",
+                        "rowText": "3 pièces"
                     },
                     {
-                        "rowTitle": "Inner Coating",
-                        "rowText": "Non-stick"
+                        "rowTitle": "Revêtement intérieur",
+                        "rowText": "Antiadhésif"
                     }
                 ]
             },
             {
-                "tableTitle": "Features",
+                "tableTitle": "Caractéristiques",
                 "tableRows": [
                     {
-                        "rowTitle": "Hob Compatibility",
-                        "rowText": "All hobs except induction"
+                        "rowTitle": "Compatibilité des plaques",
+                        "rowText": "Toutes les plaques sauf induction"
                     },
                     {
-                        "rowTitle": "Handle Type",
-                        "rowText": "Removable"
+                        "rowTitle": "Type de poignée",
+                        "rowText": "Amovible"
                     }
                 ]
             }
@@ -69,103 +69,104 @@
     "blogs": [
         {
             "image": "./img/blog/blog1.webp",
-            "header": "Ultra-portable JBL Pro sound with more powerful bass",
-            "text": "Don't be fooled by the small size. The JBL Go 4 delivers impressive JBL Pro sound with powerful bass. Your friends won't believe how much JBL Pro sound comes from such a small speaker."
+            "header": "Son JBL Pro ultra-portable avec des basses plus puissantes",
+            "text": "Ne vous laissez pas tromper par la petite taille. Le JBL Go 4 offre un son JBL Pro impressionnant avec des basses puissantes. Vos amis ne croiront pas à la qualité du son JBL Pro provenant d'un si petit haut-parleur."
         },
         {
             "image": "./img/blog/blog2.webp",
-            "header": "Up to 7 hours of battery life plus 2 hours with Playtime Boost",
-            "text": "Don't worry about minor details like charging your battery. The JBL Go 4 offers up to 7 hours of battery life on a single charge. Simply press Playtime Boost to extend the battery life, adding up to 2 extra hours. It adjusts and optimises performance for louder and clearer sound."
+            "header": "Jusqu'à 7 heures d'autonomie plus 2 heures avec Playtime Boost",
+            "text": "Ne vous inquiétez pas des détails mineurs comme la recharge de la batterie. Le JBL Go 4 offre jusqu'à 7 heures d'autonomie avec une seule charge. Appuyez simplement sur Playtime Boost pour prolonger l'autonomie, ajoutant jusqu'à 2 heures supplémentaires. Ajustez et optimisez les performances pour un son plus fort et plus clair."
         },
         {
             "image": "./img/blog/blog3.webp",
-            "header": "Waterproof and dust-resistant",
-            "text": "The JBL Go 4, with its IP67 waterproof and dust-resistant rating, ensures that this portable speaker can handle almost any environment, from a pool party to a seaside picnic."
+            "header": "Étanche et résistant à la poussière",
+            "text": "Le JBL Go 4, avec sa certification IP67 étanche et résistant à la poussière, garantit que ce haut-parleur portable peut affronter presque tous les environnements, d'une fête à la piscine à un pique-nique au bord de la mer."
         }
     ],
-    "reviewsHeader": "Reviews",
-    "reviewValidation": "Incentivised Review",
+    "reviewsHeader": "Avis",
+    "reviewValidation": "Avis incité",
     "comments": [
         {
-            "header": "Small size, big sound",
+            "header": "Petite taille, grand son",
             "name": "Ghislaine d'Oliveira da Silva Bago",
-            "time": "4 months ago",
-            "text": "I had them delivered to my daughter's house who said it was a lovely gift. Delivery took place on the indicated day.",
+            "time": "il y a 4 mois",
+            "text": "Je les ai fait livrer chez ma fille qui a dit que c'était un joli cadeau. La livraison a eu lieu le jour indiqué.",
             "images": [
                 "./img/comments/comment_1/comment_1.jpg"
             ]
         },
         {
-            "header": "Small, powerful, and stylish speaker",
+            "header": "Petit haut-parleur puissant et élégant",
             "name": "Claire",
-            "time": "2 months ago",
-            "text": "Nice set of Tefal pans. The well-known quality of the brand.",
+            "time": "il y a 2 mois",
+            "text": "Bel ensemble de poêles Tefal. La qualité bien connue de la marque.",
             "images": [
                 "./img/comments/comment_2/comment_2.jpg"
             ]
         },
         {
-            "header": "Wow, incredible sound! In a small portable speaker",
+            "header": "Wow, son incroyable ! Dans un petit portable",
             "name": "Christian Taltavull",
-            "time": "4 months ago",
-            "text": "For the kitchen, it's perfect! They go from vitro to oven. Perfect!",
+            "time": "il y a 4 mois",
+            "text": "Pour la cuisine, c'est parfait ! Ils passent de vitro au four. Parfait !",
             "images": [
                 "./img/comments/comment_3/comment_3.jpg"
             ]
         },
         {
-            "header": "Small but powerful",
+            "header": "Petit mais puissant",
             "name": "Muller Olivier",
-            "time": "4 months ago",
-            "text": "Good product, I recommend it.",
+            "time": "il y a 4 mois",
+            "text": "Bon produit, je le recommande.",
             "images": [
                 "./img/comments/comment_4/comment_4.jpg"
             ]
         },
         {
-            "header": "Incredible small speaker - Perfect in so many ways",
+            "header": "Incroyable petit haut-parleur - Parfait à bien des égards",
             "name": "D.Bartoli",
-            "time": "4 months ago",
-            "text": "Pans we know, but over time with use, they needed to be replaced, so I bought the same ones again. Thanks for the quick shipping.",
+            "time": "il y a 4 mois",
+            "text": "Poêles que nous connaissons, mais avec le temps et l'usage, elles devaient être remplacées, donc j'ai acheté les mêmes à nouveau. Merci pour l'expédition rapide.",
             "images": [
                 "./img/comments/comment_5/comment_5.jpg"
             ]
         }
     ],
-    "footerText": "© Argos Limited 2024. All Rights Reserved.",
-    "buyButtonText": "Buy now (£9.99)",
-    "startupPopText": "To celebrate TEFAL's anniversary in the UK, get a 75% discount on the TEFAL INGENIO cookware set at ARGOS!",
-    "startupPopButton": "GET DISCOUNT",
+    "footerText": "© Cdiscount 2024. Tous droits réservés.",
+    "buyButtonText": "Acheter maintenant (9,99 €)",
+    "startupPopText": "Pour célébrer l'anniversaire de TEFAL en France, bénéficiez de 75 % de réduction sur le set de cuisine TEFAL INGENIO chez Cdiscount !",
+    "startupPopButton": "OBTENIR LA RÉDUCTION",
     "timer": {
-        "timerText": "Stock is running out. Hurry and place your order.",
-        "timerSets": "sets available."
+        "timerText": "Le stock est presque épuisé. Dépêchez-vous de passer votre commande.",
+        "timerSetsStart": "Il reste",
+        "timerSetsEnd": "ensembles disponibles."
     },
     "checkout": {
-        "countryCode": "gb",
-        "countryPhone": "44",
+        "countryCode": "fr",
+        "countryPhone": "33",
         "delivery": {
-            "title": "Delivery",
-            "city": "City",
-            "address": "Delivery Address",
-            "postcode": "Postcode"
+            "title": "Livraison",
+            "city": "Ville",
+            "address": "Adresse de livraison",
+            "postcode": "Code postal"
         },
         "info": {
-            "title": "Personal Information",
-            "firstName": "First Name",
-            "lastName": "Last Name",
-            "phone": "Phone Number",
-            "email": "Email Address"
+            "title": "Informations personnelles",
+            "firstName": "Prénom",
+            "lastName": "Nom",
+            "phone": "Numéro de téléphone",
+            "email": "Adresse e-mail"
         },
         "payment": {
-            "title": "Payment Methods",
-            "text": "Online Payment by Credit Card"
+            "title": "Moyens de paiement",
+            "text": "Paiement en ligne par carte de crédit"
         },
         "summary": {
-            "title": "Order Details",
-            "deliveryTime": "Time to delivery",
-            "deliveryDays": "3 days",
-            "subtotal": "Subtotal",
-            "deliveryAmountTitle": "Delivery",
+            "title": "Détails de la commande",
+            "deliveryTime": "Délai de livraison",
+            "deliveryDays": "3 jours",
+            "subtotal": "Sous-total",
+            "deliveryAmountTitle": "Livraison",
             "total": "Total"
         }
     },
