@@ -136,22 +136,22 @@ export default function App() {
         sendForm();
     }
 
-    // Define which popups you want to be available
-    const popupsToShow = [
-        "show_startup",
-        // Add other popup types as needed
-    ];
-
-    const popups = [
-        {
-            popupType: "startup",
-            component: StartupPop,
+    const popupsHolder = {
+        popupTypes: {
+            SHOW_STARTUP: "startup",
+            SHOW_PROMO: "promo",
         },
-        {
-            popupType: "promo",
-            component: PromoPop,
-        },
-    ];
+        popups: [
+            {
+                popupType: "startup",
+                popupComponent: StartupPop,
+            },
+            {
+                popupType: "promo",
+                popupComponent: PromoPop,
+            },
+        ],
+    };
 
     useEffect(() => {
         document.title = data.productName;
@@ -178,7 +178,8 @@ export default function App() {
             <Facebook></Facebook>
 
             <PopManager
-                popupsToShow={popupsToShow}
+                popupTypes={popupsHolder.popupTypes}
+                popupsToShow={popupsHolder.popups}
                 showStartup={true}
             ></PopManager>
 

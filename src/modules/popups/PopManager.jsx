@@ -1,55 +1,43 @@
-import { useReducer, useEffect } from "react";
-import { useData } from "../../DataContext"; // Import the custom hook
+import { useEffect, useState } from "react";
 import { CSSTransition } from "react-transition-group";
 import { getCookie, setCookie } from "../../utilsJS/cookieUtils"; // Import cookie utility functions
 
-// Import all potential popups
-import StartupPop from "./StartupPop";
-
-// Define your action types
-const popupTypes = {
-    SHOW_STARTUP: "show_startup",
-    CLOSE_POPUP: "close_popup",
-};
-
-// Map popup components to action types
-const popupComponents = {
-    [popupTypes.SHOW_STARTUP]: StartupPop,
-    // Add more popups as needed
-};
-
-function getPopup(popupType) {
-    if (popupsToShow) {
-    }
-}
-
-// Reducer to handle popup state
-function popupReducer(state, action) {
-    switch (action.type) {
-        case popupTypes.SHOW_STARTUP:
-            return { component: popupComponents[action.type] };
-        case popupTypes.CLOSE_POPUP:
-            return { component: null };
-        default:
-            throw new Error("Unknown action type: " + action.type);
-    }
-}
-
-export default function PopupManager({ popupsToShow, showStartup }) {
-    const data = useData(); // Access data from the context
-
+export default function PopupManager({
+    popupTypes,
+    popupsToShow,
+    showStartup,
+    useCookies = false,
+}) {
     const initialPopup = { component: null };
-    const [state, dispatch] = useReducer(popupReducer, initialPopup);
+    const [popup, setPopup] = useState(initialPopup);
+
+    function getPopup(popupType) {
+        if (popupsToShow) {
+            const desiredPopObject = popupsToShow.filter((popup) => {
+                return popup.popupType == popupType;
+            });
+            return desiredPopObject[0];
+        } else {
+            console.error(
+                `Popup type ${popupType} was not found inside available popups ${popupsToShow}! Check PopupTypes inside PopManager and Actual Popups!`
+            );
+        }
+    }
 
     useEffect(() => {
         // Handle showing the startup popup based on the prop and cookie
         if (showStartup) {
-            const popupSeen = getCookie("popupSeen");
-
+            let popupSeen = false;
+            if (useCookies) {
+                popupSeen = getCookie("popupSeen");
+            }
             if (!popupSeen) {
                 const timer = setTimeout(() => {
-                    handleShowPopup(popupTypes.SHOW_STARTUP);
-                    setCookie("popupSeen", "true", 30); // Expires in 30 days
+                    handleShowPopup(getPopup(popupTypes.SHOW_STARTUP));
+
+                    if (useCookies) {
+                        setCookie("popupSeen", "true", 30); // Expires in 30 days
+                    }
                 }, 3000);
 
                 // Cleanup the timer if the component unmounts before the timeout
@@ -59,17 +47,15 @@ export default function PopupManager({ popupsToShow, showStartup }) {
     }, [showStartup]);
 
     // Trigger the popup dispatch
-    function handleShowPopup(popupType) {
-        if (popupsToShow.includes(popupType)) {
-            dispatch({ type: popupType });
-        }
+    function handleShowPopup(popupObject) {
+        setPopup({ component: popupObject.popupComponent });
     }
 
     function closePopup() {
-        dispatch({ type: popupTypes.CLOSE_POPUP });
+        setPopup({ component: null });
     }
 
-    const CurrentPopup = state.component;
+    const CurrentPopup = popup.component;
 
     return (
         <CSSTransition
