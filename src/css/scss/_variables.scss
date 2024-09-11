@@ -1,7 +1,7 @@
 // ============================= VARIABLES BLOCK =============================
 
-$font-size-smaller: clamp(.75rem, 0.3rem + 3.5vw, .95rem);
-$font-size-small: clamp(.75rem, 0.3rem + 3.5vw, 1rem);
+$font-size-smaller: clamp(.75rem, 0.3rem + 2.5vw, .95rem);
+$font-size-small: clamp(.75rem, 0.3rem + 3vw, 1rem);
 $font-size-regular: clamp(1rem, 0.3rem + 3.5vw, 1.5rem);
 $font-size-big: clamp(1.5rem, 0.3rem + 3.5vw, 2rem);
 $font-size-huge: clamp(2rem, 0.3rem + 3.5vw, 3rem);
@@ -14,9 +14,12 @@ $gray-color: #F2F3F5;
 
 $background-color: #fff;
 
-$header-background-color: #3732FF;
-$header-additional-background-color: #4C56FF;
+$header-background-color: #25303B;
+$header-additional-background-color: #fff;
 
-$button-color: #3732FF;
+$button-color: #1972D2;
 $button-hover-color: #211DB6;
 $button-text-color: #fff;
+
+$price-new-color: #000;
+$price-old-color: initial;

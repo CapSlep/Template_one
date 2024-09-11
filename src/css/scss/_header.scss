@@ -4,9 +4,9 @@
 
 header nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: .2rem;
     background-color: variables.$header-background-color;
     gap: 1rem;
 }
@@ -50,7 +50,8 @@ header {
 .shipping-promo {
     padding: 10px 0;
     font-weight: 600;
-    color: #fff;
+    color: #000;
+    text-transform: uppercase;
     text-align: center;
     background-color: variables.$header-additional-background-color;
     font-size: variables.$font-size-small;
