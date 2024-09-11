@@ -20,7 +20,7 @@
     width: 100%;
     height: 65px;
     background-color: variables.$background-color;
-    z-index: 10000;
+    z-index: 100;
     // padding: .5rem 1rem;
 }
 
@@ -44,7 +44,7 @@
         transform: rotate(35deg);
         // transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
         width: 50px;
-        z-index: 10001;
+        z-index: 101;
         animation: flash 6s infinite;
     }
 }
