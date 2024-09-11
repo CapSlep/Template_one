@@ -3,7 +3,7 @@ import { useData } from "../../DataContext"; // Import the custom hook
 export default function Footer() {
     const data = useData(); // Access data from the context
     return (
-        <footer className="footer container">
+        <footer className="footer">
             <div className="footer__logo-wrapper">
                 <img src="./img/footer/footer-logo.png" alt="" />
             </div>
