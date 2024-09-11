@@ -299,7 +299,6 @@ header {
 .product__info {
   gap: 1.5rem;
   margin: 0 auto;
-  align-items: center;
   justify-content: space-between;
   background-color: #fff;
 }
@@ -726,10 +725,12 @@ header {
 /* ============================= STARTUP POP BLOCK ============================= */
 .popup__button-close {
   background-color: #fff;
-  box-shadow: 0 0 0 2px #e4e7eb;
+  color: #a7a7a7;
+  box-shadow: 0 0 0 2px #a7a7a7;
   padding: 0.5rem;
   border-radius: 50em;
-  line-height: 75%;
+  font-size: 1rem;
+  line-height: 65%;
 }
 
 .startup__pop {
@@ -864,6 +865,10 @@ header {
   border: none;
 }
 
+.checkout__form {
+  padding: 0 0 1.5rem;
+}
+
 .checkout__fieldset-header {
   font-size: clamp(1.5rem, 0.3rem + 3.5vw, 2rem);
   font-weight: 600;
@@ -995,7 +1000,32 @@ header {
   color: #fff;
   font-weight: 600;
 }
+.buy__button:after {
+  background: #fff;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: 0.2;
+  position: absolute;
+  top: -50px;
+  transform: rotate(35deg);
+  width: 50px;
+  z-index: 10001;
+  animation: flash 6s infinite;
+}
 
 .buy__button:hover {
   background-color: #211DB6;
+}
+
+@keyframes flash {
+  0% {
+    left: -120%;
+  }
+  30% {
+    left: 120%;
+  }
+  100% {
+    left: 120%;
+  }
 }

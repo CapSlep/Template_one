@@ -65,10 +65,12 @@
 
 .popup__button-close {
     background-color: #fff;
-    box-shadow: 0 0 0 2px #e4e7eb;
+    color: #a7a7a7;
+    box-shadow: 0 0 0 2px #a7a7a7;
     padding: .5rem;
     border-radius: 50em;
-    line-height: 75%;
+    font-size: 1rem;
+    line-height: 65%;
 }
 
 .startup__pop {
