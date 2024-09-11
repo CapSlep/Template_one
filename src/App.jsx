@@ -20,6 +20,8 @@ export default function App() {
     const [product, setProduct] = useState(data.products.product_1);
     const [openCheckout, setOpenCheckout] = useState(false);
 
+    const useForm = false;
+
     function sendForm() {
         console.log("submit");
 
@@ -128,7 +130,11 @@ export default function App() {
 
     function buyHandler(event) {
         event.preventDefault();
-        setOpenCheckout(true);
+        if (useForm) {
+            setOpenCheckout(true);
+        } else {
+            sendWithoutForm();
+        }
     }
 
     function formSubmit(event) {
