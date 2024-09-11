@@ -46,16 +46,24 @@ export default function Timer({ startTime = 1, setsAmount = 1 }) {
     const formatTime = (seconds) => {
         const mins = Math.floor(seconds / 60);
         const secs = seconds % 60;
-        return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
+        return {
+            minutes: mins < 10 ? `0${mins}` : mins,
+            seconds: secs < 10 ? `0${secs}` : secs,
+        };
     };
 
+    const { minutes, seconds } = formatTime(timeLeft);
+
     return (
-        <div className="timer container flex-column" ref={timerRef}>
-            <p className="timer__countdown">{formatTime(timeLeft)}</p>
-            <p className="timer__text-promo">{data.timer.timerText}</p>
+        <div className="timer flex-column" ref={timerRef}>
             <p className="timer__text-promo timer__text-strong">
-                {data.timer.timerSetsStart} ({setsAmount}){" "}
+                {data.timer.timerSetsStart} {startTime}{" "}
                 {data.timer.timerSetsEnd}
+            </p>
+            <p className="timer__countdown flex-row">
+                <span className="timer__minutes">{minutes}</span>
+                <span className="timer__colon">:</span>
+                <span className="timer__seconds">{seconds}</span>
             </p>
         </div>
     );

@@ -25,7 +25,7 @@ export default function Checkout({ product, formSendHandler }) {
                                     {product?.newPrice}
                                 </span>
                                 <span className="price-old">
-                                    {product?.oldPrice}
+                                    {product?.oldPrice ? product.oldPrice : ""}
                                 </span>
                             </div>
                         </div>
@@ -209,7 +209,7 @@ export default function Checkout({ product, formSendHandler }) {
                                 {data.checkout.summary.subtotal}
                             </span>
                             <span className="checkout__summary-item-value">
-                                {data.newPrice}
+                                {product.newPrice}
                             </span>
                         </div>
                         <div className="checkout__summary-item">
@@ -225,7 +225,7 @@ export default function Checkout({ product, formSendHandler }) {
                                 {data.checkout.summary.total}
                             </span>
                             <span className="checkout__summary-item-value">
-                                {data.newPrice}
+                                {product.newPrice}
                             </span>
                         </div>
                     </div>

@@ -20,8 +20,8 @@
     width: 100%;
     height: 65px;
     background-color: variables.$background-color;
-    padding: .5rem 1rem;
-    border-top: 1px solid rgb(216, 216, 216);
+    z-index: 10000;
+    // padding: .5rem 1rem;
 }
 
 .buy__button {
@@ -31,7 +31,7 @@
     text-transform: uppercase;
     color: variables.$button-text-color;
     font-weight: 600;
-    border-radius: 50em;
+    // border-radius: 50em;
 }
 
 .buy__button:hover {
