@@ -3,9 +3,9 @@ import { CSSTransition } from "react-transition-group";
 import { getCookie, setCookie } from "../../utilsJS/cookieUtils"; // Import cookie utility functions
 
 export default function PopupManager({
-    popupTypes,
-    popupsToShow,
-    showStartup,
+    popupTypes = null,
+    popupsToShow = null,
+    showStartup = false,
     useCookies = false,
 }) {
     const initialPopup = { component: null };
@@ -33,7 +33,7 @@ export default function PopupManager({
             }
             if (!popupSeen) {
                 const timer = setTimeout(() => {
-                    handleShowPopup(getPopup(popupTypes.SHOW_STARTUP));
+                    handleShowPopup(getPopup(popupTypes?.SHOW_STARTUP));
 
                     if (useCookies) {
                         setCookie("popupSeen", "true", 30); // Expires in 30 days
