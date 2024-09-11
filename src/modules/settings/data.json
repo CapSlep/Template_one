@@ -1,186 +1,169 @@
 {
-    "zeroPrice": "0,00 €",
+    "zeroPrice": "$0,00",
     "header": {
-        "shippingText": "Livraison gratuite et retours gratuits"
+        "shippingText": "Envío gratuito y devoluciones gratuitas"
     },
     "productFeatures": [
-        "Poêles empilables avec poignée amovible et interchangeable, faciles à utiliser et économes en espace.",
-        "Revêtement en titane antiadhésif et résistant aux rayures, durable et jusqu'à 6 fois plus durable.",
-        "Technologie Thermo-Signal pour des résultats de cuisson optimaux et uniformes."
+        "Sartenes apilables con mango removible e intercambiable, fáciles de usar y ahorran espacio.",
+        "Revestimiento antiadherente de titanio y resistente a los arañazos, duradero y hasta 6 veces más duradero.",
+        "Tecnología Thermo-Signal para resultados de cocción óptimos y uniformes."
     ],
-    "productAvailabillity": "En stock. Livraison estimée sous 3 à 4 jours ouvrables.",
+    "productAvailabillity": "En stock. Entrega estimada en 3 a 4 días hábiles.",
     "buyReasons": [
-        "Livraison gratuite",
-        "Retours gratuits",
-        "Support à vie"
+        "Envío gratuito",
+        "Devoluciones gratuitas",
+        "Soporte de por vida"
     ],
-    "reviewsHeader": "Avis",
-    "reviewValidation": "Avis incité",
+    "reviewsHeader": "Opiniones",
+    "reviewValidation": "Opinión incentivada",
     "comments": [
         {
-            "header": "Petite taille, grand son",
+            "header": "Tamaño pequeño, gran sonido",
             "name": "Ghislaine d'Oliveira da Silva Bago",
-            "time": "il y a 4 mois",
-            "text": "Je les ai fait livrer chez ma fille qui a dit que c'était un joli cadeau. La livraison a eu lieu le jour indiqué.",
+            "time": "hace 4 meses",
+            "text": "Los hice enviar a la casa de mi hija, quien dijo que fue un regalo encantador. La entrega se realizó el día indicado.",
             "images": [
                 "./img/comments/comment_1/comment_1.jpg"
             ]
         },
         {
-            "header": "Petit haut-parleur puissant et élégant",
+            "header": "Altavoz pequeño, potente y elegante",
             "name": "Claire",
-            "time": "il y a 2 mois",
-            "text": "Bel ensemble de poêles Tefal. La qualité bien connue de la marque.",
+            "time": "hace 2 meses",
+            "text": "Bonito set de sartenes Tefal. La calidad bien conocida de la marca.",
             "images": [
                 "./img/comments/comment_2/comment_2.jpg"
             ]
         },
         {
-            "header": "Wow, son incroyable ! Dans un petit portable",
+            "header": "¡Wow, sonido increíble! En un pequeño altavoz portátil",
             "name": "Christian Taltavull",
-            "time": "il y a 4 mois",
-            "text": "Pour la cuisine, c'est parfait ! Ils passent de vitro au four. Parfait !",
+            "time": "hace 4 meses",
+            "text": "Para la cocina, es perfecto. Pasan de vitro al horno. ¡Perfecto!",
             "images": [
                 "./img/comments/comment_3/comment_3.jpg"
             ]
         },
         {
-            "header": "Petit mais puissant",
+            "header": "Pequeño pero poderoso",
             "name": "Muller Olivier",
-            "time": "il y a 4 mois",
-            "text": "Bon produit, je le recommande.",
+            "time": "hace 4 meses",
+            "text": "Buen producto, lo recomiendo.",
             "images": [
                 "./img/comments/comment_4/comment_4.jpg"
             ]
         },
         {
-            "header": "Incroyable petit haut-parleur - Parfait à bien des égards",
+            "header": "Increíble altavoz pequeño - Perfecto en muchos aspectos",
             "name": "D.Bartoli",
-            "time": "il y a 4 mois",
-            "text": "Poêles que nous connaissons, mais avec le temps et l'usage, elles devaient être remplacées, donc j'ai acheté les mêmes à nouveau. Merci pour l'expédition rapide.",
+            "time": "hace 4 meses",
+            "text": "Conocemos las sartenes, pero con el tiempo y el uso, necesitaban ser reemplazadas, así que compré las mismas de nuevo. Gracias por el envío rápido.",
             "images": [
                 "./img/comments/comment_5/comment_5.jpg"
             ]
         }
     ],
-    "footerText": "© Cdiscount 2024. Tous droits réservés.",
-    "buyButtonText": "Acheter maintenant (9,99 €)",
-    "startupPopText": "Pour célébrer l'anniversaire de TEFAL en France, bénéficiez de 85 % de réduction sur le set de cuisine TEFAL INGENIO chez Cdiscount !",
-    "startupPopButton": "OBTENIR LA RÉDUCTION",
+    "footerText": "© Cdiscount 2024. Todos los derechos reservados.",
+    "buyButtonText": "Comprar ahora ($199.99)",
+    "startupPopText": "¡Para celebrar el aniversario de TEFAL en México, obtén un 85 % de descuento en el set de cocina TEFAL INGENIO en Cdiscount!",
+    "startupPopButton": "OBTENER DESCUENTO",
     "timer": {
-        "timerText": "Le stock est presque épuisé. Dépêchez-vous de passer votre commande.",
-        "timerSetsStart": "Il reste",
-        "timerSetsEnd": "ensembles disponibles."
+        "timerText": "El stock está agotándose. Apresúrate y realiza tu pedido.",
+        "timerSetsStart": "Quedan",
+        "timerSetsEnd": "conjuntos disponibles."
     },
     "checkout": {
-        "countryCode": "fr",
-        "countryPhone": "33",
+        "countryCode": "mx",
+        "countryPhone": "52",
         "delivery": {
-            "title": "Livraison",
-            "city": "Ville",
-            "address": "Adresse de livraison",
-            "postcode": "Code postal"
+            "title": "Entrega",
+            "city": "Ciudad",
+            "address": "Dirección de entrega",
+            "postcode": "Código postal"
         },
         "info": {
-            "title": "Informations personnelles",
-            "firstName": "Prénom",
-            "lastName": "Nom",
-            "phone": "Numéro de téléphone",
-            "email": "Adresse e-mail"
+            "title": "Información personal",
+            "firstName": "Nombre",
+            "lastName": "Apellido",
+            "phone": "Número de teléfono",
+            "email": "Correo electrónico"
         },
         "payment": {
-            "title": "Moyens de paiement",
-            "text": "Paiement en ligne par carte de crédit"
+            "title": "Métodos de pago",
+            "text": "Pago en línea con tarjeta de crédito"
         },
         "summary": {
-            "title": "Détails de la commande",
-            "deliveryTime": "Délai de livraison",
-            "deliveryDays": "3 jours",
-            "subtotal": "Sous-total",
-            "deliveryAmountTitle": "Livraison",
+            "title": "Detalles del pedido",
+            "deliveryTime": "Tiempo de entrega",
+            "deliveryDays": "3 días",
+            "subtotal": "Subtotal",
+            "deliveryAmountTitle": "Envío",
             "total": "Total"
         }
     },
     "products": [
         {
-            "productName": "Tefal Ingenio Easy On Set de 3 poêles + poignée amovible 3 poêles 22/24/26 cm, poignée amovible, poêles antiadhésives, revêtement",
+            "productName": "Set Tefal Ingenio Easy On de 3 sartenes + mango removible 3 sartenes de 22/24/26 cm, mango removible, sartenes antiadherentes, revestimiento",
             "productImage": "./img/slides/slide_1/slide-1-1.webp",
-            "oldPrice": "75,11€",
-            "newPrice": "9,99 €",
-            "sliderName": "black",
+            "oldPrice": "$1647,90",
+            "newPrice": "$199.99",
+            "sliderName": "negro",
             "sliderSelectorIcon": "./img/slides/black.jpg",
             "slider": [
                 "./img/slides/slide_1/slide-1-1.webp",
-                "./img/slides/slide_1/1-fr.png",
-                "./img/slides/slide_1/2-fr.png",
-                "./img/slides/slide_1/3-fr.png"
+                "./img/slides/slide_1/slide-1-2.webp",
+                "./img/slides/slide_1/slide-1-3.webp",
+                "./img/slides/slide_1/slide-1-4.webp"
             ]
         }
     ],
     "description": {
-        "descriptionTitle": "Description technique",
-        "descriptionTextMain": "Compatible avec les types de plaques suivants : gaz, électrique, céramique et halogène. Non adapté pour l'induction. Conçu et fabriqué en France. Facile à nettoyer grâce au revêtement antiadhésif haute performance à l'intérieur et à l'extérieur pour une excellente fonctionnalité.",
+        "descriptionTitle": "Descripción técnica",
+        "descriptionTextMain": "Compatible con los siguientes tipos de estufas: gas, eléctrica, cerámica y halógena. No apto para inducción. Diseñado y fabricado en Francia. Fácil de limpiar gracias al revestimiento antiadherente de alto rendimiento en el interior y exterior para una excelente funcionalidad.",
         "descriptionTable": [
             {
-                "tableTitle": "Informations générales sur le produit",
+                "tableTitle": "Información general del producto",
                 "tableRows": [
                     {
-                        "rowTitle": "Marque",
+                        "rowTitle": "Marca",
                         "rowText": "TEFAL"
                     },
                     {
-                        "rowTitle": "Nom du produit",
-                        "rowText": "Tefal Ingenio Easy On Set de 3 poêles + poignée amovible 3 poêles 22/24/26 cm, poignée amovible, poêles antiadhésives, revêtement"
+                        "rowTitle": "Nombre del producto",
+                        "rowText": "Set Tefal Ingenio Easy On de 3 sartenes + mango removible 3 sartenes de 22/24/26 cm, mango removible, sartenes antiadherentes, revestimiento"
                     },
                     {
-                        "rowTitle": "Catégorie",
-                        "rowText": "BATTERIE DE CUISINE"
+                        "rowTitle": "Categoría",
+                        "rowText": "BATERÍA DE COCINA"
                     }
                 ]
             },
             {
-                "tableTitle": "Général",
+                "tableTitle": "General",
                 "tableRows": [
                     {
-                        "rowTitle": "Nombre de pièces",
-                        "rowText": "3 pièces"
+                        "rowTitle": "Número de piezas",
+                        "rowText": "3 piezas"
                     },
                     {
-                        "rowTitle": "Revêtement intérieur",
-                        "rowText": "Antiadhésif"
+                        "rowTitle": "Revestimiento interior",
+                        "rowText": "Antiadhesivo"
                     }
                 ]
             },
             {
-                "tableTitle": "Caractéristiques",
+                "tableTitle": "Características",
                 "tableRows": [
                     {
-                        "rowTitle": "Compatibilité des plaques",
-                        "rowText": "Toutes les plaques sauf induction"
+                        "rowTitle": "Compatibilidad de estufas",
+                        "rowText": "Todas las estufas excepto inducción"
                     },
                     {
-                        "rowTitle": "Type de poignée",
-                        "rowText": "Amovible"
+                        "rowTitle": "Tipo de mango",
+                        "rowText": "Removible"
                     }
                 ]
             }
         ]
-    },
-    "blogs": [
-        {
-            "image": "./img/blog/blog1.webp",
-            "header": "Son JBL Pro ultra-portable avec des basses plus puissantes",
-            "text": "Ne vous laissez pas tromper par la petite taille. Le JBL Go 4 offre un son JBL Pro impressionnant avec des basses puissantes. Vos amis ne croiront pas à la qualité du son JBL Pro provenant d'un si petit haut-parleur."
-        },
-        {
-            "image": "./img/blog/blog2.webp",
-            "header": "Jusqu'à 7 heures d'autonomie plus 2 heures avec Playtime Boost",
-            "text": "Ne vous inquiétez pas des détails mineurs comme la recharge de la batterie. Le JBL Go 4 offre jusqu'à 7 heures d'autonomie avec une seule charge. Appuyez simplement sur Playtime Boost pour prolonger l'autonomie, ajoutant jusqu'à 2 heures supplémentaires. Ajustez et optimisez les performances pour un son plus fort et plus clair."
-        },
-        {
-            "image": "./img/blog/blog3.webp",
-            "header": "Étanche et résistant à la poussière",
-            "text": "Le JBL Go 4, avec sa certification IP67 étanche et résistant à la poussière, garantit que ce haut-parleur portable peut affronter presque tous les environnements, d'une fête à la piscine à un pique-nique au bord de la mer."
-        }
-    ]
+    }
 }
