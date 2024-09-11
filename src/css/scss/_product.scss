@@ -27,6 +27,8 @@
 
 .product__info {
     gap: 1.5rem;
+    margin: 0 auto;
+    align-items: center;
     justify-content: space-between;
     background-color: variables.$background-color;
 }
@@ -113,7 +115,7 @@
 }
 
 .product__availability-img {
-    width: 50%;
+    width: 10rem
 }
 
 .product__buy-reason {
