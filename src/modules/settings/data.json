@@ -1,6 +1,6 @@
 {
     "productName": "Tefal Ingenio Easy On Set de 3 poêles + poignée amovible 3 poêles 22/24/26 cm, poignée amovible, poêles antiadhésives, revêtement",
-    "oldPrice": "69,90 €",
+    "oldPrice": "75,11€",
     "newPrice": "9,99 €",
     "zeroPrice": "0,00 €",
     "header": {
@@ -176,9 +176,9 @@
             "selectorIcon": "./img/slides/black.jpg",
             "slider": [
                 "./img/slides/slide_1/slide-1-1.webp",
-                "./img/slides/slide_1/1-uk.png",
-                "./img/slides/slide_1/2-uk.png",
-                "./img/slides/slide_1/3-uk.png"
+                "./img/slides/slide_1/1-fr.png",
+                "./img/slides/slide_1/2-fr.png",
+                "./img/slides/slide_1/3-fr.png"
             ]
         }
     }

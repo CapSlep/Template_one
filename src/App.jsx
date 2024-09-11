@@ -1,22 +1,23 @@
-import Header from "./modules/Header";
-import Product from "./modules/Product";
-import Blog from "./modules/Blog";
-import Reviews from "./modules/Reviews";
-import Footer from "./modules/Footer";
-import BuyButton from "./modules/BuyButton";
-import Facebook from "./modules/Facebook";
-import PopManager from "./modules/PopManager";
-import Description from "./modules/Description";
+//Essential imports
+import Header from "./modules/essentials/Header";
+import Footer from "./modules/essentials/Footer";
+import Facebook from "./modules/utilities/Facebook";
 import Checkout from "./modules/Checkout";
+import Main from "./modules/essentials/Main";
 
-import { useData } from "./DataContext"; // Import the custom hook
+//popups imports
+import PopManager from "./modules/popups/PopManager";
+import StartupPop from "./modules/popups/StartupPop";
+import PromoPop from "./modules/popups/PromoPop";
+
+//Hooks
+import { useData } from "./DataContext";
 import { useState, useEffect } from "react";
 
 export default function App() {
     const data = useData();
 
-    let chosenProduct = data.products.product_1;
-    const [product, setProduct] = useState(chosenProduct);
+    const [product, setProduct] = useState(data.products.product_1);
     const [openCheckout, setOpenCheckout] = useState(false);
 
     function sendForm() {
@@ -141,21 +142,23 @@ export default function App() {
         // Add other popup types as needed
     ];
 
+    const popups = [
+        {
+            popupType: "startup",
+            component: StartupPop,
+        },
+        {
+            popupType: "promo",
+            component: PromoPop,
+        },
+    ];
+
     useEffect(() => {
         document.title = data.productName;
     }, []);
 
     return (
         <>
-            <img
-                id="selectedProductPath"
-                src={product.slider[0]}
-                style={{ display: "none" }}
-            />
-            <PopManager
-                popupsToShow={popupsToShow}
-                showStartup={true}
-            ></PopManager>
             <Header></Header>
 
             {openCheckout ? (
@@ -164,22 +167,26 @@ export default function App() {
                     formSendHandler={formSubmit}
                 ></Checkout>
             ) : (
-                <>
-                    <Product
-                        product={product}
-                        setProduct={setProduct}
-                    ></Product>
-                    <Description></Description>
-                    <Reviews></Reviews>
-                    <BuyButton
-                        buyHandler={buyHandler}
-                        buttonType={"button"}
-                    ></BuyButton>
-                </>
+                <Main
+                    product={product}
+                    setProduct={setProduct}
+                    buyHandler={buyHandler}
+                />
             )}
 
             <Footer></Footer>
             <Facebook></Facebook>
+
+            <PopManager
+                popupsToShow={popupsToShow}
+                showStartup={true}
+            ></PopManager>
+
+            <img
+                id="selectedProductPath"
+                src={product.slider[0]}
+                style={{ display: "none" }}
+            />
         </>
     );
 }

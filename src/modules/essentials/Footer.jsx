@@ -1,4 +1,4 @@
-import { useData } from "../DataContext"; // Import the custom hook
+import { useData } from "../../DataContext"; // Import the custom hook
 
 export default function Footer() {
     const data = useData(); // Access data from the context

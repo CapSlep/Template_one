@@ -1,10 +1,10 @@
 import { useReducer, useEffect } from "react";
-import { useData } from "../DataContext"; // Import the custom hook
+import { useData } from "../../DataContext"; // Import the custom hook
 import { CSSTransition } from "react-transition-group";
-import { getCookie, setCookie } from "../utils/cookieUtils"; // Import cookie utility functions
+import { getCookie, setCookie } from "../../utilsJS/cookieUtils"; // Import cookie utility functions
 
 // Import all potential popups
-import StartupPop from "./popups/StartupPop";
+import StartupPop from "./StartupPop";
 
 // Define your action types
 const popupTypes = {
@@ -17,6 +17,11 @@ const popupComponents = {
     [popupTypes.SHOW_STARTUP]: StartupPop,
     // Add more popups as needed
 };
+
+function getPopup(popupType) {
+    if (popupsToShow) {
+    }
+}
 
 // Reducer to handle popup state
 function popupReducer(state, action) {

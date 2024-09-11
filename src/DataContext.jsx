@@ -1,4 +1,4 @@
-import data from "./modules/data.json";
+import data from "./modules/settings/data.json";
 import { createContext, useContext } from "react";
 
 // Create the context

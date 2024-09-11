@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import { useData } from "../DataContext"; // Import the custom hook
+import { useData } from "../../DataContext"; // Import the custom hook
 
 export default function Timer({ startTime = 1, setsAmount = 1 }) {
     const [timeLeft, setTimeLeft] = useState(startTime * 60);

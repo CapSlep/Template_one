@@ -1,6 +1,6 @@
-import { useData } from "../DataContext"; // Import the custom hook
-import Slider from "./Slider";
-import Timer from "./Timer";
+import { useData } from "../../DataContext"; // Import the custom hook
+import Slider from "../utilities/Slider";
+import Timer from "../utilities/Timer";
 
 export default function Product({ product, setProduct }) {
     const data = useData(); // Access data from the context

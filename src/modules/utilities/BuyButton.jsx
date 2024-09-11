@@ -1,6 +1,9 @@
-import { useData } from "../DataContext"; // Import the custom hook
+import { useData } from "../../DataContext"; // Import the custom hook
 
-export default function BuyButton({ buyHandler = null, buttonType }) {
+export default function BuyButton({
+    buyHandler = null,
+    buttonType = "button",
+}) {
     const data = useData(); // Access data from the context
     return (
         <div className="buy-wrapper">

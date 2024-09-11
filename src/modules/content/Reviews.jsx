@@ -1,4 +1,4 @@
-import { useData } from "../DataContext";
+import { useData } from "../../DataContext";
 
 export default function Reviews() {
     const data = useData(); // Access data from the context

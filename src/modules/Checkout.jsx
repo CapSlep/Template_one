@@ -1,6 +1,6 @@
 import { useData } from "../DataContext"; // Import the custom hook
-import Timer from "./Timer";
-import BuyButton from "./BuyButton";
+import Timer from "./utilities/Timer";
+import BuyButton from "./utilities/BuyButton";
 
 export default function Checkout({ product, formSendHandler }) {
     const data = useData(); // Access data from the context
