@@ -11,18 +11,21 @@ export default function Checkout({ product, formSendHandler }) {
                 <div className="checkout__main">
                     <div className="checkout__header">
                         <div className="checkout__image">
-                            <img src={product?.slider[0]} alt="Product Image" />
+                            <img
+                                src={product?.productImage}
+                                alt="Product Image"
+                            />
                         </div>
                         <div className="checkout__header-details">
                             <div className="checkout__header-name">
-                                {data.productName}
+                                {product?.productName}
                             </div>
                             <div className="checkout__header-price ">
                                 <span className="price-new">
-                                    {data.newPrice}
+                                    {product?.newPrice}
                                 </span>
                                 <span className="price-old">
-                                    {data.oldPrice}
+                                    {product?.oldPrice}
                                 </span>
                             </div>
                         </div>

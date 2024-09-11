@@ -17,7 +17,7 @@ import { useState, useEffect } from "react";
 export default function App() {
     const data = useData();
 
-    const [product, setProduct] = useState(data.products.product_1);
+    const [product, setProduct] = useState(data.products[0]);
     const [openCheckout, setOpenCheckout] = useState(false);
 
     const useForm = false;
@@ -41,7 +41,7 @@ export default function App() {
         var phone = document.getElementById("phoneField").value;
         var email = document.getElementById("emailField").value;
 
-        let adRedirectName = data.productName;
+        let adRedirectName = product.productName;
         let adRedirectImg = document.querySelector("#selectedProductPath").src;
 
         // Get country code
@@ -110,7 +110,7 @@ export default function App() {
         }
 
         // Set parameters for redirection
-        let adRedirectName = data.productName;
+        let adRedirectName = product.productName;
 
         // Send the fbq event
         fbq("track", "InitiateCheckout");
@@ -160,7 +160,7 @@ export default function App() {
     };
 
     useEffect(() => {
-        document.title = data.productName;
+        document.title = product.productName;
     }, []);
 
     return (
@@ -181,17 +181,16 @@ export default function App() {
             )}
 
             <Footer></Footer>
-            <Facebook></Facebook>
 
+            <Facebook></Facebook>
             <PopManager
                 popupTypes={popupsHolder.popupTypes}
                 popupsToShow={popupsHolder.popups}
                 showStartup={true}
             ></PopManager>
-
             <img
                 id="selectedProductPath"
-                src={product.slider[0]}
+                src={product.productImage}
                 style={{ display: "none" }}
             />
         </>

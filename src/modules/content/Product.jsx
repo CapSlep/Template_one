@@ -5,10 +5,10 @@ import Timer from "../utilities/Timer";
 export default function Product({ product, setProduct }) {
     const data = useData(); // Access data from the context
 
-    function handleColorSelection(selectedName) {
+    function handleProductSelection(selectedName) {
         const filteredProducts = Object.values(data.products).filter(
             (product) => {
-                return product.name === selectedName;
+                return product.sliderName === selectedName;
             }
         );
 
@@ -20,7 +20,9 @@ export default function Product({ product, setProduct }) {
             <div className="product__info container flex-row">
                 <div className="product__title-block flex-row">
                     <div className="product__title-element flex-column">
-                        <div className="product__name">{data.productName}</div>
+                        <div className="product__name">
+                            {product.productName}
+                        </div>
                         <div className="product__stars">
                             <img src="./img/icons/star.svg" alt="" />
                             <img src="./img/icons/star.svg" alt="" />
@@ -34,8 +36,8 @@ export default function Product({ product, setProduct }) {
                     </div>
                 </div>
                 <div className="product__price-block flex-row">
-                    <div className="price-new">{data.newPrice}</div>
-                    <div className="price-old">{data.oldPrice}</div>
+                    <div className="price-new">{product.newPrice}</div>
+                    <div className="price-old">{product.oldPrice}</div>
                 </div>
             </div>
 

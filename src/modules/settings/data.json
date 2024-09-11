@@ -1,7 +1,4 @@
 {
-    "productName": "Tefal Ingenio Easy On Set de 3 poêles + poignée amovible 3 poêles 22/24/26 cm, poignée amovible, poêles antiadhésives, revêtement",
-    "oldPrice": "75,11€",
-    "newPrice": "9,99 €",
     "zeroPrice": "0,00 €",
     "header": {
         "shippingText": "Livraison gratuite et retours gratuits"
@@ -16,72 +13,6 @@
         "Livraison gratuite",
         "Retours gratuits",
         "Support à vie"
-    ],
-    "description": {
-        "descriptionTitle": "Description technique",
-        "descriptionTextMain": "Compatible avec les types de plaques suivants : gaz, électrique, céramique et halogène. Non adapté pour l'induction. Conçu et fabriqué en France. Facile à nettoyer grâce au revêtement antiadhésif haute performance à l'intérieur et à l'extérieur pour une excellente fonctionnalité.",
-        "descriptionTable": [
-            {
-                "tableTitle": "Informations générales sur le produit",
-                "tableRows": [
-                    {
-                        "rowTitle": "Marque",
-                        "rowText": "TEFAL"
-                    },
-                    {
-                        "rowTitle": "Nom du produit",
-                        "rowText": "Tefal Ingenio Easy On Set de 3 poêles + poignée amovible 3 poêles 22/24/26 cm, poignée amovible, poêles antiadhésives, revêtement"
-                    },
-                    {
-                        "rowTitle": "Catégorie",
-                        "rowText": "BATTERIE DE CUISINE"
-                    }
-                ]
-            },
-            {
-                "tableTitle": "Général",
-                "tableRows": [
-                    {
-                        "rowTitle": "Nombre de pièces",
-                        "rowText": "3 pièces"
-                    },
-                    {
-                        "rowTitle": "Revêtement intérieur",
-                        "rowText": "Antiadhésif"
-                    }
-                ]
-            },
-            {
-                "tableTitle": "Caractéristiques",
-                "tableRows": [
-                    {
-                        "rowTitle": "Compatibilité des plaques",
-                        "rowText": "Toutes les plaques sauf induction"
-                    },
-                    {
-                        "rowTitle": "Type de poignée",
-                        "rowText": "Amovible"
-                    }
-                ]
-            }
-        ]
-    },
-    "blogs": [
-        {
-            "image": "./img/blog/blog1.webp",
-            "header": "Son JBL Pro ultra-portable avec des basses plus puissantes",
-            "text": "Ne vous laissez pas tromper par la petite taille. Le JBL Go 4 offre un son JBL Pro impressionnant avec des basses puissantes. Vos amis ne croiront pas à la qualité du son JBL Pro provenant d'un si petit haut-parleur."
-        },
-        {
-            "image": "./img/blog/blog2.webp",
-            "header": "Jusqu'à 7 heures d'autonomie plus 2 heures avec Playtime Boost",
-            "text": "Ne vous inquiétez pas des détails mineurs comme la recharge de la batterie. Le JBL Go 4 offre jusqu'à 7 heures d'autonomie avec une seule charge. Appuyez simplement sur Playtime Boost pour prolonger l'autonomie, ajoutant jusqu'à 2 heures supplémentaires. Ajustez et optimisez les performances pour un son plus fort et plus clair."
-        },
-        {
-            "image": "./img/blog/blog3.webp",
-            "header": "Étanche et résistant à la poussière",
-            "text": "Le JBL Go 4, avec sa certification IP67 étanche et résistant à la poussière, garantit que ce haut-parleur portable peut affronter presque tous les environnements, d'une fête à la piscine à un pique-nique au bord de la mer."
-        }
     ],
     "reviewsHeader": "Avis",
     "reviewValidation": "Avis incité",
@@ -170,10 +101,14 @@
             "total": "Total"
         }
     },
-    "products": {
-        "product_1": {
-            "name": "black",
-            "selectorIcon": "./img/slides/black.jpg",
+    "products": [
+        {
+            "productName": "Tefal Ingenio Easy On Set de 3 poêles + poignée amovible 3 poêles 22/24/26 cm, poignée amovible, poêles antiadhésives, revêtement",
+            "productImage": "./img/slides/slide_1/slide-1-1.webp",
+            "oldPrice": "75,11€",
+            "newPrice": "9,99 €",
+            "sliderName": "black",
+            "sliderSelectorIcon": "./img/slides/black.jpg",
             "slider": [
                 "./img/slides/slide_1/slide-1-1.webp",
                 "./img/slides/slide_1/1-fr.png",
@@ -181,5 +116,71 @@
                 "./img/slides/slide_1/3-fr.png"
             ]
         }
-    }
+    ],
+    "description": {
+        "descriptionTitle": "Description technique",
+        "descriptionTextMain": "Compatible avec les types de plaques suivants : gaz, électrique, céramique et halogène. Non adapté pour l'induction. Conçu et fabriqué en France. Facile à nettoyer grâce au revêtement antiadhésif haute performance à l'intérieur et à l'extérieur pour une excellente fonctionnalité.",
+        "descriptionTable": [
+            {
+                "tableTitle": "Informations générales sur le produit",
+                "tableRows": [
+                    {
+                        "rowTitle": "Marque",
+                        "rowText": "TEFAL"
+                    },
+                    {
+                        "rowTitle": "Nom du produit",
+                        "rowText": "Tefal Ingenio Easy On Set de 3 poêles + poignée amovible 3 poêles 22/24/26 cm, poignée amovible, poêles antiadhésives, revêtement"
+                    },
+                    {
+                        "rowTitle": "Catégorie",
+                        "rowText": "BATTERIE DE CUISINE"
+                    }
+                ]
+            },
+            {
+                "tableTitle": "Général",
+                "tableRows": [
+                    {
+                        "rowTitle": "Nombre de pièces",
+                        "rowText": "3 pièces"
+                    },
+                    {
+                        "rowTitle": "Revêtement intérieur",
+                        "rowText": "Antiadhésif"
+                    }
+                ]
+            },
+            {
+                "tableTitle": "Caractéristiques",
+                "tableRows": [
+                    {
+                        "rowTitle": "Compatibilité des plaques",
+                        "rowText": "Toutes les plaques sauf induction"
+                    },
+                    {
+                        "rowTitle": "Type de poignée",
+                        "rowText": "Amovible"
+                    }
+                ]
+            }
+        ]
+    },
+    "blogs": [
+        {
+            "image": "./img/blog/blog1.webp",
+            "header": "Son JBL Pro ultra-portable avec des basses plus puissantes",
+            "text": "Ne vous laissez pas tromper par la petite taille. Le JBL Go 4 offre un son JBL Pro impressionnant avec des basses puissantes. Vos amis ne croiront pas à la qualité du son JBL Pro provenant d'un si petit haut-parleur."
+        },
+        {
+            "image": "./img/blog/blog2.webp",
+            "header": "Jusqu'à 7 heures d'autonomie plus 2 heures avec Playtime Boost",
+            "text": "Ne vous inquiétez pas des détails mineurs comme la recharge de la batterie. Le JBL Go 4 offre jusqu'à 7 heures d'autonomie avec une seule charge. Appuyez simplement sur Playtime Boost pour prolonger l'autonomie, ajoutant jusqu'à 2 heures supplémentaires. Ajustez et optimisez les performances pour un son plus fort et plus clair."
+        },
+        {
+            "image": "./img/blog/blog3.webp",
+            "header": "Étanche et résistant à la poussière",
+            "text": "Le JBL Go 4, avec sa certification IP67 étanche et résistant à la poussière, garantit que ce haut-parleur portable peut affronter presque tous les environnements, d'une fête à la piscine à un pique-nique au bord de la mer."
+        }
+    ]
 }
