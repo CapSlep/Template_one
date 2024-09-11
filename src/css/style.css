@@ -163,7 +163,7 @@ header {
 }
 
 .shipping-promo {
-  padding: 10px 0;
+  padding: 0.5rem;
   font-weight: 600;
   color: #000;
   text-transform: uppercase;
@@ -297,6 +297,8 @@ header {
 
 .product__info {
   gap: 1.5rem;
+  margin: 0 auto;
+  align-items: center;
   justify-content: space-between;
   background-color: #fff;
 }
@@ -378,7 +380,7 @@ header {
 }
 
 .product__availability-img {
-  width: 50%;
+  width: 10rem;
 }
 
 .product__buy-reason {
@@ -643,14 +645,14 @@ header {
 }
 
 .footer__logo-wrapper {
-  height: 100%;
+  height: 3rem;
   fill: #000;
+  text-align: start;
 }
 
 .footer__logo-wrapper img {
-  height: 50%;
-  width: 50%;
   padding-left: 1rem;
+  width: initial;
 }
 
 .footer__text-box {
@@ -785,6 +787,7 @@ header {
 
 .description__content {
   gap: 1rem;
+  margin: 0 auto;
 }
 
 .description__image {
@@ -798,6 +801,7 @@ header {
   gap: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  margin: 0 auto;
 }
 
 .timer__countdown {
