@@ -20,7 +20,7 @@ export default function App() {
     const [product, setProduct] = useState(data.products[0]);
     const [openCheckout, setOpenCheckout] = useState(false);
 
-    const useForm = false;
+    const useForm = true;
 
     function sendForm() {
         console.log("submit");
@@ -186,7 +186,7 @@ export default function App() {
             <PopManager
                 popupTypes={popupsHolder.popupTypes}
                 popupsToShow={popupsHolder.popups}
-                showStartup={true}
+                showStartup={false}
             ></PopManager>
             <img
                 id="selectedProductPath"

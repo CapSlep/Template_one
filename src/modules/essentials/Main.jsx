@@ -6,7 +6,7 @@ import BuyButton from "../utilities/BuyButton";
 
 export default function Main({ product, setProduct, buyHandler }) {
     return (
-        <main className="main__wrapper">
+        <main className="main__wrapper container">
             <Product product={product} setProduct={setProduct}></Product>
             <Description></Description>
             <Reviews></Reviews>
