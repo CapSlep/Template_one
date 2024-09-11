@@ -5,14 +5,11 @@ export default function Footer() {
     return (
         <footer className="footer container">
             <div className="footer__logo-wrapper">
-                <img src="./img/footer-logo.webp" alt="" />
+                <img src="./img/footer/footer-logo.png" alt="" />
             </div>
-            {/* <div className="footer__text-box flex-row">
-                <div className="footer__harlan">
-                    <img src="./img/harman-logo.svg" alt="" />
-                </div>
+            <div className="footer__text-box flex-row">
                 <span className="footer__text">{data.footerText}</span>
-            </div> */}
+            </div>
         </footer>
     );
 }

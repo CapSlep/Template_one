@@ -9,21 +9,28 @@
     gap: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-top: 1px solid rgb(216, 216, 216);
-    border-bottom: 1px solid rgb(216, 216, 216);
 }
 
 .timer__countdown {
-    font-size: variables.$font-size-enormous;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #25303B;
+    gap: .5rem;
 }
 
 .timer__text-promo {
-    color: red;
-    text-transform: uppercase;
+    color: #C21919;
+    font-size: variables.$font-size-small;
     text-align: center;
     font-weight: 600;
 }
 
 .timer__text-strong {
+    font-weight: 700;
+}
+
+.timer__colon {
+    color: #67B4E6;
+    font-size: 3rem;
     font-weight: 700;
 }
