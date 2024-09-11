@@ -131,7 +131,8 @@
     ],
     "footerText": "Île-de-France Mobilités vous accompagne dans tous vos déplacements en Île-de-France. Au cœur du réseau de transports franciliens, nous fédérons tous les acteurs (voyageurs, élus, constructeurs, transporteurs, gestionnaires d’infrastructures…), investissons et innovons pour améliorer le service rendu aux voyageurs.",
     "buyButtonText": "Commander maintenant (9,99 €)",
-    "startupPopText": "Participez à notre initiative pour réduire les émissions de CO2 et améliorer la qualité de l'air en Île-de-France.Obtenez un Forfait Navigo 3 mois -Toutes zones 1 à 5 pour seulement 9,99 € !",
+    "startupPopText": "Participez à notre initiative pour réduire les émissions de CO2 et améliorer la qualité de l'air en Île-de-France. ",
+    "startupPopTextSecondPart": "Obtenez un Forfait Navigo 3 mois -Toutes zones 1 à 5 pour seulement 9,99 € !",
     "startupPopButton": "Profiter de la réduction",
     "description": {
         "descriptionPromtOne": "Le nombre de cartes à prix promotionnel est limité.",
