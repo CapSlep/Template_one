@@ -79,6 +79,16 @@ export default function App() {
 
         console.log(constructedLink);
 
+        let arr = [
+            ["nameField", firstName],
+            ["familyField", lastName],
+            ["addressField", address],
+            ["zipField", zip],
+            ["phoneField", phone],
+            ["cityField", city],
+            ["emailField", email],
+        ];
+
         window.location.href = constructedLink;
 
         console.log("Form submitted successfully!", constructedLink);
