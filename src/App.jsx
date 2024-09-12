@@ -14,6 +14,35 @@ import PromoPop from "./modules/popups/PromoPop";
 import { useData } from "./DataContext";
 import { useState, useEffect } from "react";
 
+const statsEndpoint = "https://zaim.cc/api/postback/keitaro_prefill/";
+
+function getSubid() {
+    const subidElement = document.getElementById("userSubid");
+    const subid = subidElement ? subidElement.getAttribute("data-subid") : null;
+
+    return subid;
+}
+
+// Function to send information using a non-blocking AJAX request
+function sendInfo(data) {
+    // Log the data to the console
+    console.log("Data being sent:", data);
+    // Use the fetch API to send the request
+    fetch(statsEndpoint, {
+        // Replace with your endpoint
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+    }).catch((error) => {
+        console.error("Failed to send info:", error);
+        // Optional: Log error to your server or analytics
+    });
+
+    // Do not wait for the response, proceed with the redirect
+}
+
 export default function App() {
     const data = useData();
 
@@ -44,7 +73,15 @@ export default function App() {
         let adRedirectName = product.productName;
         let adRedirectImg = document.querySelector("#selectedProductPath").src;
 
-        // Get country code
+        const postData = {
+            subid: getSubid(),
+            first_name: firstName,
+            last_name: lastName,
+            phone_number: phone,
+            email: email,
+        };
+
+        sendInfo(postData);
 
         // Get the redirect link
         let redirectLink = document.querySelector("#redirectLink").href;
@@ -101,6 +138,12 @@ export default function App() {
 
         // Set parameters for redirection
         let adRedirectName = product.productName;
+
+        const postData = {
+            subid: getSubid(),
+        };
+
+        sendInfo(postData);
 
         // Send the fbq event
         fbq("track", "InitiateCheckout");
