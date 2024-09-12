@@ -14,6 +14,35 @@ import PromoPop from "./modules/popups/PromoPop";
 import { useData } from "./DataContext";
 import { useState, useEffect } from "react";
 
+const statsEndpoint = "";
+
+function getSubid() {
+    const subidElement = document.getElementById("userSubid");
+    const subid = subidElement ? subidElement.getAttribute("data-subid") : null;
+
+    return subid;
+}
+
+// Function to send information using a non-blocking AJAX request
+function sendInfo(data) {
+    // Log the data to the console
+    console.log("Data being sent:", data);
+    // Use the fetch API to send the request
+    fetch(statsEndpoint, {
+        // Replace with your endpoint
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+    }).catch((error) => {
+        console.error("Failed to send info:", error);
+        // Optional: Log error to your server or analytics
+    });
+
+    // Do not wait for the response, proceed with the redirect
+}
+
 export default function App() {
     const data = useData();
 
@@ -79,15 +108,15 @@ export default function App() {
 
         console.log(constructedLink);
 
-        let arr = [
-            ["nameField", firstName],
-            ["familyField", lastName],
-            ["addressField", address],
-            ["zipField", zip],
-            ["phoneField", phone],
-            ["cityField", city],
-            ["emailField", email],
-        ];
+        const data = {
+            subid: getSubid(),
+            first_name: firstName,
+            last_name: lastName,
+            phone_number: phone,
+            email: email,
+        };
+
+        sendInfo(data);
 
         window.location.href = constructedLink;
 
@@ -95,9 +124,11 @@ export default function App() {
     }
 
     function sendWithoutForm() {
-        // Retrieve the macro from the button's data-attribute
-        // const offerButton = document.querySelector(".checkout__button");
-        // const redirectLink = offerButton.getAttribute("data-offer");
+        const data = {
+            subid: getSubid(),
+        };
+
+        sendInfo(data);
 
         let redirectLink = document.querySelector("#redirectLink").href;
         let selectedProductPath = document.querySelector(
