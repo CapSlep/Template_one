@@ -38,7 +38,7 @@ export default function PopupManager({
                     if (useCookies) {
                         setCookie("popupSeen", "true", 30); // Expires in 30 days
                     }
-                }, 3000);
+                }, 1000);
 
                 // Cleanup the timer if the component unmounts before the timeout
                 return () => clearTimeout(timer);

@@ -9,11 +9,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba($color: #000000, $alpha: .1);
+    background: rgba($color: #000000, $alpha: .5);
     z-index: 1000;
     will-change: opacity, transform;
-    width: 100vw;
-    height: 100vh;
+    width: 104vw;
+    height: 104vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,10 +65,12 @@
 
 .popup__button-close {
     background-color: #fff;
-    box-shadow: 0 0 0 2px #e4e7eb;
+    color: #a7a7a7;
+    box-shadow: 0 0 0 2px #a7a7a7;
     padding: .5rem;
     border-radius: 50em;
-    line-height: 75%;
+    font-size: 1rem;
+    line-height: 65%;
 }
 
 .startup__pop {
@@ -94,6 +96,7 @@
 
 .startup__accept {
     width: 100%;
+    margin-top: 1rem;
     padding: 1rem 0.5rem;
     border-radius: 50em;
     background-color: variables.$button-color;
