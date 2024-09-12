@@ -6,7 +6,7 @@ export default function Header({}) {
         <header>
             <div className="shipping-promo">{data.header.shippingText}</div>
             <nav>
-                {/* <a href="#" className="icon burger">
+                <a href="#" className="icon burger">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
@@ -15,12 +15,12 @@ export default function Header({}) {
                     >
                         <path d="M3.75 5.25h16.5a.75.75 0 1 1 0 1.5H3.75a.75.75 0 0 1 0-1.5zm0 6h16.5a.75.75 0 1 1 0 1.5H3.75a.75.75 0 1 1 0-1.5zm0 6h16.5a.75.75 0 1 1 0 1.5H3.75a.75.75 0 1 1 0-1.5z"></path>
                     </svg>
-                </a> */}
+                </a>
                 <div className="logo">
-                    <img src="./img/header/logo.png" alt="LOGO" />
+                    <img src="./img/header/logo.svg" alt="LOGO" />
                 </div>
-                {/* <div className="nav__component">
-                    <a href="#" className="icon icon__profile">
+                <div className="nav__component">
+                    {/* <a href="#" className="icon icon__profile">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
@@ -29,7 +29,7 @@ export default function Header({}) {
                         >
                             <path d="M12 12a5.25 5.25 0 1 1 0-10.5A5.25 5.25 0 0 1 12 12zm0-1.5A3.75 3.75 0 1 0 12 3a3.75 3.75 0 0 0 0 7.5zm-8.047 4.482C6.63 13.995 9.314 13.5 12 13.5c2.686 0 5.37.495 8.047 1.482A3.75 3.75 0 0 1 22.5 18.5v3.25a.75.75 0 0 1-.75.75H2.25a.75.75 0 0 1-.75-.75V18.5c0-1.57.98-2.975 2.453-3.518zM21 18.5a2.25 2.25 0 0 0-1.472-2.11C17.014 15.461 14.506 15 12 15c-2.506 0-5.014.462-7.528 1.39A2.25 2.25 0 0 0 3 18.5V21h18v-2.5z"></path>
                         </svg>
-                    </a>
+                    </a> */}
                     <a href="#" className="icon icon__heart">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ export default function Header({}) {
                         </svg>
                         <span className="icon__cart-number">1</span>
                     </a>
-                </div> */}
+                </div>
             </nav>
         </header>
     );

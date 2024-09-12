@@ -12,8 +12,8 @@
     background: rgba($color: #000000, $alpha: .5);
     z-index: 1000;
     will-change: opacity, transform;
-    width: 104vw;
-    height: 104vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,12 +65,10 @@
 
 .popup__button-close {
     background-color: #fff;
-    color: #a7a7a7;
-    box-shadow: 0 0 0 2px #a7a7a7;
+    box-shadow: 0 0 0 2px #e4e7eb;
     padding: .5rem;
     border-radius: 50em;
-    font-size: 1rem;
-    line-height: 65%;
+    line-height: 75%;
 }
 
 .startup__pop {
@@ -96,7 +94,6 @@
 
 .startup__accept {
     width: 100%;
-    margin-top: 1rem;
     padding: 1rem 0.5rem;
     border-radius: 50em;
     background-color: variables.$button-color;
