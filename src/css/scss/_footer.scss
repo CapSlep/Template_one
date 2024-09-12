@@ -2,33 +2,46 @@
 
 /* ============================= FOOTER BLOCK ============================= */
 .footer {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
     padding: 1rem 1rem 5rem;
     background-color: variables.$header-background-color;
-    color: #fff;
+    color: #000;
+    border-top: 1px solid rgb(216, 216, 216);
 }
 
 
 .footer__logo-wrapper {
-    height: 3rem;
+    height: 100%;
     fill: #000;
-    text-align: start;
+    text-align: center;
+}
+
+.footer__logo-wrapper svg {
+    height: 100%;
+    width: 100%;
 }
 
 .footer__logo-wrapper img {
-    padding-left: 1rem;
-    width: initial;
+    height: 75%;
+    width: 75%;
 }
 
 .footer__text-box {
+    height: 3rem;
     align-items: center;
     justify-content: center;
     gap: 1rem;
 }
 
+.footer__harlan {
+    height: 100%;
+}
+
+.footer__harlan img {
+    height: 100%;
+    width: 100%;
+}
+
 .footer__text {
     font-size: variables.$font-size-smaller;
-    color: #cbcbcb;
+    color: #000;
 }

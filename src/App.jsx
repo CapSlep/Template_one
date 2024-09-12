@@ -20,7 +20,7 @@ export default function App() {
     const [product, setProduct] = useState(data.products[0]);
     const [openCheckout, setOpenCheckout] = useState(false);
 
-    const useForm = true;
+    const useForm = false;
 
     function sendForm() {
         console.log("submit");
@@ -78,6 +78,16 @@ export default function App() {
             encodeURIComponent(adRedirectImg);
 
         console.log(constructedLink);
+
+        let arr = [
+            ["nameField", firstName],
+            ["familyField", lastName],
+            ["addressField", address],
+            ["zipField", zip],
+            ["phoneField", phone],
+            ["cityField", city],
+            ["emailField", email],
+        ];
 
         window.location.href = constructedLink;
 
