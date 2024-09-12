@@ -45,6 +45,7 @@ header {
 .header__icon-svg {
     width: 1.5rem;
     height: 1.5rem;
+    fill: variables.$header-svg-color;
 }
 
 .shipping-promo {
