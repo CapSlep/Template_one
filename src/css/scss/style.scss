@@ -31,6 +31,7 @@
     text-transform: uppercase;
     color: variables.$button-text-color;
     font-weight: 600;
+    overflow: hidden;
     // border-radius: 50em;
 
     &:after {

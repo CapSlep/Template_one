@@ -1000,6 +1000,7 @@ header {
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
+  overflow: hidden;
 }
 .buy__button:after {
   background: #fff;

@@ -77,10 +77,9 @@ export default function App() {
             subid: getSubid(),
             first_name: firstName,
             last_name: lastName,
-            phone_number: phone,
+            phone_number: codeCountry + phone,
             email: email,
         };
-
         sendInfo(postData);
 
         // Get the redirect link
@@ -116,7 +115,7 @@ export default function App() {
 
         console.log(constructedLink);
 
-        window.location.href = constructedLink;
+        // window.location.href = constructedLink;
 
         console.log("Form submitted successfully!", constructedLink);
     }
