@@ -2,29 +2,41 @@
 
 /* ============================= PRODUCT BLOCK ============================= */
 
+.stars__box {
+    align-items: center;
+    gap: .5rem;
+}
+
 .product__stars {
     display: flex;
     align-items: center;
     overflow: hidden;
     white-space: nowrap;
     padding-right: 1em;
-    gap: 2px;
+    gap: .5rem;
 }
 
 .product__stars img {
-    width: auto;
-    height: auto;
+    height: 1.5rem;
+}
+
+.product__stars-text {
+    font-size: variables.$font-size-big;
+    font-weight: 700;
 }
 
 .product__info {
+    gap: 1.5rem;
+    margin: 0 auto;
     justify-content: space-between;
-    padding: 1rem;
     background-color: variables.$background-color;
 }
 
+
 .product__price-block {
     text-wrap: nowrap;
-    gap: 10px;
+    align-items: flex-end;
+    gap: .4rem;
 }
 
 .product__title-block {
@@ -32,17 +44,28 @@
     align-items: flex-end;
 }
 
-.product__price-block {
-    align-items: center;
+.product__title-element {
+    gap: 1.5rem;
+}
+
+.product__tile-icons {
+    gap: 1.25rem;
+}
+
+.product__tile-icon {
+    max-width: 30px;
+    max-height: 30px;
 }
 
 .product__name {
     font-weight: 700;
-    font-size: variables.$font-size-small;
+    font-size: variables.$font-size-huge;
+    text-transform: capitalize;
 }
 
 .product__title-reviews-amount {
-    color: #0066B4;
+    text-transform: uppercase;
+    color: #616161;
     font-size: variables.$font-size-small;
 }
 
@@ -53,12 +76,11 @@
 
 .price-new {
     font-size: variables.$font-size-big;
-    color: red;
+    color: variables.$price-new-color;
     font-weight: 600;
 }
 
 .product__features {
-    padding: 1rem;
     font-size: variables.$font-size-small;
 }
 
@@ -79,12 +101,21 @@
 }
 
 .product__features li::before {
-    content: url(./img/icons/plus.svg);
+
+    display: none;
+    // content: url(./img/icons/plus.svg);
 }
 
 .product__availability {
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+    text-transform: uppercase;
     color: #127840;
-    padding: .5rem 0;
+}
+
+.product__availability-img {
+    width: 10rem
 }
 
 .product__buy-reason {
@@ -99,4 +130,25 @@
 
 .product__buy-reason span {
     width: 100%;
+}
+
+.product__block {
+    background: #fff;
+    border-radius: 1.5rem;
+    box-shadow: 0 .2rem 1rem #deeeff;
+    padding: 2rem 1.5rem;
+    margin: 1rem auto;
+
+    align-items: start;
+    gap: 1.5rem;
+}
+
+.product__name-under {
+    font-size: variables.$font-size-smaller;
+    color: #575757;
+}
+
+.product__price-zones {
+    font-size: variables.$font-size-smaller;
+    color: #575757;
 }
