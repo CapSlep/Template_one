@@ -141,8 +141,53 @@
     "startupPopTextSecondPart": "¡La oferta es válida solo hasta el final de esta semana!",
     "startupPopButton": "OBTENER DESCUENTO",
     "description": {
-        "descriptionPromtOne": "Le nombre de cartes à prix promotionnel est limité.",
-        "descriptionPromtTwo": "La création et la livraison de la carte prennent entre 3 et 5 jours."
+        "descriptionTitle": "Descripción técnica",
+        "descriptionTextMain": "Compatible con los siguientes tipos de estufas: gas, eléctrica, cerámica y halógena. No apto para inducción. Diseñado y fabricado en Francia. Fácil de limpiar gracias al revestimiento antiadherente de alto rendimiento en el interior y exterior para una excelente funcionalidad.",
+        "descriptionTable": [
+            {
+                "tableTitle": "Información general del producto",
+                "tableRows": [
+                    {
+                        "rowTitle": "Marca",
+                        "rowText": "TEFAL"
+                    },
+                    {
+                        "rowTitle": "Nombre del producto",
+                        "rowText": "Set Tefal Ingenio Easy On de 3 sartenes + mango removible 3 sartenes de 22/24/26 cm, mango removible, sartenes antiadherentes, revestimiento"
+                    },
+                    {
+                        "rowTitle": "Categoría",
+                        "rowText": "BATERÍA DE COCINA"
+                    }
+                ]
+            },
+            {
+                "tableTitle": "General",
+                "tableRows": [
+                    {
+                        "rowTitle": "Número de piezas",
+                        "rowText": "3 piezas"
+                    },
+                    {
+                        "rowTitle": "Revestimiento interior",
+                        "rowText": "Antiadhesivo"
+                    }
+                ]
+            },
+            {
+                "tableTitle": "Características",
+                "tableRows": [
+                    {
+                        "rowTitle": "Compatibilidad de estufas",
+                        "rowText": "Todas las estufas excepto inducción"
+                    },
+                    {
+                        "rowTitle": "Tipo de mango",
+                        "rowText": "Removible"
+                    }
+                ]
+            }
+        ]
     },
     "timer": {
         "timerSetsStart": "Votre place dans la file d'attente pour l'achat est réservée pendant",
