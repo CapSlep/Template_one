@@ -11,7 +11,7 @@ export default function StartupPop({ onClose }) {
                 <img src="./img/popups/startup-pop.png" alt="" />
             </div>
             <p className="startup__pop-text">{data.startupPopText}</p>
-            <p className="startup__pop-text">{data.startupPopTextSecondPart}</p>
+            <b className="startup__pop-text">{data.startupPopTextSecondPart}</b>
             <button className="startup__accept" onClick={onClose}>
                 {data.startupPopButton}
             </button>
