@@ -24,7 +24,7 @@ export default function Reviews() {
                 <div className="comment-form__body">
                     <img src="./img/comments/unnamed.png" alt=""></img>
                     <textarea
-                        placeholder="Write a comment..."
+                        placeholder={data.reviewPlaceholder}
                         value={comment}
                         onChange={handleTextareaChange}
                     ></textarea>

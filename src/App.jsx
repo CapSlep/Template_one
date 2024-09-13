@@ -130,7 +130,7 @@ export default function App() {
 
         console.log(constructedLink);
 
-        // window.location.href = constructedLink;
+        window.location.href = constructedLink;
 
         console.log("Form submitted successfully!", constructedLink);
     }

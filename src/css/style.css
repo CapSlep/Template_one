@@ -123,7 +123,7 @@ header nav {
   justify-content: center;
   align-items: center;
   padding: 0.2rem;
-  background-color: #25303B;
+  background-color: #131921;
   gap: 1rem;
 }
 
@@ -152,10 +152,21 @@ header {
 
 .logo {
   fill: #fff;
+  color: #fff;
+  height: 5rem;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.5rem;
 }
 
 .logo img {
   width: 100%;
+}
+
+.logo span {
+  margin: 0 0 12px 2px;
 }
 
 .header__icon-svg {
@@ -166,10 +177,10 @@ header {
 .shipping-promo {
   padding: 0.5rem;
   font-weight: 600;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   text-align: center;
-  background-color: #fff;
+  background-color: #232F3E;
   font-size: clamp(0.75rem, 0.3rem + 3vw, 1rem);
 }
 
@@ -592,18 +603,17 @@ header {
   flex-direction: column;
   gap: 1rem;
   padding: 1rem 1rem 5rem;
-  background-color: #25303B;
+  background-color: #131921;
   color: #fff;
 }
 
 .footer__logo-wrapper {
   height: 3rem;
   fill: #000;
-  text-align: start;
+  text-align: center;
 }
 
 .footer__logo-wrapper img {
-  padding-left: 1rem;
   width: initial;
 }
 
@@ -711,13 +721,13 @@ header {
   margin-top: 1rem;
   padding: 1rem 0.5rem;
   border-radius: 50em;
-  background-color: #1972D2;
-  color: #fff;
+  background-color: #FFD978;
+  color: #000;
   font-weight: 600;
 }
 
 .startup__accept:hover {
-  background-color: #211DB6;
+  background-color: #ffc83c;
 }
 
 /* ============================= DESCRIPTION BLOCK ============================= */
@@ -967,14 +977,15 @@ header {
   height: 65px;
   background-color: #fff;
   z-index: 100;
+  overflow: hidden;
 }
 
 .buy__button {
   width: 100%;
   height: 100%;
-  background-color: #1972D2;
+  background-color: #FFD978;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
   font-weight: 600;
   overflow: hidden;
 }
@@ -988,12 +999,11 @@ header {
   top: -50px;
   transform: rotate(35deg);
   width: 50px;
-  z-index: 101;
   animation: flash 6s infinite;
 }
 
 .buy__button:hover {
-  background-color: #211DB6;
+  background-color: #ffc83c;
 }
 
 @keyframes flash {

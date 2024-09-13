@@ -1,19 +1,28 @@
 {
-    "zeroPrice": "0,00 €",
-    "pageTitle": "Forfait Navigo 3 mois",
+    "zeroPrice": "$0.00",
+    "pageTitle": "Amazfit Bip U Pro",
+    "footerText": "© 1996-2024, Amazon.com, Inc. o sus afiliados",
+    "buyButtonText": "OBTENER DESCUENTO",
+    "startupPopText": "En honor al aniversario de la marca Amazfit en México, disfruta de un 75% de descuento en los Amazfit Bip U Pro en la tienda en línea Mercado Libre.",
+    "startupPopTextSecondPart": "¡La oferta es válida solo hasta el final de esta semana!",
+    "startupPopButton": "OBTENER DESCUENTO",
+    "reviewsHeader": "Opiniones",
+    "reviewValidation": "Opinión verificada",
+    "reviewPublish": "Publicar",
+    "reviewPlaceholder": "Escribe un comentario...",
     "header": {
-        "shippingText": "Livraison gratuite jusqu'à la fin de la semaine !"
+        "shippingText": "¡Envío gratuito hasta el fin de la semana!"
     },
     "productSection": {
-        "underHeader": "Voyagez sans limites pendant 3 mois !",
-        "priceMonthes": "par 3 mois",
-        "priceMonthesZones": "toutes zones",
+        "underHeader": "¡Viaja sin límites durante 3 meses!",
+        "priceMonthes": "por 3 meses",
+        "priceMonthesZones": "todas las zonas",
         "productFeatures": [
-            "Sartenes apilables con mango removible e intercambiable, fáciles de usar y ahorran espacio.",
-            "Revestimiento antiadherente de titanio y resistente a los arañazos, duradero y hasta 6 veces más duradero.",
-            "Tecnología Thermo-Signal para resultados de cocción óptimos y uniformes."
+            "El Amazfit Bip U Pro pesa solo 31 gramos, lo que lo hace extremadamente cómodo para llevar incluso durante actividades intensas.",
+            "Ofrece hasta 9 días de uso continuo con una sola carga, permitiendo disfrutar de viajes o rutinas largas sin preocuparse por recargar.",
+            "El reloj permite un seguimiento detallado de la frecuencia cardíaca, niveles de oxígeno en la sangre, calidad del sueño, y mucho más para un control integral de la salud."
         ],
-        "productBenef": "Pour un Paris plus propre et plus vert !",
+        "productBenef": "¡Por un México más limpio y verde!",
         "productAvailabillity": "En stock. Entrega estimada en 3 a 4 días hábiles.",
         "buyReasons": [
             "Envío gratuito",
@@ -21,238 +30,159 @@
             "Soporte de por vida"
         ]
     },
-    "reviewsHeader": "Avis",
-    "reviewValidation": "Avis incité",
-    "reviewPublish": "Publier",
     "comments": [
         {
             "avatar": "./img/comments/av1.png",
-            "name": "Linda Smith",
-            "text": "Quelqu'un a-t-il déjà participé et a reçu quelque chose?",
-            "likes": "62",
+            "name": "Carlos Hernández",
+            "text": "¡Estoy muy feliz con este reloj! En comparación con marcas más caras, ¡este tiene una mejor relación calidad-precio! Lo he usado en la cinta de correr más veces de las que puedo contar, y realmente funciona basándose en mis pasos, rastreando perfectamente mi actividad en la cinta. Hice 5 horas de natación con los niños y funcionó impecablemente en el agua, ¡registrando todo! Hace unos días fui a mi lugar habitual de correr al aire libre, y vivo en el campo, así que mis relojes nunca son precisos porque pierden la señal, ¡pero este reloj rastreó mi ruta PERFECTAMENTE sin fallas ni errores! ¡Sin duda, el mejor reloj de fitness que he tenido! Es bastante fácil de usar y tiene muchas funciones excelentes. Además, la duración de la batería es impresionante; simplemente lo pongo a cargar mientras me ducho y se carga muy rápido. ¡No tengo que esperar mucho para que esté listo!",
+            "likes": "31",
             "hours": "7h",
-            "likeText": "aimer",
-            "comment": "commentaire"
+            "likeText": "me gusta",
+            "comment": "comentar",
+            "image": "./img/comments/u1.jpg"
         },
         {
             "avatar": "./img/comments/av2.png",
-            "name": "Erica Sean",
-            "text": "Oui, un manager m'a contacté aujourd'hui et m'a assuré que la livraison aura lieu dans les 7 prochains jours.En attendant",
-            "likes": "31",
+            "name": "Ximena Rodríguez",
+            "text": "Por el precio, este es un excelente reloj inteligente. Solo me interesa ver la hora y poder ver los mensajes de texto en tiempo real. Se emparejó fácil y rápidamente con mi teléfono, ofrece varias opciones para el estilo de la esfera y me permite controlar el volumen de la música desde el reloj. Es resistente al agua y se ajusta muy bien a mi pequeña muñeca, pero también se adapta perfectamente a muñecas más grandes, ya que yo uso el agujero más pequeño.",
+            "likes": "12",
             "hours": "3h",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "indent": "one"
+            "likeText": "me gusta",
+            "comment": "comentar",
+            "image": "./img/comments/u2.jpg"
         },
         {
             "avatar": "./img/comments/av3.png",
-            "name": "Harper Jack",
-            "text": "Mon mari a déjà reçu la carte. Merci beaucoup pour la réduction.",
-            "likes": "31",
+            "name": "María López",
+            "text": "He tenido un Apple Watch, Fitbit Versa, Amazfit Bip 3, y este reloj, y de todos, ¡este ha sido mi favorito! Me encanta la Alexa integrada y las funciones de seguimiento, y siempre reviso el clima. No uso todas las aplicaciones adicionales que tiene un Apple Watch, que realmente no necesito, y la batería del Versa se agotaba muy rápido. Honestamente, alterno entre el Bip 3 y este, pero uso este siempre que puedo porque ¡me gusta mucho más!",
+            "likes": "4",
             "hours": "3h",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "image": "./img/comments/u1.jpg",
-            "indent": "two"
-        },
-        {
-            "avatar": "./img/comments/logo.png",
-            "name": "Île-de-France Mobilités",
-            "text": "Merci pour vos commentaires, c'est très important pour nous.",
-            "likes": "2",
-            "hours": "1h",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "indent": "one"
-        },
-        {
-            "avatar": "./img/comments/av5.png",
-            "name": "Lera Ruby",
-            "text": "Je n'ai jamais écrit d'avis auparavant, mais cette fois-ci, j'ai décidé de le faire. Je suis allée sur le site, j'ai répondu à trois questions et j'ai passé commande. Six jours plus tard, un responsable m'a contactée, m'a dit qu'il avait vérifié les informations et m'a félicitée pour avoir gagné un forfait de 3 mois. En plus, il m'a informée que le coursier me livrerait le tout le lendemain. J'ai reçu ma carte à temps et j'en suis très satisfaite !",
-            "likes": "162",
-            "hours": "1j",
-            "likeText": "aimer",
-            "comment": "commentaire"
-        },
-        {
-            "avatar": "./img/comments/logo.png",
-            "name": "Île-de-France Mobilités",
-            "text": "Merci pour vos commentaires, c'est très important pour nous.",
-            "likes": "12",
-            "hours": "18h",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "indent": "one"
+            "likeText": "me gusta",
+            "comment": "comentar",
+            "image": "./img/comments/u3.jpg"
         },
         {
             "avatar": "./img/comments/av4.png",
-            "name": "Alex Smith",
-            "text": "Maintenant je vais le commander:)",
-            "likes": "2",
-            "hours": "5h",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "indent": "two"
-        },
-        {
-            "avatar": "./img/comments/av6.png",
-            "name": "Amy Olivia",
-            "text": "J'ai passé commande et j'attends avec impatience de recevoir ma carte pour 1 mois à 9,99 euros. Est-ce que quelqu'un l'a déjà reçue ?",
-            "likes": "22",
-            "hours": "2j",
-            "likeText": "aimer",
-            "comment": "commentaire"
-        },
-        {
-            "avatar": "./img/comments/logo.png",
-            "name": "Île-de-France Mobilités",
-            "text": "Amy Reilly, nous avons transmis votre demande à notre directeur, qui vous contactera.Merci de nous avoir contactés!",
-            "likes": "5",
-            "hours": "2j",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "indent": "one"
-        },
-        {
-            "avatar": "./img/comments/av9.png",
-            "name": "Adrien Arthur",
-            "text": "Incroyable!",
-            "likes": "10",
+            "name": "Alejandro Martínez",
+            "text": "Gran valor. No he tenido ningún problema hasta ahora. Es definitivamente resistente al agua. Es cómodo de usar y fácil de mantener limpio. No necesito cargarlo todas las noches. La batería dura al menos 2-3 días y no tarda mucho en cargarse. Diría que es una mejora con respecto a mi Apple Watch.",
+            "likes": "12",
             "hours": "1h",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "indent": "two"
+            "likeText": "me gusta",
+            "comment": "comentar"
         },
         {
-            "avatar": "./img/comments/av8.png",
-            "name": "Lilian Ziemann",
-            "text": "Voici ce que j'ai",
-            "likes": "5",
-            "hours": "45min",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "indent": "two",
-            "image": "./img/comments/u2.jpg"
+            "avatar": "./img/comments/av5.png",
+            "name": "Camila Hernández",
+            "text": "Fue una excelente compra es pequeño y se adapta a la mano para cargarlo con facilidad tiene muchas funciones, como contar los pasos, medir la oxigenación, cuenta los latidos del corazón y emite alertas cuando algo está mal, es muy útil para hacer ejercicio, la batería tiene larga duración.",
+            "likes": "6",
+            "hours": "1d",
+            "likeText": "me gusta",
+            "comment": "comentar"
         }
     ],
-    "footerText": "Île-de-France Mobilités vous accompagne dans tous vos déplacements en Île-de-France. Au cœur du réseau de transports franciliens, nous fédérons tous les acteurs (voyageurs, élus, constructeurs, transporteurs, gestionnaires d’infrastructures…), investissons et innovons pour améliorer le service rendu aux voyageurs.",
-    "buyButtonText": "OBTENER DESCUENTO",
-    "startupPopText": "En honor al aniversario de la marca Amazfit en México, disfruta de un 75% de descuento en los Amazfit Bip U Pro en la tienda en línea Mercado Libre.",
-    "startupPopTextSecondPart": "¡La oferta es válida solo hasta el final de esta semana!",
-    "startupPopButton": "OBTENER DESCUENTO",
     "description": {
         "descriptionTitle": "Descripción técnica",
-        "descriptionTextMain": "Compatible con los siguientes tipos de estufas: gas, eléctrica, cerámica y halógena. No apto para inducción. Diseñado y fabricado en Francia. Fácil de limpiar gracias al revestimiento antiadherente de alto rendimiento en el interior y exterior para una excelente funcionalidad.",
+        "descriptionTextMain": "El Amazfit Bip U Pro es un reloj inteligente ultraligero que pesa solo 31 gramos, ideal para quienes buscan comodidad durante su actividad física diaria. Ofrece hasta 9 días de batería con una sola carga y cuenta con GPS integrado para un seguimiento preciso del ejercicio, además de funciones avanzadas de monitoreo de salud como frecuencia cardíaca, niveles de oxígeno en sangre y calidad del sueño. Es un excelente compañero para quienes desean estar al tanto de su bienestar mientras reciben notificaciones inteligentes y controlan su música desde la muñeca.",
         "descriptionTable": [
             {
                 "tableTitle": "Información general del producto",
                 "tableRows": [
                     {
+                        "rowTitle": "Sistema operativo",
+                        "rowText": "Amazfit OS"
+                    },
+                    {
+                        "rowTitle": "Características especiales",
+                        "rowText": "Rastreador multideporte"
+                    },
+                    {
+                        "rowTitle": "Tecnología de conectividad",
+                        "rowText": "Bluetooth"
+                    },
+                    {
+                        "rowTitle": "Estándar de comunicación inalámbrica",
+                        "rowText": "Bluetooth"
+                    },
+                    {
+                        "rowTitle": "Composición de las celdas de batería",
+                        "rowText": "Polímero de Litio"
+                    },
+                    {
+                        "rowTitle": "GPS",
+                        "rowText": "GPS habilitado"
+                    },
+                    {
+                        "rowTitle": "Forma",
+                        "rowText": "Cuadrado"
+                    },
+                    {
+                        "rowTitle": "Tamaño de la pantalla",
+                        "rowText": "1,43 Pulgadas"
+                    },
+                    {
                         "rowTitle": "Marca",
-                        "rowText": "TEFAL"
+                        "rowText": "Amazfit"
                     },
                     {
-                        "rowTitle": "Nombre del producto",
-                        "rowText": "Set Tefal Ingenio Easy On de 3 sartenes + mango removible 3 sartenes de 22/24/26 cm, mango removible, sartenes antiadherentes, revestimiento"
-                    },
-                    {
-                        "rowTitle": "Categoría",
-                        "rowText": "BATERÍA DE COCINA"
-                    }
-                ]
-            },
-            {
-                "tableTitle": "General",
-                "tableRows": [
-                    {
-                        "rowTitle": "Número de piezas",
-                        "rowText": "3 piezas"
-                    },
-                    {
-                        "rowTitle": "Revestimiento interior",
-                        "rowText": "Antiadhesivo"
-                    }
-                ]
-            },
-            {
-                "tableTitle": "Características",
-                "tableRows": [
-                    {
-                        "rowTitle": "Compatibilidad de estufas",
-                        "rowText": "Todas las estufas excepto inducción"
-                    },
-                    {
-                        "rowTitle": "Tipo de mango",
-                        "rowText": "Removible"
+                        "rowTitle": "Nombre del modelo",
+                        "rowText": "Amazfit Smartwatch"
                     }
                 ]
             }
         ]
     },
     "timer": {
-        "timerSetsStart": "Votre place dans la file d'attente pour l'achat est réservée pendant",
-        "timerSetsEnd": "minutes, dépêchez-vous."
+        "timerSetsStart": "Su lugar en la fila para la compra está reservado durante",
+        "timerSetsEnd": "minutos, apúrate."
     },
     "checkout": {
-        "countryCode": "fr",
-        "countryPhone": "33",
+        "countryCode": "mx",
+        "countryPhone": "52",
         "delivery": {
-            "title": "Livraison",
-            "city": "Ville",
-            "address": "Adresse de livraison",
-            "postcode": "Code postal"
+            "title": "Entrega",
+            "city": "Ciudad",
+            "address": "Dirección de entrega",
+            "postcode": "Código postal"
         },
         "info": {
-            "title": "Informations personnelles",
-            "firstName": "Prénom",
-            "lastName": "Nom",
-            "phone": "Numéro de téléphone",
-            "email": "Adresse e-mail"
+            "title": "Información personal",
+            "firstName": "Nombre",
+            "lastName": "Apellido",
+            "phone": "Número de teléfono",
+            "email": "Correo electrónico"
         },
         "payment": {
-            "title": "Moyens de paiement",
-            "text": "Paiement en ligne par carte de crédit"
+            "title": "Métodos de pago",
+            "text": "Pago en línea con tarjeta de crédito"
         },
         "summary": {
-            "title": "Détails de la commande",
-            "deliveryTime": "Délai de livraison",
-            "deliveryDays": "3 jours",
-            "subtotal": "Sous-total",
-            "deliveryAmountTitle": "Livraison",
+            "title": "Detalles del pedido",
+            "deliveryTime": "Tiempo de entrega",
+            "deliveryDays": "3 días",
+            "subtotal": "Subtotal",
+            "deliveryAmountTitle": "Entrega",
             "total": "Total"
         }
     },
     "products": [
         {
             "productName": "Amazfit Bip U Pro",
-            "productImage": "./img/products/productImg.png",
+            "productImage": "./img/slides/slide_1/s1.jpg",
             "newPrice": "$207.00",
             "oldPrice": "$842.90",
             "sliderName": "black",
             "sliderSelectorIcon": "./img/slides/black.jpg",
             "slider": [
-                "./img/slides/slide_1/slide-1-1.webp",
-                "./img/slides/slide_1/1-fr.png",
-                "./img/slides/slide_1/2-fr.png",
-                "./img/slides/slide_1/3-fr.png"
+                "./img/slides/slide_1/s1.jpg",
+                "./img/slides/slide_1/s2.jpg",
+                "./img/slides/slide_1/s3.jpg",
+                "./img/slides/slide_1/s4.jpg",
+                "./img/slides/slide_1/s5.jpg",
+                "./img/slides/slide_1/s6.jpg",
+                "./img/slides/slide_1/s7.jpg",
+                "./img/slides/slide_1/s8.jpg",
+                "./img/slides/slide_1/s9.jpg"
             ]
-        }
-    ],
-    "blogs": [
-        {
-            "image": "./img/blog/blog1.webp",
-            "header": "Son JBL Pro ultra-portable avec des basses plus puissantes",
-            "text": "Ne vous laissez pas tromper par la petite taille. Le JBL Go 4 offre un son JBL Pro impressionnant avec des basses puissantes. Vos amis ne croiront pas à la qualité du son JBL Pro provenant d'un si petit haut-parleur."
-        },
-        {
-            "image": "./img/blog/blog2.webp",
-            "header": "Jusqu'à 7 heures d'autonomie plus 2 heures avec Playtime Boost",
-            "text": "Ne vous inquiétez pas des détails mineurs comme la recharge de la batterie. Le JBL Go 4 offre jusqu'à 7 heures d'autonomie avec une seule charge. Appuyez simplement sur Playtime Boost pour prolonger l'autonomie, ajoutant jusqu'à 2 heures supplémentaires. Ajustez et optimisez les performances pour un son plus fort et plus clair."
-        },
-        {
-            "image": "./img/blog/blog3.webp",
-            "header": "Étanche et résistant à la poussière",
-            "text": "Le JBL Go 4, avec sa certification IP67 étanche et résistant à la poussière, garantit que ce haut-parleur portable peut affronter presque tous les environnements, d'une fête à la piscine à un pique-nique au bord de la mer."
         }
     ]
 }

@@ -36,10 +36,21 @@ header {
 
 .logo {
     fill: #fff;
+    color: #fff;
+    height: 5rem;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
 }
 
 .logo img {
     width: 100%;
+}
+
+.logo span {
+    margin: 0 0 12px 2px;
 }
 
 .header__icon-svg {
@@ -50,7 +61,7 @@ header {
 .shipping-promo {
     padding: .5rem;
     font-weight: 600;
-    color: #000;
+    color: #fff;
     text-transform: uppercase;
     text-align: center;
     background-color: variables.$header-additional-background-color;
