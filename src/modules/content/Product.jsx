@@ -42,7 +42,7 @@ export default function Product({ product, setProduct }) {
             </div>
 
             <Slider slidesToShow={product.slider}></Slider>
-            <Timer startTime={3} setsAmount={4}></Timer>
+            <Timer startTime={5} setsAmount={4}></Timer>
             <div className="product__info container">
                 <div className="product__features">
                     <ul>

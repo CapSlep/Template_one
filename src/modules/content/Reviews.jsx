@@ -58,8 +58,21 @@ export default function Reviews() {
                                 </div>
                                 <div className="comment__text">
                                     {comment.text}
-                                    {comment.image ? (
-                                        <img src={comment.image} alt=""></img>
+                                    {comment.images ? (
+                                        <div className="comment__image-wrapper">
+                                            {comment.images.map(
+                                                (image, index) => {
+                                                    return (
+                                                        <img
+                                                            className="comment__image"
+                                                            key={index}
+                                                            src={image}
+                                                            alt="review"
+                                                        ></img>
+                                                    );
+                                                }
+                                            )}
+                                        </div>
                                     ) : null}
                                 </div>
                                 <ul className="comment__actions">

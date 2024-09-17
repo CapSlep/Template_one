@@ -3,6 +3,7 @@ import { useData } from "../../DataContext"; // Import the custom hook
 export default function BuyButton({
     buyHandler = null,
     buttonType = "button",
+    product = null,
 }) {
     const data = useData(); // Access data from the context
     return (
@@ -12,7 +13,8 @@ export default function BuyButton({
                 onClick={buyHandler}
                 className="buy__button"
             >
-                {data.buyButtonText}
+                {data.buyButtonText}{" "}
+                {product ? "(" + product.newPrice + ")" : null}
             </button>
         </div>
     );

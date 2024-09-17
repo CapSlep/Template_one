@@ -82,6 +82,7 @@ h5,
 h6 {
   font-weight: inherit;
   font-size: inherit;
+  text-wrap: balance;
 }
 
 body.lock {
@@ -535,9 +536,18 @@ header {
   line-height: 16px;
 }
 
-.comment__text img {
-  width: 100%;
-  padding: 5px 5px 5px 0;
+.comment__image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px 0;
+}
+
+.comment__image {
+  max-height: 300px;
+  width: initial;
+  max-width: 100%;
 }
 
 .comment__actions {

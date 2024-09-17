@@ -1,10 +1,10 @@
 {
     "zeroPrice": "$0.00",
-    "pageTitle": "Amazfit Bip U Pro",
+    "pageTitle": " Clara Leche Deslactosada - 1 pack x 12 Unidades de 1 L /c.u.",
     "footerText": "© 1996-2024, Amazon.com, Inc. o sus afiliados",
-    "buyButtonText": "OBTENER DESCUENTO",
-    "startupPopText": "En honor al aniversario de la marca Amazfit en México, disfruta de un 75% de descuento en los Amazfit Bip U Pro en la tienda en línea Amazon.",
-    "startupPopTextSecondPart": "¡La oferta es válida solo hasta el final de esta semana!",
+    "buyButtonText": "COMPRAR AHORA",
+    "startupPopText": "Después de la ruptura de un contrato con una gran cadena de tiendas en México, nos vemos obligados a liquidar nuestros inventarios.",
+    "startupPopTextSecondPart": "¡Esta semana aprovecha un 85% de descuento en Santa Clara Leche Deslactosada - 1 pack x 12 Unidades de 1 L /c.u.!",
     "startupPopButton": "OBTENER DESCUENTO",
     "reviewsHeader": "Opiniones",
     "reviewValidation": "Opinión verificada",
@@ -18,9 +18,9 @@
         "priceMonthes": "por 3 meses",
         "priceMonthesZones": "todas las zonas",
         "productFeatures": [
-            "El Amazfit Bip U Pro pesa solo 31 gramos, lo que lo hace extremadamente cómodo para llevar incluso durante actividades intensas.",
-            "Ofrece hasta 9 días de uso continuo con una sola carga, permitiendo disfrutar de viajes o rutinas largas sin preocuparse por recargar.",
-            "El reloj permite un seguimiento detallado de la frecuencia cardíaca, niveles de oxígeno en la sangre, calidad del sueño, y mucho más para un control integral de la salud."
+            "La leche es 100% pura de vaca y mantiene sus propiedades naturales gracias a un exclusivo proceso de ultra pasteurización con vapor.",
+            "El envase innovador protege la leche de la luz y el oxígeno, preservando su calidad.",
+            "Contiene vitaminas A y D, esenciales para la salud."
         ],
         "productBenef": "¡Por un México más limpio y verde!",
         "productAvailabillity": "En stock. Entrega estimada en 3 a 4 días hábiles.",
@@ -34,106 +34,157 @@
         {
             "avatar": "./img/comments/av1.png",
             "name": "Carlos Hernández",
-            "text": "¡Estoy muy feliz con este reloj! En comparación con marcas más caras, ¡este tiene una mejor relación calidad-precio! Lo he usado en la cinta de correr más veces de las que puedo contar, y realmente funciona basándose en mis pasos, rastreando perfectamente mi actividad en la cinta. Hice 5 horas de natación con los niños y funcionó impecablemente en el agua, ¡registrando todo! Hace unos días fui a mi lugar habitual de correr al aire libre, y vivo en el campo, así que mis relojes nunca son precisos porque pierden la señal, ¡pero este reloj rastreó mi ruta PERFECTAMENTE sin fallas ni errores! ¡Sin duda, el mejor reloj de fitness que he tenido! Es bastante fácil de usar y tiene muchas funciones excelentes. Además, la duración de la batería es impresionante; simplemente lo pongo a cargar mientras me ducho y se carga muy rápido. ¡No tengo que esperar mucho para que esté listo!",
+            "text": "El producto llegó en perfectas condiciones, no viene empacado en caja ya que como tal viene en cajas las leches, tiene un lapso de caducidad de 5 meses, por lo que esta excelente, tenía mis dudas al pedir ese tipo de productos",
             "likes": "31",
             "hours": "7h",
             "likeText": "me gusta",
             "comment": "comentar",
-            "image": "./img/comments/u1.jpg"
+            "images": [
+                "./img/comments/u1.jpg"
+            ]
         },
         {
             "avatar": "./img/comments/av2.png",
             "name": "Ximena Rodríguez",
-            "text": "Por el precio, este es un excelente reloj inteligente. Solo me interesa ver la hora y poder ver los mensajes de texto en tiempo real. Se emparejó fácil y rápidamente con mi teléfono, ofrece varias opciones para el estilo de la esfera y me permite controlar el volumen de la música desde el reloj. Es resistente al agua y se ajusta muy bien a mi pequeña muñeca, pero también se adapta perfectamente a muñecas más grandes, ya que yo uso el agujero más pequeño.",
+            "text": "Esta marca es de las mejores, el saber es bueno. Suelo comprar acá porque el envío a domicilio es más rápido y los empaques llegan bien, sin derrames o golpes",
             "likes": "12",
             "hours": "3h",
             "likeText": "me gusta",
             "comment": "comentar",
-            "image": "./img/comments/u2.jpg"
+            "images": [
+                "./img/comments/u2.jpg"
+            ]
         },
         {
             "avatar": "./img/comments/av3.png",
             "name": "María López",
-            "text": "He tenido un Apple Watch, Fitbit Versa, Amazfit Bip 3, y este reloj, y de todos, ¡este ha sido mi favorito! Me encanta la Alexa integrada y las funciones de seguimiento, y siempre reviso el clima. No uso todas las aplicaciones adicionales que tiene un Apple Watch, que realmente no necesito, y la batería del Versa se agotaba muy rápido. Honestamente, alterno entre el Bip 3 y este, pero uso este siempre que puedo porque ¡me gusta mucho más!",
+            "text": "Definitivamente es leche 🥛 Estoy muy contento de haber aprovechado este mega descuento. Al principio dudaba de que fuera cierto, pero resultó todo bien. La entrega tardó 5 días.",
             "likes": "4",
             "hours": "3h",
             "likeText": "me gusta",
             "comment": "comentar",
-            "image": "./img/comments/u3.jpg"
+            "images": [
+                "./img/comments/u3.jpg",
+                "./img/comments/u3-2.jpg"
+            ]
         },
         {
             "avatar": "./img/comments/av4.png",
             "name": "Alejandro Martínez",
-            "text": "Gran valor. No he tenido ningún problema hasta ahora. Es definitivamente resistente al agua. Es cómodo de usar y fácil de mantener limpio. No necesito cargarlo todas las noches. La batería dura al menos 2-3 días y no tarda mucho en cargarse. Diría que es una mejora con respecto a mi Apple Watch.",
+            "text": "Execelente calidad y precio",
             "likes": "12",
             "hours": "1h",
             "likeText": "me gusta",
-            "comment": "comentar"
+            "comment": "comentar",
+            "images": [
+                "./img/comments/u4.jpg"
+            ]
         },
         {
             "avatar": "./img/comments/av5.png",
             "name": "Camila Hernández",
-            "text": "Fue una excelente compra es pequeño y se adapta a la mano para cargarlo con facilidad tiene muchas funciones, como contar los pasos, medir la oxigenación, cuenta los latidos del corazón y emite alertas cuando algo está mal, es muy útil para hacer ejercicio, la batería tiene larga duración.",
+            "text": "Lo que a mi me preocupaba es que caduque pronto, pero no, llega muy bien. Me gusta santa clara",
             "likes": "6",
             "hours": "1d",
             "likeText": "me gusta",
-            "comment": "comentar"
+            "comment": "comentar",
+            "images": [
+                "./img/comments/u5.jpg"
+            ]
+        },
+        {
+            "avatar": "./img/comments/av6.png",
+            "name": "Valeria Martínez",
+            "text": "El producto es muy bueno, les recomiendo la compra recurrente, con eso se pueden ahorrar el 85%, el problema es con la transportación, últimamente nos ha estado llegando golpeado, esperemos lo puedan solucionar.",
+            "likes": "6",
+            "hours": "1d",
+            "likeText": "me gusta",
+            "comment": "comentar",
+            "image": "./img/comments/u6.jpg"
         }
     ],
     "description": {
         "descriptionTitle": "Descripción técnica",
-        "descriptionTextMain": "El Amazfit Bip U Pro es un reloj inteligente ultraligero que pesa solo 31 gramos, ideal para quienes buscan comodidad durante su actividad física diaria. Ofrece hasta 9 días de batería con una sola carga y cuenta con GPS integrado para un seguimiento preciso del ejercicio, además de funciones avanzadas de monitoreo de salud como frecuencia cardíaca, niveles de oxígeno en sangre y calidad del sueño. Es un excelente compañero para quienes desean estar al tanto de su bienestar mientras reciben notificaciones inteligentes y controlan su música desde la muñeca.",
+        "descriptionTextMain": "Comenzó en 1924 siendo un establo que hospedaba 17 vacas. A cargo de la familia Conde Gómez, en Pachuca, Hidalgo, la dedicación y el esfuerzo fueron clave en esta historia de inspiración.",
         "descriptionTable": [
             {
-                "tableTitle": "Información general del producto",
+                "tableTitle": "Especificaciones técnicas",
                 "tableRows": [
                     {
-                        "rowTitle": "Sistema operativo",
-                        "rowText": "Amazfit OS"
+                        "rowTitle": "Volumen",
+                        "rowText": "12 Litros"
                     },
                     {
-                        "rowTitle": "Características especiales",
-                        "rowText": "Rastreador multideporte"
-                    },
-                    {
-                        "rowTitle": "Tecnología de conectividad",
-                        "rowText": "Bluetooth"
-                    },
-                    {
-                        "rowTitle": "Estándar de comunicación inalámbrica",
-                        "rowText": "Bluetooth"
-                    },
-                    {
-                        "rowTitle": "Composición de las celdas de batería",
-                        "rowText": "Polímero de Litio"
-                    },
-                    {
-                        "rowTitle": "GPS",
-                        "rowText": "GPS habilitado"
-                    },
-                    {
-                        "rowTitle": "Forma",
-                        "rowText": "Cuadrado"
-                    },
-                    {
-                        "rowTitle": "Tamaño de la pantalla",
-                        "rowText": "1,43 Pulgadas"
+                        "rowTitle": "País de origen",
+                        "rowText": "mx"
                     },
                     {
                         "rowTitle": "Marca",
-                        "rowText": "Amazfit"
+                        "rowText": "Santa Clara"
                     },
                     {
-                        "rowTitle": "Nombre del modelo",
-                        "rowText": "Amazfit Smartwatch"
+                        "rowTitle": "Tipo de envase",
+                        "rowText": "Caja"
+                    },
+                    {
+                        "rowTitle": "Fabricante",
+                        "rowText": "Santa Clara Mercantil de Pachuca"
+                    },
+                    {
+                        "rowTitle": "Número de modelo del producto",
+                        "rowText": "Leche Santa Clara Deslactosada 1lt"
+                    },
+                    {
+                        "rowTitle": "Unidades",
+                        "rowText": "12000 mililitro"
+                    },
+                    {
+                        "rowTitle": "Dimensiones del producto",
+                        "rowText": "29,4 x 19,5 x 26 cm; 13,09 kg"
+                    },
+                    {
+                        "rowTitle": "Ingredientes",
+                        "rowText": "Leche deslactosada de vaca con vitaminas A y D"
+                    },
+                    {
+                        "rowTitle": "Porción",
+                        "rowText": "240 ml"
+                    },
+                    {
+                        "rowTitle": "Contenido energético",
+                        "rowText": "121.10 kcal"
+                    },
+                    {
+                        "rowTitle": "Proteína",
+                        "rowText": "7.2 g"
+                    },
+                    {
+                        "rowTitle": "Grasas",
+                        "rowText": "4.32 g"
+                    },
+                    {
+                        "rowTitle": "Carbohidratos",
+                        "rowText": "13.44 g"
+                    },
+                    {
+                        "rowTitle": "Azúcar",
+                        "rowText": "10.75 g"
+                    },
+                    {
+                        "rowTitle": "Sodio",
+                        "rowText": "125.76 mg"
+                    },
+                    {
+                        "rowTitle": "Peso del producto",
+                        "rowText": "13,1 Kilograms"
                     }
                 ]
             }
         ]
     },
     "timer": {
-        "timerSetsStart": "Su lugar en la fila para la compra está reservado durante",
-        "timerSetsEnd": "minutos, apúrate."
+        "timerSetsStart": "El producto casi se ha agotado. Tu turno para la compra está reservado por",
+        "timerSetsEnd": "minutos."
     },
     "checkout": {
         "countryCode": "mx",
@@ -166,10 +217,10 @@
     },
     "products": [
         {
-            "productName": "Amazfit Bip U Pro",
+            "productName": " Clara Leche Deslactosada - 1 pack x 12 Unidades de 1 L /c.u.",
             "productImage": "./img/slides/slide_1/s1.jpg",
-            "newPrice": "$207.00",
-            "oldPrice": "$842.90",
+            "newPrice": "$40",
+            "oldPrice": "$330.90",
             "sliderName": "black",
             "sliderSelectorIcon": "./img/slides/black.jpg",
             "slider": [
@@ -178,10 +229,7 @@
                 "./img/slides/slide_1/s3.jpg",
                 "./img/slides/slide_1/s4.jpg",
                 "./img/slides/slide_1/s5.jpg",
-                "./img/slides/slide_1/s6.jpg",
-                "./img/slides/slide_1/s7.jpg",
-                "./img/slides/slide_1/s8.jpg",
-                "./img/slides/slide_1/s9.jpg"
+                "./img/slides/slide_1/s6.jpg"
             ]
         }
     ]

@@ -10,7 +10,7 @@ export default function Main({ product, setProduct, buyHandler }) {
             <Product product={product} setProduct={setProduct}></Product>
             <Description></Description>
             <Reviews></Reviews>
-            <BuyButton buyHandler={buyHandler}></BuyButton>
+            <BuyButton buyHandler={buyHandler} product={product}></BuyButton>
         </main>
     );
 }
