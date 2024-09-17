@@ -30,6 +30,22 @@
             "Soporte de por vida"
         ]
     },
+    "notifications": [
+        {
+            "img": "./img/slides/slide_1/s1.jpg",
+            "location": "Ciudad de México, México",
+            "name": "Juan Pérez",
+            "text": "Acabo de comprar un paquete de paquete de leche sin lactosa de Clara para",
+            "from": "de"
+        },
+        {
+            "img": "./img/slides/slide_1/s1.jpg",
+            "location": "Guadalajara, México",
+            "name": "María López",
+            "text": "Acabo de comprar un paquete de paquete de leche sin lactosa de Clara para",
+            "from": "de"
+        }
+    ],
     "comments": [
         {
             "avatar": "./img/comments/av1.png",

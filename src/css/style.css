@@ -545,7 +545,7 @@ header {
 }
 
 .comment__image {
-  max-height: 300px;
+  max-height: 270px;
   width: initial;
   max-width: 100%;
 }
@@ -976,6 +976,60 @@ header {
   display: flex;
   gap: 0.5rem;
   align-items: baseline;
+}
+
+/* ============================================================ NOTIFIcATIONS BLOCK ============================================================ */
+.notification__wrapper {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px 5px #d3d3d3;
+  transition: all 2s ease;
+  align-items: flex-start;
+  z-index: 20;
+}
+
+@media (max-width: 768px) {
+  .notification__wrapper {
+    width: 90%;
+    justify-content: space-between;
+  }
+}
+.notification__panel {
+  font-size: clamp(0.75rem, 0.3rem + 3vw, 1rem);
+  gap: 5px;
+}
+
+.notification__hidden {
+  right: -20rem;
+  opacity: 0;
+}
+
+.notification__shown {
+  right: 1rem;
+  opacity: 1;
+}
+
+.notification__location {
+  text-decoration: underline;
+}
+
+.notification__header,
+.notification__footer {
+  gap: 5px;
+}
+
+.notification__header {
+  font-size: 0.9rem;
+}
+
+.notification__img-wrapper {
+  width: 4rem;
+  height: 4rem;
 }
 
 /* ============================= GENERAL BLOCK ============================= */

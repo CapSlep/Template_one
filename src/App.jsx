@@ -4,6 +4,7 @@ import Footer from "./modules/essentials/Footer";
 import Facebook from "./modules/utilities/Facebook";
 import Checkout from "./modules/Checkout";
 import Main from "./modules/essentials/Main";
+import Notifications from "./modules/utilities/Notifications";
 
 //popups imports
 import PopManager from "./modules/popups/PopManager";
@@ -229,6 +230,7 @@ export default function App() {
 
             <Footer></Footer>
 
+            <Notifications product={product}></Notifications>
             <Facebook></Facebook>
             <PopManager
                 popupTypes={popupsHolder.popupTypes}
