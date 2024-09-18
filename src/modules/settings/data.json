@@ -116,7 +116,9 @@
             "hours": "1d",
             "likeText": "me gusta",
             "comment": "comentar",
-            "image": "./img/comments/u6.jpg"
+            "images": [
+                "./img/comments/u6.jpg"
+            ]
         }
     ],
     "description": {
