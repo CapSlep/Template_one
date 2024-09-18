@@ -65,7 +65,7 @@ export default function App() {
     const [product, setProduct] = useState(data.products[0]);
     const [openCheckout, setOpenCheckout] = useState(false);
 
-    const useForm = true;
+    const useForm = false;
 
     function sendForm() {
         console.log("submit");

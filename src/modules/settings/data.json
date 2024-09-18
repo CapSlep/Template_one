@@ -1,7 +1,7 @@
 {
     "zeroPrice": "$0.00",
     "pageTitle": " Clara Leche Deslactosada - 1 pack x 12 Unidades de 1 L /c.u.",
-    "footerText": "© 1996-2024, Amazon.com, Inc. o sus afiliados",
+    "footerText": "Copyright © 1999-2024 El presente canal de instrucción o ambiente, es operado por DeRemate.Com de México, S. de R.L. de C.V. identificada bajo la marca comercial 'Mercado Libre'. Blvd. Miguel de Cervantes Saavedra 161, Pisos 14 y 15, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX, México",
     "buyButtonText": "COMPRAR AHORA",
     "startupPopText": "Después de la ruptura de un contrato con una gran cadena de tiendas en México, nos vemos obligados a liquidar nuestros inventarios.",
     "startupPopTextSecondPart": "¡Esta semana aprovecha un 85% de descuento en Santa Clara Leche Deslactosada - 1 pack x 12 Unidades de 1 L /c.u.!",
@@ -147,10 +147,6 @@
                         "rowText": "Santa Clara Mercantil de Pachuca"
                     },
                     {
-                        "rowTitle": "Número de modelo del producto",
-                        "rowText": "Leche Santa Clara Deslactosada 1lt"
-                    },
-                    {
                         "rowTitle": "Unidades",
                         "rowText": "12000 mililitro"
                     },
@@ -238,13 +234,15 @@
             "newPrice": "$40",
             "oldPrice": "$330.90",
             "sliderName": "black",
-            "sliderSelectorIcon": "./img/slides/black.jpg",
+            "sliderSelectorIcon": "./img/slides/slide_1/s1.jpg",
             "slider": [
                 "./img/slides/slide_1/s1.jpg",
                 "./img/slides/slide_1/s2.jpg",
                 "./img/slides/slide_1/s3.jpg",
                 "./img/slides/slide_1/s4.jpg",
                 "./img/slides/slide_1/s5.jpg",
+                "./img/slides/slide_1/s7.jpg",
+                "./img/slides/slide_1/s8.jpg",
                 "./img/slides/slide_1/s6.jpg"
             ]
         }
