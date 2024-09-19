@@ -11,6 +11,7 @@
 @use 'description';
 @use 'timer';
 @use 'checkout';
+@use 'notifications';
 
 /* ============================= GENERAL BLOCK ============================= */
 .buy-wrapper {
@@ -21,7 +22,7 @@
     height: 65px;
     background-color: variables.$background-color;
     z-index: 100;
-    // padding: .5rem 1rem;
+    overflow: hidden;
 }
 
 .buy__button {
@@ -31,7 +32,7 @@
     text-transform: uppercase;
     color: variables.$button-text-color;
     font-weight: 600;
-    // border-radius: 50em;
+    overflow: hidden;
 
     &:after {
         background: #fff;
@@ -42,9 +43,7 @@
         position: absolute;
         top: -50px;
         transform: rotate(35deg);
-        // transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
         width: 50px;
-        z-index: 101;
         animation: flash 6s infinite;
     }
 }

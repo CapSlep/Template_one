@@ -6,7 +6,7 @@ header nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: .2rem;
+    padding: .2rem 1rem;
     background-color: variables.$header-background-color;
     gap: 1rem;
 }
@@ -28,6 +28,7 @@ header {
     font-size: variables.$font-size-small;
     align-items: center;
     justify-content: center;
+    fill: #000;
 }
 
 .icon img {
@@ -35,11 +36,22 @@ header {
 }
 
 .logo {
-    fill: #fff;
+    fill: #000;
+    color: #000;
+    height: 5rem;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
 }
 
 .logo img {
     width: 100%;
+}
+
+.logo span {
+    margin: 0 0 12px 2px;
 }
 
 .header__icon-svg {
@@ -71,7 +83,7 @@ header {
     right: -10px;
     color: #fff;
     background: #d42114;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 50%;
     text-align: center;
     font-size: 11px;

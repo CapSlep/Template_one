@@ -1,206 +1,189 @@
 {
-    "zeroPrice": "0,00 €",
-    "pageTitle": "Forfait Navigo 3 mois",
+    "zeroPrice": "$0.00",
+    "pageTitle": "Ariel Detergente En Polvo Ariel Doble Poder, 10 Unidades De 750g",
+    "buyButtonText": "COMPRAR AHORA",
+    "popups": {
+        "startup": {
+            "startupPopText": "Después de la ruptura de un contrato con una gran cadena de tiendas en México, nos vemos obligados a liquidar nuestros inventarios.",
+            "startupPopTextSecondPart": "¡Esta semana aprovecha un 90% de descuento en Ariel Detergente En Polvo Ariel Doble Poder, 10 Unidades De 750g!",
+            "startupPopButton": "OBTENER DESCUENTO"
+        }
+    },
     "header": {
-        "shippingText": "Livraison gratuite jusqu'à la fin de la semaine !"
+        "shippingText": "¡Envío gratuito hasta el fin de la semana!"
     },
+    "footerText": "Copyright © 1999-2024 El presente canal de instrucción o ambiente, es operado por DeRemate.Com de México, S. de R.L. de C.V. identificada bajo la marca comercial 'Mercado Libre'. Blvd. Miguel de Cervantes Saavedra 161, Pisos 14 y 15, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX, México",
     "productSection": {
-        "underHeader": "Voyagez sans limites pendant 3 mois !",
-        "priceMonthes": "par 3 mois",
-        "priceMonthesZones": "toutes zones",
+        "underHeader": "¡Viaja sin límites durante 3 meses!",
+        "priceMonthes": "por 3 meses",
+        "priceMonthesZones": "todas las zonas",
         "productFeatures": [
-            "Économisez sur vos déplacements quotidiens",
-            "Liberté de déplacement adaptée à vos besoins",
-            "Recharge facile et rapide via l'application"
+            "Contra manchas difíciles y de sudor",
+            "Remueve hasta 99% de bacterias en la ropa",
+            "Se disuelve hasta 3 veces más rápido, ayudando a evitar residuos y manchas"
         ],
-        "productBenef": "Pour un Paris plus propre et plus vert !"
+        "productBenef": "¡Por un México más limpio y verde!",
+        "productAvailabillity": "En stock. Entrega estimada en 3 a 4 días hábiles.",
+        "buyReasons": [
+            "Envío gratuito",
+            "Devoluciones gratuitas",
+            "Soporte de por vida"
+        ]
     },
-    "reviewsHeader": "Avis",
-    "reviewValidation": "Avis incité",
-    "reviewPublish": "Publier",
+    "notifications": [
+        {
+            "img": "./img/slides/slide_1/s1.jpg",
+            "location": "Ciudad de México, México",
+            "name": "Juan Pérez",
+            "text": "Acabo de comprar un Ariel Detergente En Polvo Ariel Doble Poder",
+            "from": "de"
+        },
+        {
+            "img": "./img/slides/slide_1/s1.jpg",
+            "location": "Guadalajara, México",
+            "name": "María López",
+            "text": "Acabo de comprar un Ariel Detergente En Polvo Ariel Doble Poder",
+            "from": "de"
+        }
+    ],
+    "reviewsHeader": "Opiniones",
+    "reviewValidation": "Opinión verificada",
+    "reviewPublish": "Publicar",
+    "reviewPlaceholder": "Escribe un comentario...",
     "comments": [
         {
             "avatar": "./img/comments/av1.png",
-            "name": "Linda Smith",
-            "text": "Quelqu'un a-t-il déjà participé et a reçu quelque chose?",
-            "likes": "62",
+            "name": "Carlos Hernández",
+            "text": "Ariel es muy buena marca, lo compre a buen precio y lo volvería comprar",
+            "likes": "31",
             "hours": "7h",
-            "likeText": "aimer",
-            "comment": "commentaire"
+            "likeText": "me gusta",
+            "comment": "comentar"
         },
         {
             "avatar": "./img/comments/av2.png",
-            "name": "Erica Sean",
-            "text": "Oui, un manager m'a contacté aujourd'hui et m'a assuré que la livraison aura lieu dans les 7 prochains jours.En attendant",
-            "likes": "31",
+            "name": "Ximena Rodríguez",
+            "text": "Producto que recomiendo ya que si cumple en quitar manchas y rendidor. Tenía dudas sobre la calidad del producto debido a un descuento tan grande, pero todo está bien. Recibí el pedido en 5 días.",
+            "likes": "12",
             "hours": "3h",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "indent": "one"
+            "likeText": "me gusta",
+            "comment": "comentar",
+            "images": [
+                "./img/comments/u1.jpg"
+            ]
         },
         {
             "avatar": "./img/comments/av3.png",
-            "name": "Harper Jack",
-            "text": "Mon mari a déjà reçu la carte. Merci beaucoup pour la réduction.",
-            "likes": "31",
+            "name": "María López",
+            "text": "Buen precio, calidad y aroma. Llevó 3 veces comprándolo recomendable.",
+            "likes": "4",
             "hours": "3h",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "image": "./img/comments/u1.jpg",
-            "indent": "two"
-        },
-        {
-            "avatar": "./img/comments/logo.png",
-            "name": "Île-de-France Mobilités",
-            "text": "Merci pour vos commentaires, c'est très important pour nous.",
-            "likes": "2",
-            "hours": "1h",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "indent": "one"
-        },
-        {
-            "avatar": "./img/comments/av5.png",
-            "name": "Lera Ruby",
-            "text": "Je n'ai jamais écrit d'avis auparavant, mais cette fois-ci, j'ai décidé de le faire. Je suis allée sur le site, j'ai répondu à trois questions et j'ai passé commande. Six jours plus tard, un responsable m'a contactée, m'a dit qu'il avait vérifié les informations et m'a félicitée pour avoir gagné un forfait de 3 mois. En plus, il m'a informée que le coursier me livrerait le tout le lendemain. J'ai reçu ma carte à temps et j'en suis très satisfaite !",
-            "likes": "162",
-            "hours": "1j",
-            "likeText": "aimer",
-            "comment": "commentaire"
-        },
-        {
-            "avatar": "./img/comments/logo.png",
-            "name": "Île-de-France Mobilités",
-            "text": "Merci pour vos commentaires, c'est très important pour nous.",
-            "likes": "12",
-            "hours": "18h",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "indent": "one"
+            "likeText": "me gusta",
+            "comment": "comentar"
         },
         {
             "avatar": "./img/comments/av4.png",
-            "name": "Alex Smith",
-            "text": "Maintenant je vais le commander:)",
-            "likes": "2",
-            "hours": "5h",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "indent": "two"
-        },
-        {
-            "avatar": "./img/comments/av6.png",
-            "name": "Amy Olivia",
-            "text": "J'ai passé commande et j'attends avec impatience de recevoir ma carte pour 1 mois à 9,99 euros. Est-ce que quelqu'un l'a déjà reçue ?",
-            "likes": "22",
-            "hours": "2j",
-            "likeText": "aimer",
-            "comment": "commentaire"
-        },
-        {
-            "avatar": "./img/comments/logo.png",
-            "name": "Île-de-France Mobilités",
-            "text": "Amy Reilly, nous avons transmis votre demande à notre directeur, qui vous contactera.Merci de nous avoir contactés!",
-            "likes": "5",
-            "hours": "2j",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "indent": "one"
-        },
-        {
-            "avatar": "./img/comments/av9.png",
-            "name": "Adrien Arthur",
-            "text": "Incroyable!",
-            "likes": "10",
+            "name": "Alejandro Martínez",
+            "text": "Buen precio!! Muchas gracias por el descuento. Es una pena que solo se puedan pedir 2 paquetes por persona.",
+            "likes": "12",
             "hours": "1h",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "indent": "two"
+            "likeText": "me gusta",
+            "comment": "comentar",
+            "images": [
+                "./img/comments/u2.jpg"
+            ]
         },
         {
-            "avatar": "./img/comments/av8.png",
-            "name": "Lilian Ziemann",
-            "text": "Voici ce que j'ai",
-            "likes": "5",
-            "hours": "45min",
-            "likeText": "aimer",
-            "comment": "commentaire",
-            "indent": "two",
-            "image": "./img/comments/u2.jpg"
+            "avatar": "./img/comments/av5.png",
+            "name": "Camila Hernández",
+            "text": "Deja la ropa muy limpia y el olor es lo mejor",
+            "likes": "6",
+            "hours": "1d",
+            "likeText": "me gusta",
+            "comment": "comentar"
         }
     ],
-    "footerText": "Île-de-France Mobilités vous accompagne dans tous vos déplacements en Île-de-France. Au cœur du réseau de transports franciliens, nous fédérons tous les acteurs (voyageurs, élus, constructeurs, transporteurs, gestionnaires d’infrastructures…), investissons et innovons pour améliorer le service rendu aux voyageurs.",
-    "buyButtonText": "Commander maintenant (9,99 €)",
-    "startupPopText": "Participez à notre initiative pour réduire les émissions de CO2 et améliorer la qualité de l'air en Île-de-France. ",
-    "startupPopTextSecondPart": "Obtenez un Forfait Navigo 3 mois -Toutes zones 1 à 5 pour seulement 9,99 € !",
-    "startupPopButton": "Profiter de la réduction",
     "description": {
-        "descriptionPromtOne": "Le nombre de cartes à prix promotionnel est limité.",
-        "descriptionPromtTwo": "La création et la livraison de la carte prennent entre 3 et 5 jours."
+        "descriptionTitle": "Descripción técnica",
+        "descriptionTextMain": "Remueve manchas difíciles y de sudor con el nuevo Ariel Doble Poder. Su fórmula mejorada se disuelve hasta 3 veces más rápido y brinda una limpieza profunda removiendo hasta 99% de bacterias en la ropa.",
+        "descriptionTable": [
+            {
+                "tableTitle": "Especificaciones técnicas",
+                "tableRows": [
+                    {
+                        "rowTitle": "Nombre del producto",
+                        "rowText": "Detergente en Polvo Ariel Doble Poder 7.5kg, 10 unidades de 750g"
+                    },
+                    {
+                        "rowTitle": "Peso",
+                        "rowText": "750 Gramos"
+                    },
+                    {
+                        "rowTitle": "Unidades",
+                        "rowText": "7500 gramo"
+                    },
+                    {
+                        "rowTitle": "Marca",
+                        "rowText": "Ariel"
+                    },
+                    {
+                        "rowTitle": "Formato",
+                        "rowText": "Polvo"
+                    }
+                ]
+            }
+        ]
     },
     "timer": {
-        "timerSetsStart": "Votre place dans la file d'attente pour l'achat est réservée pendant",
-        "timerSetsEnd": "minutes, dépêchez-vous."
+        "timerSetsStart": "El producto casi se ha agotado. Tu turno para la compra está reservado por",
+        "timerSetsEnd": "minutos."
     },
     "checkout": {
-        "countryCode": "fr",
-        "countryPhone": "33",
+        "countryCode": "mx",
+        "countryPhone": "52",
         "delivery": {
-            "title": "Livraison",
-            "city": "Ville",
-            "address": "Adresse de livraison",
-            "postcode": "Code postal"
+            "title": "Entrega",
+            "city": "Ciudad",
+            "address": "Dirección de entrega",
+            "postcode": "Código postal"
         },
         "info": {
-            "title": "Informations personnelles",
-            "firstName": "Prénom",
-            "lastName": "Nom",
-            "phone": "Numéro de téléphone",
-            "email": "Adresse e-mail"
+            "title": "Información personal",
+            "firstName": "Nombre",
+            "lastName": "Apellido",
+            "phone": "Número de teléfono",
+            "email": "Correo electrónico"
         },
         "payment": {
-            "title": "Moyens de paiement",
-            "text": "Paiement en ligne par carte de crédit"
+            "title": "Métodos de pago",
+            "text": "Pago en línea con tarjeta de crédito"
         },
         "summary": {
-            "title": "Détails de la commande",
-            "deliveryTime": "Délai de livraison",
-            "deliveryDays": "3 jours",
-            "subtotal": "Sous-total",
-            "deliveryAmountTitle": "Livraison",
+            "title": "Detalles del pedido",
+            "deliveryTime": "Tiempo de entrega",
+            "deliveryDays": "3 días",
+            "subtotal": "Subtotal",
+            "deliveryAmountTitle": "Entrega",
             "total": "Total"
         }
     },
     "products": [
         {
-            "productName": "Forfait Navigo 3 mois - Toutes zones 1 à 5",
-            "productImage": "./img/products/productImg.png",
-            "newPrice": "9,99 €",
+            "productName": "Ariel Detergente En Polvo Ariel Doble Poder, 10 Unidades De 750g",
+            "productImage": "./img/products/offer.png",
+            "newPrice": "$40",
+            "oldPrice": "$330.90",
             "sliderName": "black",
-            "sliderSelectorIcon": "./img/slides/black.jpg",
+            "sliderSelectorIcon": "./img/slides/slide_1/s1.jpg",
             "slider": [
-                "./img/slides/slide_1/slide-1-1.webp",
-                "./img/slides/slide_1/1-fr.png",
-                "./img/slides/slide_1/2-fr.png",
-                "./img/slides/slide_1/3-fr.png"
+                "./img/slides/slide_1/s1.jpg",
+                "./img/slides/slide_1/s2.jpg",
+                "./img/slides/slide_1/s3.jpg",
+                "./img/slides/slide_1/s4.jpg",
+                "./img/slides/slide_1/s5.jpg",
+                "./img/slides/slide_1/s6.jpg",
+                "./img/slides/slide_1/s7.jpg"
             ]
-        }
-    ],
-    "blogs": [
-        {
-            "image": "./img/blog/blog1.webp",
-            "header": "Son JBL Pro ultra-portable avec des basses plus puissantes",
-            "text": "Ne vous laissez pas tromper par la petite taille. Le JBL Go 4 offre un son JBL Pro impressionnant avec des basses puissantes. Vos amis ne croiront pas à la qualité du son JBL Pro provenant d'un si petit haut-parleur."
-        },
-        {
-            "image": "./img/blog/blog2.webp",
-            "header": "Jusqu'à 7 heures d'autonomie plus 2 heures avec Playtime Boost",
-            "text": "Ne vous inquiétez pas des détails mineurs comme la recharge de la batterie. Le JBL Go 4 offre jusqu'à 7 heures d'autonomie avec une seule charge. Appuyez simplement sur Playtime Boost pour prolonger l'autonomie, ajoutant jusqu'à 2 heures supplémentaires. Ajustez et optimisez les performances pour un son plus fort et plus clair."
-        },
-        {
-            "image": "./img/blog/blog3.webp",
-            "header": "Étanche et résistant à la poussière",
-            "text": "Le JBL Go 4, avec sa certification IP67 étanche et résistant à la poussière, garantit que ce haut-parleur portable peut affronter presque tous les environnements, d'une fête à la piscine à un pique-nique au bord de la mer."
         }
     ]
 }

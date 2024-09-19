@@ -82,6 +82,7 @@ h5,
 h6 {
   font-weight: inherit;
   font-size: inherit;
+  text-wrap: balance;
 }
 
 body.lock {
@@ -122,8 +123,8 @@ header nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.2rem;
-  background-color: #25303B;
+  padding: 0.2rem 1rem;
+  background-color: #FFE600;
   gap: 1rem;
 }
 
@@ -144,6 +145,7 @@ header {
   font-size: clamp(0.75rem, 0.3rem + 3vw, 1rem);
   align-items: center;
   justify-content: center;
+  fill: #000;
 }
 
 .icon img {
@@ -151,11 +153,22 @@ header {
 }
 
 .logo {
-  fill: #fff;
+  fill: #000;
+  color: #000;
+  height: 5rem;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.5rem;
 }
 
 .logo img {
   width: 100%;
+}
+
+.logo span {
+  margin: 0 0 12px 2px;
 }
 
 .header__icon-svg {
@@ -169,7 +182,7 @@ header {
   color: #000;
   text-transform: uppercase;
   text-align: center;
-  background-color: #fff;
+  background-color: #00BBFF;
   font-size: clamp(0.75rem, 0.3rem + 3vw, 1rem);
 }
 
@@ -187,7 +200,7 @@ header {
   right: -10px;
   color: #fff;
   background: #d42114;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   border-radius: 50%;
   text-align: center;
   font-size: 11px;
@@ -273,68 +286,46 @@ header {
 }
 
 /* ============================= PRODUCT BLOCK ============================= */
-.stars__box {
-  align-items: center;
-  gap: 0.5rem;
-}
-
 .product__stars {
   display: flex;
   align-items: center;
   overflow: hidden;
   white-space: nowrap;
   padding-right: 1em;
-  gap: 0.5rem;
+  gap: 2px;
 }
 
 .product__stars img {
-  height: 1.5rem;
-}
-
-.product__stars-text {
-  font-size: clamp(1.5rem, 0.3rem + 3.5vw, 2rem);
-  font-weight: 700;
+  width: auto;
+  height: auto;
 }
 
 .product__info {
-  gap: 1.5rem;
-  margin: 0 auto;
   justify-content: space-between;
+  padding: 1rem;
   background-color: #fff;
 }
 
 .product__price-block {
   text-wrap: nowrap;
-  align-items: flex-end;
-  gap: 0.4rem;
+  gap: 10px;
 }
 
 .product__title-block {
   align-items: flex-end;
 }
 
-.product__title-element {
-  gap: 1.5rem;
-}
-
-.product__tile-icons {
-  gap: 1.25rem;
-}
-
-.product__tile-icon {
-  max-width: 30px;
-  max-height: 30px;
+.product__price-block {
+  align-items: center;
 }
 
 .product__name {
   font-weight: 700;
-  font-size: clamp(2rem, 0.3rem + 3.5vw, 3rem);
-  text-transform: capitalize;
+  font-size: clamp(0.75rem, 0.3rem + 3vw, 1rem);
 }
 
 .product__title-reviews-amount {
-  text-transform: uppercase;
-  color: #616161;
+  color: #0066B4;
   font-size: clamp(0.75rem, 0.3rem + 3vw, 1rem);
 }
 
@@ -345,11 +336,12 @@ header {
 
 .price-new {
   font-size: clamp(1.5rem, 0.3rem + 3.5vw, 2rem);
-  color: #000;
+  color: red;
   font-weight: 600;
 }
 
 .product__features {
+  padding: 1rem;
   font-size: clamp(0.75rem, 0.3rem + 3vw, 1rem);
 }
 
@@ -368,19 +360,12 @@ header {
 }
 
 .product__features li::before {
-  display: none;
+  content: url(./img/icons/plus.svg);
 }
 
 .product__availability {
-  align-items: center;
-  justify-content: center;
-  gap: 0.7rem;
-  text-transform: uppercase;
   color: #127840;
-}
-
-.product__availability-img {
-  width: 10rem;
+  padding: 0.5rem 0;
 }
 
 .product__buy-reason {
@@ -395,26 +380,6 @@ header {
 
 .product__buy-reason span {
   width: 100%;
-}
-
-.product__block {
-  background: #fff;
-  border-radius: 1.5rem;
-  box-shadow: 0 0.2rem 1rem #deeeff;
-  padding: 2rem 1.5rem;
-  margin: 1rem auto;
-  align-items: start;
-  gap: 1.5rem;
-}
-
-.product__name-under {
-  font-size: clamp(0.75rem, 0.3rem + 2.5vw, 0.95rem);
-  color: #575757;
-}
-
-.product__price-zones {
-  font-size: clamp(0.75rem, 0.3rem + 2.5vw, 0.95rem);
-  color: #575757;
 }
 
 /* ============================= BLOG BLOCK ============================= */
@@ -572,9 +537,18 @@ header {
   line-height: 16px;
 }
 
-.comment__text img {
-  width: 100%;
-  padding: 5px 5px 5px 0;
+.comment__image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px 0;
+}
+
+.comment__image {
+  max-height: 270px;
+  width: initial;
+  max-width: 100%;
 }
 
 .comment__actions {
@@ -640,18 +614,17 @@ header {
   flex-direction: column;
   gap: 1rem;
   padding: 1rem 1rem 5rem;
-  background-color: #25303B;
-  color: #fff;
+  background-color: #FFE600;
+  color: #000;
 }
 
 .footer__logo-wrapper {
   height: 3rem;
   fill: #000;
-  text-align: start;
+  text-align: center;
 }
 
 .footer__logo-wrapper img {
-  padding-left: 1rem;
   width: initial;
 }
 
@@ -663,7 +636,7 @@ header {
 
 .footer__text {
   font-size: clamp(0.75rem, 0.3rem + 2.5vw, 0.95rem);
-  color: #cbcbcb;
+  color: #000;
 }
 
 /* ============================= POPS BLOCK ============================= */
@@ -677,8 +650,8 @@ header {
   background: rgba(0, 0, 0, 0.5);
   z-index: 1000;
   will-change: opacity, transform;
-  width: 104vw;
-  height: 104vh;
+  width: 104%;
+  height: 104%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -689,6 +662,7 @@ header {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
 }
 
 /* Ensure it stays centered during the initial render */
@@ -737,7 +711,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 20rem;
+  width: 90%;
+  max-width: 425px;
   gap: 10px;
 }
 
@@ -759,42 +734,66 @@ header {
   margin-top: 1rem;
   padding: 1rem 0.5rem;
   border-radius: 50em;
-  background-color: #1972D2;
-  color: #fff;
+  background-color: #00BBFF;
+  color: #000;
   font-weight: 600;
 }
 
 .startup__accept:hover {
-  background-color: #211DB6;
+  background-color: #009dd6;
 }
 
 /* ============================= DESCRIPTION BLOCK ============================= */
+.table {
+  position: relative;
+  border-collapse: separate;
+  border-spacing: 0 4px;
+  width: 100%;
+}
+
+.table__head {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  padding: 16px 8px;
+  text-align: left;
+}
+
+.table__body .table__row .table__cell[scope=row] {
+  background-color: #e4e7eb;
+  border-radius: 4px 0 0 4px;
+  width: 30%;
+}
+
+.table__body .table__row .table__cell:nth-child(2) {
+  border-radius: 0 4px 4px 0;
+  width: 70%;
+}
+
+.table__body .table__row .table__cell {
+  background-color: #f2f3f5;
+}
+
+.table__cell {
+  padding: 8px;
+  text-align: left;
+}
+
+.description__title {
+  font-weight: 600;
+  font-size: clamp(1.5rem, 0.3rem + 3.5vw, 2rem);
+}
+
 .description {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
-  padding: 1rem 0;
+  padding: 1rem 1rem 0;
 }
 
-.description__prompt {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  font-size: clamp(0.75rem, 0.3rem + 3vw, 1rem);
-}
-
-.description__prompt img {
-  max-width: 30px;
-}
-
-.description__content {
-  gap: 1rem;
-  margin: 0 auto;
-}
-
-.description__image {
-  margin-top: 2rem;
+.descriptin__text {
+  line-height: 120%;
 }
 
 /* ============================= FOOTER BLOCK ============================= */
@@ -982,6 +981,60 @@ header {
   align-items: baseline;
 }
 
+/* ============================================================ NOTIFIcATIONS BLOCK ============================================================ */
+.notification__wrapper {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px 5px #d3d3d3;
+  transition: all 2s ease;
+  align-items: flex-start;
+  z-index: 20;
+}
+
+@media (max-width: 768px) {
+  .notification__wrapper {
+    width: 90%;
+    justify-content: space-between;
+  }
+}
+.notification__panel {
+  font-size: clamp(0.75rem, 0.3rem + 3vw, 1rem);
+  gap: 5px;
+}
+
+.notification__hidden {
+  right: -20rem;
+  opacity: 0;
+}
+
+.notification__shown {
+  right: 1rem;
+  opacity: 1;
+}
+
+.notification__location {
+  text-decoration: underline;
+}
+
+.notification__header,
+.notification__footer {
+  gap: 5px;
+}
+
+.notification__header {
+  font-size: 0.9rem;
+}
+
+.notification__img-wrapper {
+  width: 4rem;
+  height: 4rem;
+}
+
 /* ============================= GENERAL BLOCK ============================= */
 .buy-wrapper {
   position: fixed;
@@ -991,15 +1044,17 @@ header {
   height: 65px;
   background-color: #fff;
   z-index: 100;
+  overflow: hidden;
 }
 
 .buy__button {
   width: 100%;
   height: 100%;
-  background-color: #1972D2;
+  background-color: #00BBFF;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
   font-weight: 600;
+  overflow: hidden;
 }
 .buy__button:after {
   background: #fff;
@@ -1011,12 +1066,11 @@ header {
   top: -50px;
   transform: rotate(35deg);
   width: 50px;
-  z-index: 101;
   animation: flash 6s infinite;
 }
 
 .buy__button:hover {
-  background-color: #211DB6;
+  background-color: #009dd6;
 }
 
 @keyframes flash {

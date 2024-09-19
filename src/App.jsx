@@ -4,6 +4,7 @@ import Footer from "./modules/essentials/Footer";
 import Facebook from "./modules/utilities/Facebook";
 import Checkout from "./modules/Checkout";
 import Main from "./modules/essentials/Main";
+import Notifications from "./modules/utilities/Notifications";
 
 //popups imports
 import PopManager from "./modules/popups/PopManager";
@@ -25,8 +26,9 @@ function getSubid() {
 
 // Function to send information using a non-blocking AJAX request
 function sendInfo(data) {
-    // Log the data to the console
+    // Log the data to the console for debugging
     console.log("Data being sent:", data);
+
     // Use the fetch API to send the request
     fetch(statsEndpoint, {
         // Replace with your endpoint
@@ -35,12 +37,26 @@ function sendInfo(data) {
             "Content-Type": "application/json",
         },
         body: JSON.stringify(data),
-    }).catch((error) => {
-        console.error("Failed to send info:", error);
-        // Optional: Log error to your server or analytics
-    });
+    })
+        .then((response) => {
+            // Check if the response status is not in the 200 range
+            if (!response.ok) {
+                // Convert response to JSON to inspect error details
+                return response.json().then((errorDetails) => {
+                    throw new Error(
+                        `Server responded with status: ${response.status} - ${
+                            errorDetails.message || "Unknown error"
+                        }`
+                    );
+                });
+            }
+        })
+        .catch((error) => {
+            // Log detailed error message
+            console.error("Failed to send info:", error.message);
+        });
 
-    // Do not wait for the response, proceed with the redirect
+    // Do not wait for the response, proceed with the redirect or other actions
 }
 
 export default function App() {
@@ -49,7 +65,7 @@ export default function App() {
     const [product, setProduct] = useState(data.products[0]);
     const [openCheckout, setOpenCheckout] = useState(false);
 
-    const useForm = true;
+    const useForm = false;
 
     function sendForm() {
         console.log("submit");
@@ -77,10 +93,9 @@ export default function App() {
             subid: getSubid(),
             first_name: firstName,
             last_name: lastName,
-            phone_number: phone,
+            phone_number: phone.length != 9 ? codeCountry + phone : "",
             email: email,
         };
-
         sendInfo(postData);
 
         // Get the redirect link
@@ -215,6 +230,7 @@ export default function App() {
 
             <Footer></Footer>
 
+            <Notifications product={product}></Notifications>
             <Facebook></Facebook>
             <PopManager
                 popupTypes={popupsHolder.popupTypes}
