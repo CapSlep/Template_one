@@ -51,7 +51,8 @@ export default function PopupManager({
         setPopup({ component: popupObject.popupComponent });
     }
 
-    function closePopup() {
+    function closePopup(e) {
+        e.stopPropagation();
         setPopup({ component: null });
     }
 
@@ -64,7 +65,7 @@ export default function PopupManager({
             classNames="popup" // Base class name for CSS transitions
             unmountOnExit // Unmount the component when not in
         >
-            <div className="pop__modal">
+            <div className="pop__modal" onClick={closePopup}>
                 {CurrentPopup ? <CurrentPopup onClose={closePopup} /> : null}
             </div>
         </CSSTransition>

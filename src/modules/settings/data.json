@@ -1,10 +1,10 @@
 {
     "zeroPrice": "$0.00",
-    "pageTitle": " Santa Clara - Leche entera de vaca, 12 Pack de 1 Lt cada uno",
+    "pageTitle": " Santa Clara Leche Deslactosada - 1 pack x 12 Unidades de 1 L /c.u.!",
     "footerText": "Copyright © 1999-2024 El presente canal de instrucción o ambiente, es operado por DeRemate.Com de México, S. de R.L. de C.V. identificada bajo la marca comercial 'Mercado Libre'. Blvd. Miguel de Cervantes Saavedra 161, Pisos 14 y 15, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX, México",
     "buyButtonText": "COMPRAR AHORA",
     "startupPopText": "Después de la ruptura de un contrato con una gran cadena de tiendas en México, nos vemos obligados a liquidar nuestros inventarios.",
-    "startupPopTextSecondPart": "¡Esta semana aprovecha un 85% de descuento en Santa Clara - Leche entera de vaca, 12 Pack de 1 Lt cada uno",
+    "startupPopTextSecondPart": "¡Esta semana aprovecha un 85% de descuento en Santa Clara Leche Deslactosada - 1 pack x 12 Unidades de 1 L /c.u.!",
     "startupPopButton": "OBTENER DESCUENTO",
     "reviewsHeader": "Opiniones",
     "reviewValidation": "Opinión verificada",
@@ -158,7 +158,11 @@
                     },
                     {
                         "rowTitle": "Ingredientes",
-                        "rowText": "Leche entera de vaca, ultrapasteruizada adicionada con vitaminas A y D"
+                        "rowText": "Leche deslactosada de vaca con vitaminas A y D"
+                    },
+                    {
+                        "rowTitle": "Número de modelo del producto",
+                        "rowText": "Leche Santa Clara Deslactosada 1lt"
                     },
                     {
                         "rowTitle": "Porción",
@@ -231,8 +235,8 @@
     },
     "products": [
         {
-            "productName": "Santa Clara - Leche entera de vaca, 12 Pack de 1 Lt cada uno",
-            "productImage": "./img/slides/slide_1/s1.jpg",
+            "productName": " Clara Leche Deslactosada - 1 pack x 12 Unidades de 1 L /c.u.",
+            "productImage": "./img/products/offer.png",
             "newPrice": "$40",
             "oldPrice": "$330.90",
             "sliderName": "black",
