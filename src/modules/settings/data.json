@@ -1,26 +1,26 @@
 {
     "zeroPrice": "$0.00",
-    "pageTitle": " Santa Clara Leche Deslactosada - 1 pack x 12 Unidades de 1 L /c.u.!",
-    "footerText": "Copyright © 1999-2024 El presente canal de instrucción o ambiente, es operado por DeRemate.Com de México, S. de R.L. de C.V. identificada bajo la marca comercial 'Mercado Libre'. Blvd. Miguel de Cervantes Saavedra 161, Pisos 14 y 15, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX, México",
+    "pageTitle": "Ariel Detergente En Polvo Ariel Doble Poder, 10 Unidades De 750g",
     "buyButtonText": "COMPRAR AHORA",
-    "startupPopText": "Después de la ruptura de un contrato con una gran cadena de tiendas en México, nos vemos obligados a liquidar nuestros inventarios.",
-    "startupPopTextSecondPart": "¡Esta semana aprovecha un 85% de descuento en Santa Clara Leche Deslactosada - 1 pack x 12 Unidades de 1 L /c.u.!",
-    "startupPopButton": "OBTENER DESCUENTO",
-    "reviewsHeader": "Opiniones",
-    "reviewValidation": "Opinión verificada",
-    "reviewPublish": "Publicar",
-    "reviewPlaceholder": "Escribe un comentario...",
+    "popups": {
+        "startup": {
+            "startupPopText": "Después de la ruptura de un contrato con una gran cadena de tiendas en México, nos vemos obligados a liquidar nuestros inventarios.",
+            "startupPopTextSecondPart": "¡Esta semana aprovecha un 90% de descuento en Ariel Detergente En Polvo Ariel Doble Poder, 10 Unidades De 750g!",
+            "startupPopButton": "OBTENER DESCUENTO"
+        }
+    },
     "header": {
         "shippingText": "¡Envío gratuito hasta el fin de la semana!"
     },
+    "footerText": "Copyright © 1999-2024 El presente canal de instrucción o ambiente, es operado por DeRemate.Com de México, S. de R.L. de C.V. identificada bajo la marca comercial 'Mercado Libre'. Blvd. Miguel de Cervantes Saavedra 161, Pisos 14 y 15, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX, México",
     "productSection": {
         "underHeader": "¡Viaja sin límites durante 3 meses!",
         "priceMonthes": "por 3 meses",
         "priceMonthesZones": "todas las zonas",
         "productFeatures": [
-            "La leche es 100% pura de vaca y mantiene sus propiedades naturales gracias a un exclusivo proceso de ultra pasteurización con vapor.",
-            "El envase innovador protege la leche de la luz y el oxígeno, preservando su calidad.",
-            "Contiene vitaminas A y D, esenciales para la salud."
+            "Contra manchas difíciles y de sudor",
+            "Remueve hasta 99% de bacterias en la ropa",
+            "Se disuelve hasta 3 veces más rápido, ayudando a evitar residuos y manchas"
         ],
         "productBenef": "¡Por un México más limpio y verde!",
         "productAvailabillity": "En stock. Entrega estimada en 3 a 4 días hábiles.",
@@ -35,24 +35,37 @@
             "img": "./img/slides/slide_1/s1.jpg",
             "location": "Ciudad de México, México",
             "name": "Juan Pérez",
-            "text": "Acabo de comprar un Santa Clara Leche Deslactosada - 1 pack x 12 Unidades de 1 L /c.u.",
+            "text": "Acabo de comprar un Ariel Detergente En Polvo Ariel Doble Poder",
             "from": "de"
         },
         {
             "img": "./img/slides/slide_1/s1.jpg",
             "location": "Guadalajara, México",
             "name": "María López",
-            "text": "Acabo de comprar un Santa Clara Leche Deslactosada - 1 pack x 12 Unidades de 1 L /c.u.",
+            "text": "Acabo de comprar un Ariel Detergente En Polvo Ariel Doble Poder",
             "from": "de"
         }
     ],
+    "reviewsHeader": "Opiniones",
+    "reviewValidation": "Opinión verificada",
+    "reviewPublish": "Publicar",
+    "reviewPlaceholder": "Escribe un comentario...",
     "comments": [
         {
             "avatar": "./img/comments/av1.png",
             "name": "Carlos Hernández",
-            "text": "El producto llegó en perfectas condiciones, no viene empacado en caja ya que como tal viene en cajas las leches, tiene un lapso de caducidad de 5 meses, por lo que esta excelente, tenía mis dudas al pedir ese tipo de productos",
+            "text": "Ariel es muy buena marca, lo compre a buen precio y lo volvería comprar",
             "likes": "31",
             "hours": "7h",
+            "likeText": "me gusta",
+            "comment": "comentar"
+        },
+        {
+            "avatar": "./img/comments/av2.png",
+            "name": "Ximena Rodríguez",
+            "text": "Producto que recomiendo ya que si cumple en quitar manchas y rendidor. Tenía dudas sobre la calidad del producto debido a un descuento tan grande, pero todo está bien. Recibí el pedido en 5 días.",
+            "likes": "12",
+            "hours": "3h",
             "likeText": "me gusta",
             "comment": "comentar",
             "images": [
@@ -60,11 +73,20 @@
             ]
         },
         {
-            "avatar": "./img/comments/av2.png",
-            "name": "Ximena Rodríguez",
-            "text": "Esta marca es de las mejores, el saber es bueno. Suelo comprar acá porque el envío a domicilio es más rápido y los empaques llegan bien, sin derrames o golpes",
-            "likes": "12",
+            "avatar": "./img/comments/av3.png",
+            "name": "María López",
+            "text": "Buen precio, calidad y aroma. Llevó 3 veces comprándolo recomendable.",
+            "likes": "4",
             "hours": "3h",
+            "likeText": "me gusta",
+            "comment": "comentar"
+        },
+        {
+            "avatar": "./img/comments/av4.png",
+            "name": "Alejandro Martínez",
+            "text": "Buen precio!! Muchas gracias por el descuento. Es una pena que solo se puedan pedir 2 paquetes por persona.",
+            "likes": "12",
+            "hours": "1h",
             "likeText": "me gusta",
             "comment": "comentar",
             "images": [
@@ -72,129 +94,41 @@
             ]
         },
         {
-            "avatar": "./img/comments/av3.png",
-            "name": "María López",
-            "text": "Definitivamente es leche 🥛 Estoy muy contento de haber aprovechado este mega descuento. Al principio dudaba de que fuera cierto, pero resultó todo bien. La entrega tardó 5 días.",
-            "likes": "4",
-            "hours": "3h",
-            "likeText": "me gusta",
-            "comment": "comentar",
-            "images": [
-                "./img/comments/u3.jpg",
-                "./img/comments/u3-2.jpg"
-            ]
-        },
-        {
-            "avatar": "./img/comments/av4.png",
-            "name": "Alejandro Martínez",
-            "text": "Execelente calidad y precio",
-            "likes": "12",
-            "hours": "1h",
-            "likeText": "me gusta",
-            "comment": "comentar",
-            "images": [
-                "./img/comments/u4.jpg"
-            ]
-        },
-        {
             "avatar": "./img/comments/av5.png",
             "name": "Camila Hernández",
-            "text": "Lo que a mi me preocupaba es que caduque pronto, pero no, llega muy bien. Me gusta santa clara",
+            "text": "Deja la ropa muy limpia y el olor es lo mejor",
             "likes": "6",
             "hours": "1d",
             "likeText": "me gusta",
-            "comment": "comentar",
-            "images": [
-                "./img/comments/u5.jpg"
-            ]
-        },
-        {
-            "avatar": "./img/comments/av6.png",
-            "name": "Valeria Martínez",
-            "text": "El producto es muy bueno, les recomiendo la compra recurrente, con eso se pueden ahorrar el 85%, el problema es con la transportación, últimamente nos ha estado llegando golpeado, esperemos lo puedan solucionar.",
-            "likes": "6",
-            "hours": "1d",
-            "likeText": "me gusta",
-            "comment": "comentar",
-            "images": [
-                "./img/comments/u6.jpg"
-            ]
+            "comment": "comentar"
         }
     ],
     "description": {
         "descriptionTitle": "Descripción técnica",
-        "descriptionTextMain": "Comenzó en 1924 siendo un establo que hospedaba 17 vacas. A cargo de la familia Conde Gómez, en Pachuca, Hidalgo, la dedicación y el esfuerzo fueron clave en esta historia de inspiración.",
+        "descriptionTextMain": "Remueve manchas difíciles y de sudor con el nuevo Ariel Doble Poder. Su fórmula mejorada se disuelve hasta 3 veces más rápido y brinda una limpieza profunda removiendo hasta 99% de bacterias en la ropa.",
         "descriptionTable": [
             {
                 "tableTitle": "Especificaciones técnicas",
                 "tableRows": [
                     {
-                        "rowTitle": "Volumen",
-                        "rowText": "12 Litros"
+                        "rowTitle": "Nombre del producto",
+                        "rowText": "Detergente en Polvo Ariel Doble Poder 7.5kg, 10 unidades de 750g"
                     },
                     {
-                        "rowTitle": "País de origen",
-                        "rowText": "mx"
-                    },
-                    {
-                        "rowTitle": "Marca",
-                        "rowText": "Santa Clara"
-                    },
-                    {
-                        "rowTitle": "Tipo de envase",
-                        "rowText": "Caja"
-                    },
-                    {
-                        "rowTitle": "Fabricante",
-                        "rowText": "Santa Clara Mercantil de Pachuca"
+                        "rowTitle": "Peso",
+                        "rowText": "750 Gramos"
                     },
                     {
                         "rowTitle": "Unidades",
-                        "rowText": "12000 mililitro"
+                        "rowText": "7500 gramo"
                     },
                     {
-                        "rowTitle": "Dimensiones del producto",
-                        "rowText": "29,4 x 19,5 x 26 cm; 13,09 kg"
+                        "rowTitle": "Marca",
+                        "rowText": "Ariel"
                     },
                     {
-                        "rowTitle": "Ingredientes",
-                        "rowText": "Leche deslactosada de vaca con vitaminas A y D"
-                    },
-                    {
-                        "rowTitle": "Número de modelo del producto",
-                        "rowText": "Leche Santa Clara Deslactosada 1lt"
-                    },
-                    {
-                        "rowTitle": "Porción",
-                        "rowText": "240 ml"
-                    },
-                    {
-                        "rowTitle": "Contenido energético",
-                        "rowText": "121.10 kcal"
-                    },
-                    {
-                        "rowTitle": "Proteína",
-                        "rowText": "7.2 g"
-                    },
-                    {
-                        "rowTitle": "Grasas",
-                        "rowText": "4.32 g"
-                    },
-                    {
-                        "rowTitle": "Carbohidratos",
-                        "rowText": "13.44 g"
-                    },
-                    {
-                        "rowTitle": "Azúcar",
-                        "rowText": "10.75 g"
-                    },
-                    {
-                        "rowTitle": "Sodio",
-                        "rowText": "125.76 mg"
-                    },
-                    {
-                        "rowTitle": "Peso del producto",
-                        "rowText": "13,1 Kilograms"
+                        "rowTitle": "Formato",
+                        "rowText": "Polvo"
                     }
                 ]
             }
@@ -235,7 +169,7 @@
     },
     "products": [
         {
-            "productName": " Clara Leche Deslactosada - 1 pack x 12 Unidades de 1 L /c.u.",
+            "productName": "Ariel Detergente En Polvo Ariel Doble Poder, 10 Unidades De 750g",
             "productImage": "./img/products/offer.png",
             "newPrice": "$40",
             "oldPrice": "$330.90",
@@ -247,9 +181,8 @@
                 "./img/slides/slide_1/s3.jpg",
                 "./img/slides/slide_1/s4.jpg",
                 "./img/slides/slide_1/s5.jpg",
-                "./img/slides/slide_1/s7.jpg",
-                "./img/slides/slide_1/s8.jpg",
-                "./img/slides/slide_1/s6.jpg"
+                "./img/slides/slide_1/s6.jpg",
+                "./img/slides/slide_1/s7.jpg"
             ]
         }
     ]
