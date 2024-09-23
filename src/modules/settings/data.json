@@ -1,11 +1,11 @@
 {
     "zeroPrice": "R 0",
-    "pageTitle": "Coca-Cola Bottles 300ml 4x6 Case",
+    "pageTitle": "Red Bull Energy Drink 250ml (24 pack)",
     "buyButtonText": "BUY NOW",
     "popups": {
         "startup": {
             "startupPopText": "After the termination of a contract with a major retail chain in South Africa, we are forced to liquidate our inventory.",
-            "startupPopTextSecondPart": "This week, take advantage of an 85% discount on the Coca-Cola Bottles 300ml 4x6 Case!",
+            "startupPopTextSecondPart": "This week, take advantage of an 90% discount on the Red Bull Energy Drink 250ml (24 pack)!",
             "startupPopButton": "GET DISCOUNT"
         }
     },
@@ -18,9 +18,9 @@
         "priceMonthes": "for 3 months",
         "priceMonthesZones": "all zones",
         "productFeatures": [
-            "Delicious and refreshing drink, loved worldwide since 1886.",
-            "Perfect for enjoying at home, on the go, or sharing with friends.",
-            "Best served chilled for maximum enjoyment."
+            "Red Bull Energy Drink boosts energy, concentration, and alertness whenever needed.",
+            "Contains high-quality ingredients like caffeine, taurine, B-group vitamins, and alpine spring water.",
+            "The cans are made of 100% recyclable aluminum, making it an eco-friendly choice."
         ],
         "productBenef": "For a cleaner and greener South Africa!",
         "productAvailabillity": "In stock. Estimated delivery in 3 to 4 working days.",
@@ -56,52 +56,67 @@
         {
             "avatar": "./img/comments/av1.png",
             "name": "Denise",
-            "text": "Perfect size for parties. No cups needed. At first, I couldn't believe such a huge discount, but I received my order in 5 days. The expiration date is in 6 months, everything is fine.",
+            "text": "At first, I couldn't believe such a huge discount, but I received my order in 5 days. The expiration date is in 6 months, everything is fine.",
             "likes": "31",
             "hours": "7h",
             "likeText": "like",
-            "comment": "comment"
+            "comment": "comment",
+            "images": [
+                "./img/comments/u1.jpg"
+            ]
         },
         {
             "avatar": "./img/comments/av2.png",
             "name": "Sohana",
-            "text": "Excellent for outdoors and handy for a quick thirst quencher. I’m very happy that I managed to order it with the discount.",
+            "text": "Super super 👌 great for me as a hustler. I’m very happy that I managed to order it with the discount.",
             "likes": "12",
             "hours": "3h",
             "likeText": "like",
-            "comment": "comment"
+            "comment": "comment",
+            "images": [
+                "./img/comments/u2.jpg"
+            ]
         },
         {
             "avatar": "./img/comments/av3.png",
             "name": "Petula",
-            "text": "All ready for the kiddies needing a refresher after their run arounds",
+            "text": "Thanks for the 90% discount and fast delivery 🤩 Red Bull will give you wings!",
             "likes": "4",
             "hours": "3h",
             "likeText": "like",
-            "comment": "comment"
+            "comment": "comment",
+            "images": [
+                "./img/comments/u3.jpg"
+            ]
         },
         {
             "avatar": "./img/comments/av4.png",
             "name": "Qadr",
-            "text": "Thanks for the 85% discount and fast delivery 🤩 I always buy the Original Coca-Cola as I prefer my drinks without the added sweetners. Natural sugar all the way, just limited intake.",
+            "text": "a really good deal price wise, happy with the purchase and speed of delivery.",
             "likes": "11",
             "hours": "1h",
             "likeText": "like",
-            "comment": "comment"
+            "comment": "comment",
+            "images": [
+                "./img/comments/u4.jpg"
+            ]
         },
         {
             "avatar": "./img/comments/av5.png",
             "name": "Liz",
-            "text": "Good price when on special",
+            "text": "Exactly what I wanted to buy. Reasonable price",
             "likes": "6",
             "hours": "1d",
             "likeText": "like",
-            "comment": "comment"
+            "comment": "comment",
+            "images": [
+                "./img/comments/u5.jpg"
+            ]
         },
         {
             "avatar": "./img/comments/av6.png",
             "name": "Elize",
-            "text": "Just love it, it is just enough",
+            "text": "Good price when on special",
             "likes": "7",
             "hours": "2d",
             "likeText": "like",
@@ -110,7 +125,7 @@
         {
             "avatar": "./img/comments/av7.png",
             "name": "Thabo",
-            "text": "As always Coca Cola has great taste Perfect for a big family",
+            "text": "Tasty. Packed exactly like the picture",
             "likes": "15",
             "hours": "2d",
             "likeText": "like",
@@ -119,7 +134,7 @@
         {
             "avatar": "./img/comments/av8.png",
             "name": "Mathoto",
-            "text": "I appreciate the speedy delivery of the products and the packaging was just the best.",
+            "text": "Purchasing this on takealot is really helpful and stress free. I received the package within 3 days and everything has been smooth sailing. Highly recommend.",
             "likes": "2",
             "hours": "2d",
             "likeText": "like",
@@ -128,68 +143,60 @@
     ],
     "description": {
         "descriptionTitle": "Desription",
-        "descriptionTextMain": "Coca-Cola Original Taste is the world's favourite soft drink and has been enjoyed since 1886 and is loved across the world. Experience the original and refreshingly crisp, cold taste of Coca-Cola. Enjoy at home with meals, on the go or share it with friends. It's best served chilled. Packaging may vary.",
+        "descriptionTextMain": "Red Bull Energy Drink vitalizes body and mind. Red Bull Energy Drink is a functional beverage providing wings whenever you need them and is appreciated worldwide by top athletes, students, and in highly demanding professions as well as during long drives. Red Bull Energy Drinks contains the following high-quality ingredients: Caffeine, taurine, B-group vitamins, sugars, and alpine spring water Did you know: One 250ml can of Red Bull Energy Drink contains 80mg of caffeine, about the same amount as in a cup of coffee Red Bull Energy Drink is a functional beverage providing wiiings whenever you need them!",
         "descriptionTextAdditional": "What's in the box",
-        "descriptionTextAdditionalTwo": "4 x 6 packs Coca-Cola 300ml Bottles",
+        "descriptionTextAdditionalTwo": "24 x cans Red Bull Energy Drink 250ml",
         "descriptionTable": [
             {
                 "tableTitle": "Product Information",
                 "tableRows": [
                     {
                         "rowTitle": "Categories",
-                        "rowText": "Home & Kitchen / Liquor / Non-Alcoholic / Soft Drinks"
+                        "rowText": "Home & Kitchen / Liquor / Non-Alcoholic / Energy Drinks"
                     },
                     {
                         "rowTitle": "Brand",
-                        "rowText": "Coca-Cola"
+                        "rowText": "Red Bull"
                     },
                     {
                         "rowTitle": "Volume",
-                        "rowText": "300 ml"
+                        "rowText": "750 ml"
                     },
                     {
                         "rowTitle": "Warranty",
                         "rowText": "Non-Returnable"
                     },
                     {
-                        "rowTitle": "Pack Type",
-                        "rowText": "24 Pack"
+                        "rowTitle": "Materials",
+                        "rowText": "Aluminium"
                     },
                     {
                         "rowTitle": "Flavour Type",
-                        "rowText": "Cola"
-                    },
-                    {
-                        "rowTitle": "Is Hand Made",
-                        "rowText": "No"
+                        "rowText": "Energy Drink"
                     },
                     {
                         "rowTitle": "Alcohol Content",
-                        "rowText": "0.1"
-                    },
-                    {
-                        "rowTitle": "Target Customer",
-                        "rowText": "Value"
+                        "rowText": "0"
                     },
                     {
                         "rowTitle": "What's in the box",
-                        "rowText": "4 x 6 packs Coca-Cola 300ml Bottles"
+                        "rowText": "Red Bull Energy Drink 250ml (24 pack)"
                     },
                     {
-                        "rowTitle": "Has R638 Certificate",
-                        "rowText": "Yes"
-                    },
-                    {
-                        "rowTitle": "Proudly South African",
-                        "rowText": "No"
+                        "rowTitle": "Merchandising Tags",
+                        "rowText": "Top Picks"
                     },
                     {
                         "rowTitle": "Volume",
-                        "rowText": "7200.0 ml"
+                        "rowText": "9741.0 cc"
+                    },
+                    {
+                        "rowTitle": "Weight",
+                        "rowText": "6.7 kg"
                     },
                     {
                         "rowTitle": "Barcode",
-                        "rowText": "5449000663672"
+                        "rowText": "9002490100094"
                     }
                 ]
             }
@@ -230,16 +237,19 @@
     },
     "products": [
         {
-            "productName": "Coca-Cola Bottles 300ml 4x6 Case",
+            "productName": "Red Bull Energy Drink 250ml (24 pack)",
             "productImage": "./img/products/offer.webp",
             "newPrice": "R 35",
-            "oldPrice": "R 225",
+            "oldPrice": "R 389",
             "sliderName": "black",
             "sliderSelectorIcon": "./img/slides/slide_1/s1.jpg",
             "slider": [
                 "./img/slides/slide_1/s1.file",
-                "./img/slides/slide_1/s2.webp",
-                "./img/slides/slide_1/s3.file"
+                "./img/slides/slide_1/s2.file",
+                "./img/slides/slide_1/s3.file",
+                "./img/slides/slide_1/s4.file",
+                "./img/slides/slide_1/s5.file",
+                "./img/slides/slide_1/s6.file"
             ]
         }
     ]
