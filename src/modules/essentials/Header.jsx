@@ -16,7 +16,7 @@ export default function Header({}) {
                     </svg>
                 </a> */}
                 <div className="logo">
-                    <img src="./img/header/logo.png" alt="LOGO" />
+                    <img src="./img/header/logo.svg" alt="LOGO" />
                     {/* <span>.com.mx</span> */}
                 </div>
                 <div className="nav__component">

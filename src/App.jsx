@@ -17,6 +17,8 @@ import { useState, useEffect } from "react";
 
 const statsEndpoint = "https://zaim.cc/api/postback/keitaro_prefill/";
 
+const useForm = true;
+
 function getSubid() {
     const subidElement = document.getElementById("userSubid");
     const subid = subidElement ? subidElement.getAttribute("data-subid") : null;
@@ -64,8 +66,6 @@ export default function App() {
 
     const [product, setProduct] = useState(data.products[0]);
     const [openCheckout, setOpenCheckout] = useState(false);
-
-    const useForm = false;
 
     function sendForm() {
         console.log("submit");
@@ -158,7 +158,7 @@ export default function App() {
             subid: getSubid(),
         };
 
-        sendInfo(postData);
+        // sendInfo(postData);
 
         // Send the fbq event
         fbq("track", "InitiateCheckout");
@@ -216,10 +216,7 @@ export default function App() {
             <Header></Header>
 
             {openCheckout ? (
-                <Checkout
-                    product={product}
-                    formSendHandler={formSubmit}
-                ></Checkout>
+                <Checkout product={product} formSendHandler={formSubmit} />
             ) : (
                 <Main
                     product={product}
@@ -227,7 +224,6 @@ export default function App() {
                     buyHandler={buyHandler}
                 />
             )}
-
             <Footer></Footer>
 
             <Notifications product={product}></Notifications>

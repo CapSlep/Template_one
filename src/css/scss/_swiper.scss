@@ -8,21 +8,6 @@
     user-select: none;
 }
 
-.cerificate {
-    position: absolute;
-    top: 1rem;
-    left: .75rem;
-    width: 5rem;
-    height: 6rem;
-    z-index: 10;
-}
-
-.cerificate img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
 .swiper-pagination-bullet {
     width: 1rem !important;
     height: 0.125rem !important;
@@ -70,4 +55,46 @@
     border-radius: 0;
     background-size: cover;
     border: .063em solid rgba(0, 0, 0, .1);
+}
+
+.badges {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    left: 15px;
+    top: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.badge {
+    align-items: center;
+    background: #25CD66;
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    height: 46px;
+    justify-content: center;
+    line-height: 1.15;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 46px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.badge__img {
+
+    background: none;
+    border: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.badge__promo {
+    background-color: #0b79bf;
 }

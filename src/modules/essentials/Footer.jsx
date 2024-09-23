@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer className="footer">
             <div className="footer__logo-wrapper">
-                <img src="./img/header/logo.png" alt="" />
+                <img src="./img/footer-logo.svg" alt="" />
             </div>
             <div className="footer__text-box flex-row">
                 <span className="footer__text">{data.footerText}</span>

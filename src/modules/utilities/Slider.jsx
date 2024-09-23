@@ -28,6 +28,18 @@ export default ({ slidesToShow }) => {
                     </SwiperSlide>
                 );
             })}
+            <ul className="badges">
+                <li>
+                    <div className="badge badge__img">
+                        <img src="./img/slides/sdesc1.png" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <div className="badge badge__img">
+                        <img src="./img/slides/sdesc2.png" alt="" />
+                    </div>
+                </li>
+            </ul>
         </Swiper>
     );
 };

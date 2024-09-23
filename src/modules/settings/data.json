@@ -1,188 +1,245 @@
 {
-    "zeroPrice": "$0.00",
-    "pageTitle": "Ariel Detergente En Polvo Ariel Doble Poder, 10 Unidades De 750g",
-    "buyButtonText": "COMPRAR AHORA",
+    "zeroPrice": "R 0",
+    "pageTitle": "Coca-Cola Bottles 300ml 4x6 Case",
+    "buyButtonText": "BUY NOW",
     "popups": {
         "startup": {
-            "startupPopText": "Después de la ruptura de un contrato con una gran cadena de tiendas en México, nos vemos obligados a liquidar nuestros inventarios.",
-            "startupPopTextSecondPart": "¡Esta semana aprovecha un 90% de descuento en Ariel Detergente En Polvo Ariel Doble Poder, 10 Unidades De 750g!",
-            "startupPopButton": "OBTENER DESCUENTO"
+            "startupPopText": "After the termination of a contract with a major retail chain in South Africa, we are forced to liquidate our inventory.",
+            "startupPopTextSecondPart": "This week, take advantage of an 85% discount on the Coca-Cola Bottles 300ml 4x6 Case!",
+            "startupPopButton": "GET DISCOUNT"
         }
     },
     "header": {
-        "shippingText": "¡Envío gratuito hasta el fin de la semana!"
+        "shippingText": "Free shipping until the end of the week!"
     },
-    "footerText": "Copyright © 1999-2024 El presente canal de instrucción o ambiente, es operado por DeRemate.Com de México, S. de R.L. de C.V. identificada bajo la marca comercial 'Mercado Libre'. Blvd. Miguel de Cervantes Saavedra 161, Pisos 14 y 15, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX, México",
+    "footerText": "© Takealot Online (Pty) Ltd.",
     "productSection": {
-        "underHeader": "¡Viaja sin límites durante 3 meses!",
-        "priceMonthes": "por 3 meses",
-        "priceMonthesZones": "todas las zonas",
+        "underHeader": "Travel without limits for 3 months!",
+        "priceMonthes": "for 3 months",
+        "priceMonthesZones": "all zones",
         "productFeatures": [
-            "Contra manchas difíciles y de sudor",
-            "Remueve hasta 99% de bacterias en la ropa",
-            "Se disuelve hasta 3 veces más rápido, ayudando a evitar residuos y manchas"
+            "Delicious and refreshing drink, loved worldwide since 1886.",
+            "Perfect for enjoying at home, on the go, or sharing with friends.",
+            "Best served chilled for maximum enjoyment."
         ],
-        "productBenef": "¡Por un México más limpio y verde!",
-        "productAvailabillity": "En stock. Entrega estimada en 3 a 4 días hábiles.",
+        "productBenef": "For a cleaner and greener South Africa!",
+        "productAvailabillity": "In stock. Estimated delivery in 3 to 4 working days.",
         "buyReasons": [
-            "Envío gratuito",
-            "Devoluciones gratuitas",
-            "Soporte de por vida"
+            "Free shipping",
+            "Free returns",
+            "Lifetime support"
         ]
     },
     "notifications": [
         {
             "img": "./img/slides/slide_1/s1.jpg",
-            "location": "Ciudad de México, México",
-            "name": "Juan Pérez",
-            "text": "Acabo de comprar un Ariel Detergente En Polvo Ariel Doble Poder",
-            "from": "de"
+            "location": "Cape Town, South Africa",
+            "name": "John Smith",
+            "text": "Just bought an",
+            "from": "from",
+            "for": "for"
         },
         {
             "img": "./img/slides/slide_1/s1.jpg",
-            "location": "Guadalajara, México",
-            "name": "María López",
-            "text": "Acabo de comprar un Ariel Detergente En Polvo Ariel Doble Poder",
-            "from": "de"
+            "location": "Johannesburg, South Africa",
+            "name": "Mary Johnson",
+            "text": "Just bought an",
+            "from": "from",
+            "for": "for"
         }
     ],
-    "reviewsHeader": "Opiniones",
-    "reviewValidation": "Opinión verificada",
-    "reviewPublish": "Publicar",
-    "reviewPlaceholder": "Escribe un comentario...",
+    "reviewsHeader": "Reviews",
+    "reviewValidation": "Verified review",
+    "reviewPublish": "Publish",
+    "reviewPlaceholder": "Write a comment...",
     "comments": [
         {
             "avatar": "./img/comments/av1.png",
-            "name": "Carlos Hernández",
-            "text": "Ariel es muy buena marca, lo compre a buen precio y lo volvería comprar",
+            "name": "Denise",
+            "text": "Perfect size for parties. No cups needed. At first, I couldn't believe such a huge discount, but I received my order in 5 days. The expiration date is in 6 months, everything is fine.",
             "likes": "31",
             "hours": "7h",
-            "likeText": "me gusta",
-            "comment": "comentar"
+            "likeText": "like",
+            "comment": "comment"
         },
         {
             "avatar": "./img/comments/av2.png",
-            "name": "Ximena Rodríguez",
-            "text": "Producto que recomiendo ya que si cumple en quitar manchas y rendidor. Tenía dudas sobre la calidad del producto debido a un descuento tan grande, pero todo está bien. Recibí el pedido en 5 días.",
+            "name": "Sohana",
+            "text": "Excellent for outdoors and handy for a quick thirst quencher. I’m very happy that I managed to order it with the discount.",
             "likes": "12",
             "hours": "3h",
-            "likeText": "me gusta",
-            "comment": "comentar",
-            "images": [
-                "./img/comments/u1.jpg"
-            ]
+            "likeText": "like",
+            "comment": "comment"
         },
         {
             "avatar": "./img/comments/av3.png",
-            "name": "María López",
-            "text": "Buen precio, calidad y aroma. Llevó 3 veces comprándolo recomendable.",
+            "name": "Petula",
+            "text": "All ready for the kiddies needing a refresher after their run arounds",
             "likes": "4",
             "hours": "3h",
-            "likeText": "me gusta",
-            "comment": "comentar"
+            "likeText": "like",
+            "comment": "comment"
         },
         {
             "avatar": "./img/comments/av4.png",
-            "name": "Alejandro Martínez",
-            "text": "Buen precio!! Muchas gracias por el descuento. Es una pena que solo se puedan pedir 2 paquetes por persona.",
-            "likes": "12",
+            "name": "Qadr",
+            "text": "Thanks for the 85% discount and fast delivery 🤩 I always buy the Original Coca-Cola as I prefer my drinks without the added sweetners. Natural sugar all the way, just limited intake.",
+            "likes": "11",
             "hours": "1h",
-            "likeText": "me gusta",
-            "comment": "comentar",
-            "images": [
-                "./img/comments/u2.jpg"
-            ]
+            "likeText": "like",
+            "comment": "comment"
         },
         {
             "avatar": "./img/comments/av5.png",
-            "name": "Camila Hernández",
-            "text": "Deja la ropa muy limpia y el olor es lo mejor",
+            "name": "Liz",
+            "text": "Good price when on special",
             "likes": "6",
             "hours": "1d",
-            "likeText": "me gusta",
-            "comment": "comentar"
+            "likeText": "like",
+            "comment": "comment"
+        },
+        {
+            "avatar": "./img/comments/av6.png",
+            "name": "Elize",
+            "text": "Just love it, it is just enough",
+            "likes": "7",
+            "hours": "2d",
+            "likeText": "like",
+            "comment": "comment"
+        },
+        {
+            "avatar": "./img/comments/av7.png",
+            "name": "Thabo",
+            "text": "As always Coca Cola has great taste Perfect for a big family",
+            "likes": "15",
+            "hours": "2d",
+            "likeText": "like",
+            "comment": "comment"
+        },
+        {
+            "avatar": "./img/comments/av8.png",
+            "name": "Mathoto",
+            "text": "I appreciate the speedy delivery of the products and the packaging was just the best.",
+            "likes": "2",
+            "hours": "2d",
+            "likeText": "like",
+            "comment": "comment"
         }
     ],
     "description": {
-        "descriptionTitle": "Descripción técnica",
-        "descriptionTextMain": "Remueve manchas difíciles y de sudor con el nuevo Ariel Doble Poder. Su fórmula mejorada se disuelve hasta 3 veces más rápido y brinda una limpieza profunda removiendo hasta 99% de bacterias en la ropa.",
+        "descriptionTitle": "Desription",
+        "descriptionTextMain": "Coca-Cola Original Taste is the world's favourite soft drink and has been enjoyed since 1886 and is loved across the world. Experience the original and refreshingly crisp, cold taste of Coca-Cola. Enjoy at home with meals, on the go or share it with friends. It's best served chilled. Packaging may vary.",
+        "descriptionTextAdditional": "What's in the box",
+        "descriptionTextAdditionalTwo": "4 x 6 packs Coca-Cola 300ml Bottles",
         "descriptionTable": [
             {
-                "tableTitle": "Especificaciones técnicas",
+                "tableTitle": "Product Information",
                 "tableRows": [
                     {
-                        "rowTitle": "Nombre del producto",
-                        "rowText": "Detergente en Polvo Ariel Doble Poder 7.5kg, 10 unidades de 750g"
+                        "rowTitle": "Categories",
+                        "rowText": "Home & Kitchen / Liquor / Non-Alcoholic / Soft Drinks"
                     },
                     {
-                        "rowTitle": "Peso",
-                        "rowText": "750 Gramos"
+                        "rowTitle": "Brand",
+                        "rowText": "Coca-Cola"
                     },
                     {
-                        "rowTitle": "Unidades",
-                        "rowText": "7500 gramo"
+                        "rowTitle": "Volume",
+                        "rowText": "300 ml"
                     },
                     {
-                        "rowTitle": "Marca",
-                        "rowText": "Ariel"
+                        "rowTitle": "Warranty",
+                        "rowText": "Non-Returnable"
                     },
                     {
-                        "rowTitle": "Formato",
-                        "rowText": "Polvo"
+                        "rowTitle": "Pack Type",
+                        "rowText": "24 Pack"
+                    },
+                    {
+                        "rowTitle": "Flavour Type",
+                        "rowText": "Cola"
+                    },
+                    {
+                        "rowTitle": "Is Hand Made",
+                        "rowText": "No"
+                    },
+                    {
+                        "rowTitle": "Alcohol Content",
+                        "rowText": "0.1"
+                    },
+                    {
+                        "rowTitle": "Target Customer",
+                        "rowText": "Value"
+                    },
+                    {
+                        "rowTitle": "What's in the box",
+                        "rowText": "4 x 6 packs Coca-Cola 300ml Bottles"
+                    },
+                    {
+                        "rowTitle": "Has R638 Certificate",
+                        "rowText": "Yes"
+                    },
+                    {
+                        "rowTitle": "Proudly South African",
+                        "rowText": "No"
+                    },
+                    {
+                        "rowTitle": "Volume",
+                        "rowText": "7200.0 ml"
+                    },
+                    {
+                        "rowTitle": "Barcode",
+                        "rowText": "5449000663672"
                     }
                 ]
             }
         ]
     },
     "timer": {
-        "timerSetsStart": "El producto casi se ha agotado. Tu turno para la compra está reservado por",
-        "timerSetsEnd": "minutos."
+        "timerSetsStart": "The product is almost sold out. Your turn to purchase is reserved for",
+        "timerSetsEnd": "minutes."
     },
     "checkout": {
-        "countryCode": "mx",
-        "countryPhone": "52",
+        "countryCode": "za",
+        "countryPhone": "27",
         "delivery": {
-            "title": "Entrega",
-            "city": "Ciudad",
-            "address": "Dirección de entrega",
-            "postcode": "Código postal"
+            "title": "Delivery",
+            "city": "City",
+            "address": "Delivery Address",
+            "postcode": "Postal Code"
         },
         "info": {
-            "title": "Información personal",
-            "firstName": "Nombre",
-            "lastName": "Apellido",
-            "phone": "Número de teléfono",
-            "email": "Correo electrónico"
+            "title": "Personal Information",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "phone": "Phone Number",
+            "email": "Email Address"
         },
         "payment": {
-            "title": "Métodos de pago",
-            "text": "Pago en línea con tarjeta de crédito"
+            "title": "Payment Methods",
+            "text": "Online payment with credit card"
         },
         "summary": {
-            "title": "Detalles del pedido",
-            "deliveryTime": "Tiempo de entrega",
-            "deliveryDays": "3 días",
+            "title": "Order Details",
+            "deliveryTime": "Delivery Time",
+            "deliveryDays": "3 days",
             "subtotal": "Subtotal",
-            "deliveryAmountTitle": "Entrega",
+            "deliveryAmountTitle": "Delivery",
             "total": "Total"
         }
     },
     "products": [
         {
-            "productName": "Ariel Detergente En Polvo Ariel Doble Poder, 10 Unidades De 750g",
-            "productImage": "./img/products/offer.jpg",
-            "newPrice": "$40",
-            "oldPrice": "$330.90",
+            "productName": "Coca-Cola Bottles 300ml 4x6 Case",
+            "productImage": "./img/products/offer.webp",
+            "newPrice": "R 35",
+            "oldPrice": "R 225",
             "sliderName": "black",
             "sliderSelectorIcon": "./img/slides/slide_1/s1.jpg",
             "slider": [
-                "./img/slides/slide_1/s1.jpg",
-                "./img/slides/slide_1/s2.jpg",
-                "./img/slides/slide_1/s3.jpg",
-                "./img/slides/slide_1/s4.jpg",
-                "./img/slides/slide_1/s5.jpg",
-                "./img/slides/slide_1/s6.jpg",
-                "./img/slides/slide_1/s7.jpg"
+                "./img/slides/slide_1/s1.file",
+                "./img/slides/slide_1/s2.webp",
+                "./img/slides/slide_1/s3.file"
             ]
         }
     ]

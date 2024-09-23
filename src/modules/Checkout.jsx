@@ -6,8 +6,8 @@ export default function Checkout({ product, formSendHandler }) {
     const data = useData(); // Access data from the context
     return (
         <div className="checkout container">
-            <Timer startTime={5} setsAmount={2}></Timer>
             <form className="checkout__form" onSubmit={formSendHandler}>
+                <Timer startTime={5} setsAmount={2}></Timer>
                 <div className="checkout__main">
                     <div className="checkout__header">
                         <div className="checkout__image">
@@ -230,8 +230,7 @@ export default function Checkout({ product, formSendHandler }) {
                         </div>
                     </div>
                 </div>
-
-                <BuyButton buttonType={"submit"}></BuyButton>
+                <BuyButton buttonType={"submit"} product={product}></BuyButton>
             </form>
         </div>
     );

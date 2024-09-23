@@ -53,6 +53,8 @@ export default function Notifications({ product }) {
                 <div className="notification__footer flex-row">
                     <span className="notification__message">
                         {data.notifications[currentNotification].text}{" "}
+                        {product.productName}{" "}
+                        {data.notifications[currentNotification].for}{" "}
                         <b>{product.newPrice}!</b>
                     </span>
                 </div>

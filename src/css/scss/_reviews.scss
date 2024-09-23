@@ -15,7 +15,7 @@
 .reviews__content {
 
     max-width: 680px;
-    margin-right: 62px;
+    margin-inline-end: 62px; // замість padding-right
 }
 
 .comment-form__body {
@@ -142,9 +142,17 @@
 
 .comment__actions {
     position: absolute;
-    right: 10px;
+
+    @if variables.$rtl-text {
+        left: -60px;
+    }
+
+    @else {
+        right: 10px;
+        transform: translateX(100%);
+    }
+
     bottom: 5px;
-    transform: translateX(100%);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -155,13 +163,13 @@
     height: 20px;
     color: #8d949e;
     font-size: 11px;
-    padding-right: 6px;
+    padding-inline-end: 6px;
     padding-bottom: 4px;
     z-index: 2;
 }
 
 .comment__actions span {
-    margin-left: -6px;
+    margin-inline-start: -6px;
     transform: translateY(-1px);
     padding: 2px;
     width: 22px;
