@@ -1,11 +1,11 @@
 {
     "zeroPrice": "R 0",
-    "pageTitle": "Red Bull Energy Drink 250ml (24 pack)",
+    "pageTitle": "Shakebar Colour Protect Shampoo and Conditioner set",
     "buyButtonText": "BUY NOW",
     "popups": {
         "startup": {
             "startupPopText": "After the termination of a contract with a major retail chain in South Africa, we are forced to liquidate our inventory.",
-            "startupPopTextSecondPart": "This week, take advantage of an 90% discount on the Red Bull Energy Drink 250ml (24 pack)!",
+            "startupPopTextSecondPart": "This week, take advantage of an 90% discount on the Shakebar Colour Protect Shampoo and Conditioner set!",
             "startupPopButton": "GET DISCOUNT"
         }
     },
@@ -18,9 +18,9 @@
         "priceMonthes": "for 3 months",
         "priceMonthesZones": "all zones",
         "productFeatures": [
-            "Red Bull Energy Drink boosts energy, concentration, and alertness whenever needed.",
-            "Contains high-quality ingredients like caffeine, taurine, B-group vitamins, and alpine spring water.",
-            "The cans are made of 100% recyclable aluminum, making it an eco-friendly choice."
+            "Shakebar Colour Protect Shampoo and Conditioner are specially formulated to protect color-treated hair from fading.",
+            "Infused with Argan oil, Quinoa, and Rose oil to keep hair moisturized and vibrant.",
+            "Provides antioxidants to protect against damage from coloring and bleaching while enhancing shine and radiance."
         ],
         "productBenef": "For a cleaner and greener South Africa!",
         "productAvailabillity": "In stock. Estimated delivery in 3 to 4 working days.",
@@ -60,34 +60,25 @@
             "likes": "31",
             "hours": "7h",
             "likeText": "like",
-            "comment": "comment",
-            "images": [
-                "./img/comments/u1.jpg"
-            ]
+            "comment": "comment"
         },
         {
             "avatar": "./img/comments/av2.png",
             "name": "Sohana",
-            "text": "Super super 👌 great for me as a hustler. I’m very happy that I managed to order it with the discount.",
+            "text": "I’m very happy that I managed to order it with the discount. One of the standout features of this shampoo and conditioner is its natural formulation.",
             "likes": "12",
             "hours": "3h",
             "likeText": "like",
-            "comment": "comment",
-            "images": [
-                "./img/comments/u2.jpg"
-            ]
+            "comment": "comment"
         },
         {
             "avatar": "./img/comments/av3.png",
             "name": "Petula",
-            "text": "Thanks for the 90% discount and fast delivery 🤩 Red Bull will give you wings!",
+            "text": "Thanks for the 90% discount and fast delivery 🤩",
             "likes": "4",
             "hours": "3h",
             "likeText": "like",
-            "comment": "comment",
-            "images": [
-                "./img/comments/u3.jpg"
-            ]
+            "comment": "comment"
         },
         {
             "avatar": "./img/comments/av4.png",
@@ -96,27 +87,21 @@
             "likes": "11",
             "hours": "1h",
             "likeText": "like",
-            "comment": "comment",
-            "images": [
-                "./img/comments/u4.jpg"
-            ]
+            "comment": "comment"
         },
         {
             "avatar": "./img/comments/av5.png",
             "name": "Liz",
-            "text": "Exactly what I wanted to buy. Reasonable price",
+            "text": "Exactly what I wanted to buy. Reasonable price.",
             "likes": "6",
             "hours": "1d",
             "likeText": "like",
-            "comment": "comment",
-            "images": [
-                "./img/comments/u5.jpg"
-            ]
+            "comment": "comment"
         },
         {
             "avatar": "./img/comments/av6.png",
             "name": "Elize",
-            "text": "Good price when on special",
+            "text": " I absolutely love it, it makes my hair really soft and manageable. Good price when on special.",
             "likes": "7",
             "hours": "2d",
             "likeText": "like",
@@ -125,7 +110,7 @@
         {
             "avatar": "./img/comments/av7.png",
             "name": "Thabo",
-            "text": "Tasty. Packed exactly like the picture",
+            "text": "Purchasing this on takealot is really helpful and stress free. I received the package within 3 days and everything has been smooth sailing. Highly recommend",
             "likes": "15",
             "hours": "2d",
             "likeText": "like",
@@ -134,7 +119,7 @@
         {
             "avatar": "./img/comments/av8.png",
             "name": "Mathoto",
-            "text": "Purchasing this on takealot is really helpful and stress free. I received the package within 3 days and everything has been smooth sailing. Highly recommend.",
+            "text": "This stuff is great, left my hair so shiny and soft and give it that feeling of life.",
             "likes": "2",
             "hours": "2d",
             "likeText": "like",
@@ -143,60 +128,67 @@
     ],
     "description": {
         "descriptionTitle": "Desription",
+        "descriptionTexts": [
+            "What's in the box",
+            "1x Shakebar Colour Protect Shampoo",
+            "1x Shakebar Colour Protect Conditioner",
+            "Shakebar Colour Protect Shampoo",
+            "Colour Protect Shampoo is formulated for colour treated hair protect against fade. Blended with Argan oil, Quinoa and Rose oil to keep hair moisturized, the antioxidants to help protect hair against the stress of colouring and bleaching. Gentle yet effectively cleans from root to tip, enhances colour vribrancy, radiance and glossy shine.",
+            "Shakebar Colour Protect Conditioner",
+            "Colour Protect Conditioner is formulated for colour treated hair protect against fade. Blended with Argan oil, Quinoa and Rose oil to keep hair moisturized, the antioxidants to help protect hair against the stress of colouring and bleaching. Detangles and softens so hair is easy to comb through, enhances colour vibrancy, radiance and glossy shine."
+        ],
         "descriptionTextMain": "Red Bull Energy Drink vitalizes body and mind. Red Bull Energy Drink is a functional beverage providing wings whenever you need them and is appreciated worldwide by top athletes, students, and in highly demanding professions as well as during long drives. Red Bull Energy Drinks contains the following high-quality ingredients: Caffeine, taurine, B-group vitamins, sugars, and alpine spring water Did you know: One 250ml can of Red Bull Energy Drink contains 80mg of caffeine, about the same amount as in a cup of coffee Red Bull Energy Drink is a functional beverage providing wiiings whenever you need them!",
-        "descriptionTextAdditional": "What's in the box",
-        "descriptionTextAdditionalTwo": "24 x cans Red Bull Energy Drink 250ml",
         "descriptionTable": [
             {
                 "tableTitle": "Product Information",
                 "tableRows": [
                     {
                         "rowTitle": "Categories",
-                        "rowText": "Home & Kitchen / Liquor / Non-Alcoholic / Energy Drinks"
+                        "rowText": "Beauty / Hair Care / Shampoo & Conditioner"
                     },
                     {
                         "rowTitle": "Brand",
-                        "rowText": "Red Bull"
+                        "rowText": "Shakebar"
                     },
                     {
-                        "rowTitle": "Volume",
-                        "rowText": "750 ml"
+                        "rowTitle": "is vegan",
+                        "rowText": "Yes"
                     },
                     {
                         "rowTitle": "Warranty",
-                        "rowText": "Non-Returnable"
+                        "rowText": "Limited (6 months)"
                     },
                     {
-                        "rowTitle": "Materials",
-                        "rowText": "Aluminium"
+                        "rowTitle": "Hair Type",
+                        "rowText": "Colour Treated"
                     },
                     {
-                        "rowTitle": "Flavour Type",
-                        "rowText": "Energy Drink"
+                        "rowTitle": "Is Organic",
+                        "rowText": "Yes"
                     },
                     {
-                        "rowTitle": "Alcohol Content",
-                        "rowText": "0"
+                        "rowTitle": "Hair Concerns",
+                        "rowText": "Colour Treated"
                     },
                     {
                         "rowTitle": "What's in the box",
-                        "rowText": "Red Bull Energy Drink 250ml (24 pack)"
+                        "rowText": "1x Shakebar Colour Protect Shampoo \n1x Shakebar Colour Protect Conditioner"
                     },
                     {
-                        "rowTitle": "Merchandising Tags",
-                        "rowText": "Top Picks"
+                        "rowTitle": "Is Hypoallergenic",
+                        "rowText": "No"
                     },
                     {
-                        "rowTitle": "Volume",
-                        "rowText": "9741.0 cc"
+                        "rowTitle": "Ingredients",
+                        "rowText": "Argan oil"
                     },
                     {
-                        "rowTitle": "Weight",
-                        "rowText": "6.7 kg"
+                        "rowTitle": "free from sulphate",
+                        "rowText": "Yes"
                     },
                     {
                         "rowTitle": "Barcode",
-                        "rowText": "9002490100094"
+                        "rowText": "MPTALX19986381-2"
                     }
                 ]
             }
@@ -237,19 +229,16 @@
     },
     "products": [
         {
-            "productName": "Red Bull Energy Drink 250ml (24 pack)",
+            "productName": "Shakebar Colour Protect Shampoo and Conditioner set",
             "productImage": "./img/products/offer.webp",
             "newPrice": "R 35",
-            "oldPrice": "R 389",
+            "oldPrice": "R 225",
             "sliderName": "black",
             "sliderSelectorIcon": "./img/slides/slide_1/s1.jpg",
             "slider": [
-                "./img/slides/slide_1/s1.file",
-                "./img/slides/slide_1/s2.file",
-                "./img/slides/slide_1/s3.file",
-                "./img/slides/slide_1/s4.file",
-                "./img/slides/slide_1/s5.file",
-                "./img/slides/slide_1/s6.file"
+                "./img/slides/slide_1/s1.webp",
+                "./img/slides/slide_1/s2.webp",
+                "./img/slides/slide_1/s3.webp"
             ]
         }
     ]

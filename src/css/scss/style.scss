@@ -74,3 +74,34 @@ body,
         left: 120%;
     }
 }
+
+.loader__final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    height: 100vh;
+    gap: 2rem;
+    width: 100%;
+}
+
+
+.section__title {
+    font-size: 2rem;
+    margin: 1rem auto;
+    line-height: initial;
+    text-align: center;
+}
+
+.loader {
+    margin: auto;
+}
+
+.loader_gif {
+    margin: auto;
+    width: 270px;
+    padding-top: auto;
+    padding-bottom: 70px;
+    border-radius: 150px;
+}

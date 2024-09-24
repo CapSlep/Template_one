@@ -7,15 +7,16 @@ export default function Description() {
             <h2 className="description__title">
                 {data.description.descriptionTitle}
             </h2>
-            <p className="descriptin__text">
+            {data.description.descriptionTexts.map((text, index) => {
+                return (
+                    <p key={index} className="descriptin__text">
+                        {text}
+                    </p>
+                );
+            })}
+            {/* <p className="descriptin__text">
                 {data.description.descriptionTextMain}
-            </p>
-            <p className="descriptin__text">
-                {data.description.descriptionTextAdditional}
-            </p>
-            <p className="descriptin__text">
-                {data.description.descriptionTextAdditionalTwo}
-            </p>
+            </p> */}
             <table className="table">
                 {data.description.descriptionTable.map(
                     (tableElement, index) => {

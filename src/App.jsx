@@ -5,6 +5,7 @@ import Facebook from "./modules/utilities/Facebook";
 import Checkout from "./modules/Checkout";
 import Main from "./modules/essentials/Main";
 import Notifications from "./modules/utilities/Notifications";
+import Loader from "./modules/utilities/Loader";
 
 //popups imports
 import PopManager from "./modules/popups/PopManager";
@@ -66,6 +67,7 @@ export default function App() {
 
     const [product, setProduct] = useState(data.products[0]);
     const [openCheckout, setOpenCheckout] = useState(false);
+    const [showLoader, setShowLoader] = useState(false);
 
     function sendForm() {
         console.log("submit");
@@ -182,12 +184,14 @@ export default function App() {
             setOpenCheckout(true);
         } else {
             sendWithoutForm();
+            setShowLoader(true);
         }
     }
 
     function formSubmit(event) {
         event.preventDefault();
         sendForm();
+        setShowLoader(true);
     }
 
     const popupsHolder = {
@@ -213,18 +217,27 @@ export default function App() {
 
     return (
         <>
-            <Header></Header>
-
-            {openCheckout ? (
-                <Checkout product={product} formSendHandler={formSubmit} />
+            {showLoader ? (
+                <Loader></Loader>
             ) : (
-                <Main
-                    product={product}
-                    setProduct={setProduct}
-                    buyHandler={buyHandler}
-                />
+                <>
+                    <Header></Header>
+
+                    {openCheckout ? (
+                        <Checkout
+                            product={product}
+                            formSendHandler={formSubmit}
+                        />
+                    ) : (
+                        <Main
+                            product={product}
+                            setProduct={setProduct}
+                            buyHandler={buyHandler}
+                        />
+                    )}
+                    <Footer></Footer>
+                </>
             )}
-            <Footer></Footer>
 
             <Notifications product={product}></Notifications>
             <Facebook></Facebook>
