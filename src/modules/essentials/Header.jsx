@@ -16,8 +16,8 @@ export default function Header({}) {
                     </svg>
                 </a> */}
                 <div className="logo">
-                    <img src="./img/header/logo.svg" alt="LOGO" />
-                    {/* <span>.com.mx</span> */}
+                    <img src="./img/header/logo_amazon.webp" alt="LOGO" />
+                    <span>.sa</span>
                 </div>
                 <div className="nav__component">
                     <a href="#" className="icon icon__profile">

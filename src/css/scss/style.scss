@@ -19,7 +19,7 @@ body,
 * {
     @if variables.$rtl-text {
         direction: rtl;
-        unicode-bidi: bidi-override;
+        // unicode-bidi: bidi-override;
     }
 }
 

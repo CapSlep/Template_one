@@ -28,7 +28,7 @@ export default ({ slidesToShow }) => {
                     </SwiperSlide>
                 );
             })}
-            <ul className="badges">
+            {/* <ul className="badges">
                 <li>
                     <div className="badge badge__img">
                         <img src="./img/slides/sdesc1.png" alt="" />
@@ -39,7 +39,7 @@ export default ({ slidesToShow }) => {
                         <img src="./img/slides/sdesc2.png" alt="" />
                     </div>
                 </li>
-            </ul>
+            </ul> */}
         </Swiper>
     );
 };

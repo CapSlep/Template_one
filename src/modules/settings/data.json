@@ -1,238 +1,220 @@
 {
-    "zeroPrice": "R 0",
-    "pageTitle": "Shakebar Colour Protect Shampoo and Conditioner set",
-    "buyButtonText": "BUY NOW",
+    "zeroPrice": "0 ريال",
+    "pageTitle": "حليب كامل الدسم من السعودية، 12 × 1 لتر",
+    "buyButtonText": "اشتر الآن",
+    "finalLoader": "انتظر، سنرسلك إلى خدمة الدفع!",
     "popups": {
         "startup": {
-            "startupPopText": "After the termination of a contract with a major retail chain in South Africa, we are forced to liquidate our inventory.",
-            "startupPopTextSecondPart": "This week, take advantage of an 90% discount on the Shakebar Colour Protect Shampoo and Conditioner set!",
-            "startupPopButton": "GET DISCOUNT"
+            "startupPopText": "بعد إنهاء العقد مع إحدى سلاسل البيع بالتجزئة الكبرى في السعودية، نحن مضطرون لتصفية مخزوننا.",
+            "startupPopTextSecondPart": "هذا الأسبوع، استفد من خصم 90% على حليب كامل الدسم من السعودية، 12 × 1 لتر!",
+            "startupPopButton": "احصل على الخصم"
         }
     },
     "header": {
-        "shippingText": "Free shipping until the end of the week!"
+        "shippingText": "شحن مجاني حتى نهاية الأسبوع!"
     },
-    "footerText": "© Takealot Online (Pty) Ltd.",
+    "footerText": "حقوق الطبع والنشر © لعام 1996-2024 محفوظة لشركة Amazon.com أو الشركات التابعة لها",
     "productSection": {
-        "underHeader": "Travel without limits for 3 months!",
-        "priceMonthes": "for 3 months",
-        "priceMonthesZones": "all zones",
+        "underHeader": "سافر بلا حدود لمدة 3 أشهر!",
+        "priceMonthes": "لمدة 3 أشهر",
+        "priceMonthesZones": "كل المناطق",
         "productFeatures": [
-            "Shakebar Colour Protect Shampoo and Conditioner are specially formulated to protect color-treated hair from fading.",
-            "Infused with Argan oil, Quinoa, and Rose oil to keep hair moisturized and vibrant.",
-            "Provides antioxidants to protect against damage from coloring and bleaching while enhancing shine and radiance."
+            "يحتوي حليب السعودية كامل الدسم على البروتينات والفيتامينات والمعادن الضرورية للجسم.",
+            "يتميز بطعم لذيذ ويفيد الجسم بفضل فوائده الصحية.",
+            "غني بالكالسيوم الضروري لنمو الأطفال وصحتهم."
         ],
-        "productBenef": "For a cleaner and greener South Africa!",
-        "productAvailabillity": "In stock. Estimated delivery in 3 to 4 working days.",
+        "productBenef": "من أجل جنوب أفريقيا أنظف وأخضر!",
+        "productAvailabillity": "متوفر في المخزون. التسليم المتوقع خلال 3 إلى 4 أيام عمل.",
         "buyReasons": [
-            "Free shipping",
-            "Free returns",
-            "Lifetime support"
+            "شحن مجاني",
+            "إرجاع مجاني",
+            "دعم مدى الحياة"
         ]
     },
     "notifications": [
         {
             "img": "./img/slides/slide_1/s1.jpg",
-            "location": "Cape Town, South Africa",
-            "name": "John Smith",
-            "text": "Just bought an",
-            "from": "from",
-            "for": "for"
+            "location": "كيب تاون، جنوب أفريقيا",
+            "name": "جون سميث",
+            "text": "اشترى للتو حليبًا",
+            "from": "من",
+            "for": "ل"
         },
         {
             "img": "./img/slides/slide_1/s1.jpg",
-            "location": "Johannesburg, South Africa",
-            "name": "Mary Johnson",
-            "text": "Just bought an",
-            "from": "from",
-            "for": "for"
+            "location": "جوهانسبرج، جنوب أفريقيا",
+            "name": "ماري جونسون",
+            "text": "اشترت للتو حليبًا",
+            "from": "من",
+            "for": "ل"
         }
     ],
-    "reviewsHeader": "Reviews",
-    "reviewValidation": "Verified review",
-    "reviewPublish": "Publish",
-    "reviewPlaceholder": "Write a comment...",
+    "reviewsHeader": "المراجعات",
+    "reviewValidation": "مراجعة مؤكدة",
+    "reviewPublish": "نشر",
+    "reviewPlaceholder": "اكتب تعليق...",
     "comments": [
         {
             "avatar": "./img/comments/av1.png",
-            "name": "Denise",
-            "text": "At first, I couldn't believe such a huge discount, but I received my order in 5 days. The expiration date is in 6 months, everything is fine.",
+            "name": "عبدالله",
+            "text": "رااااائع وتوصيله كان بارد",
             "likes": "31",
-            "hours": "7h",
-            "likeText": "like",
-            "comment": "comment"
+            "hours": "7س",
+            "likeText": "أعجبني",
+            "comment": "تعليق"
         },
         {
             "avatar": "./img/comments/av2.png",
-            "name": "Sohana",
-            "text": "I’m very happy that I managed to order it with the discount. One of the standout features of this shampoo and conditioner is its natural formulation.",
+            "name": "روان",
+            "text": "كان عليه خصم حلو",
             "likes": "12",
-            "hours": "3h",
-            "likeText": "like",
-            "comment": "comment"
+            "hours": "3س",
+            "likeText": "أعجبني",
+            "comment": "تعليق"
         },
         {
             "avatar": "./img/comments/av3.png",
-            "name": "Petula",
-            "text": "Thanks for the 90% discount and fast delivery 🤩",
+            "name": "محمد",
+            "text": "الصندوق بحالة جيدة وكل شيء سار على ما يرام",
             "likes": "4",
-            "hours": "3h",
-            "likeText": "like",
-            "comment": "comment"
+            "hours": "3س",
+            "likeText": "أعجبني",
+            "comment": "تعليق"
         },
         {
             "avatar": "./img/comments/av4.png",
-            "name": "Qadr",
-            "text": "a really good deal price wise, happy with the purchase and speed of delivery.",
+            "name": "أبوفهد الفيفي",
+            "text": "وصلني بارد وتاريخه جديد، إنتاجه قبل شهر ومدة الصلاحية 6 أشهر",
             "likes": "11",
-            "hours": "1h",
-            "likeText": "like",
-            "comment": "comment"
+            "hours": "1س",
+            "likeText": "أعجبني",
+            "comment": "تعليق"
         },
         {
             "avatar": "./img/comments/av5.png",
-            "name": "Liz",
-            "text": "Exactly what I wanted to buy. Reasonable price.",
+            "name": "ابرار عزيز",
+            "text": "منتج أصلي بسعر جيد جدًا.",
             "likes": "6",
-            "hours": "1d",
-            "likeText": "like",
-            "comment": "comment"
+            "hours": "1ي",
+            "likeText": "أعجبني",
+            "comment": "تعليق"
         },
         {
             "avatar": "./img/comments/av6.png",
-            "name": "Elize",
-            "text": " I absolutely love it, it makes my hair really soft and manageable. Good price when on special.",
+            "name": "أسامة",
+            "text": "وصل بحالة ممتازة وكانت جودته ممتازة.",
             "likes": "7",
-            "hours": "2d",
-            "likeText": "like",
-            "comment": "comment"
+            "hours": "2ي",
+            "likeText": "أعجبني",
+            "comment": "تعليق"
         },
         {
             "avatar": "./img/comments/av7.png",
-            "name": "Thabo",
-            "text": "Purchasing this on takealot is really helpful and stress free. I received the package within 3 days and everything has been smooth sailing. Highly recommend",
+            "name": "إبراهيم",
+            "text": "منتجات رائعة وتستحق الشراء",
             "likes": "15",
-            "hours": "2d",
-            "likeText": "like",
-            "comment": "comment"
+            "hours": "2ي",
+            "likeText": "أعجبني",
+            "comment": "تعليق"
         },
         {
             "avatar": "./img/comments/av8.png",
-            "name": "Mathoto",
-            "text": "This stuff is great, left my hair so shiny and soft and give it that feeling of life.",
+            "name": "محمد الدوير",
+            "text": "أفضل حليب طويل الأجل",
             "likes": "2",
-            "hours": "2d",
-            "likeText": "like",
-            "comment": "comment"
+            "hours": "2ي",
+            "likeText": "أعجبني",
+            "comment": "تعليق"
         }
     ],
     "description": {
-        "descriptionTitle": "Desription",
+        "descriptionTitle": "الوصف",
         "descriptionTexts": [
-            "What's in the box",
-            "1x Shakebar Colour Protect Shampoo",
-            "1x Shakebar Colour Protect Conditioner",
-            "Shakebar Colour Protect Shampoo",
-            "Colour Protect Shampoo is formulated for colour treated hair protect against fade. Blended with Argan oil, Quinoa and Rose oil to keep hair moisturized, the antioxidants to help protect hair against the stress of colouring and bleaching. Gentle yet effectively cleans from root to tip, enhances colour vribrancy, radiance and glossy shine.",
-            "Shakebar Colour Protect Conditioner",
-            "Colour Protect Conditioner is formulated for colour treated hair protect against fade. Blended with Argan oil, Quinoa and Rose oil to keep hair moisturized, the antioxidants to help protect hair against the stress of colouring and bleaching. Detangles and softens so hair is easy to comb through, enhances colour vibrancy, radiance and glossy shine."
+            "يوفر لك حليب السعودية كامل الدسم جميع العناصر الغذائية الأساسية التي يحتاجها جسمك مثل البروتينات والفيتامينات والمعادن. لديه فوائد الحليب الكاملة والمفيدة للجسم وطعمه رائع. مصنوع من الحليب الطازج وغني بالكالسيوم. يعد الكالسيوم ضروريًا لأطفالك ونموهم الصحي. مثالي للشاي أو القهوة أو الوصفات المفضلة لديك."
         ],
-        "descriptionTextMain": "Red Bull Energy Drink vitalizes body and mind. Red Bull Energy Drink is a functional beverage providing wings whenever you need them and is appreciated worldwide by top athletes, students, and in highly demanding professions as well as during long drives. Red Bull Energy Drinks contains the following high-quality ingredients: Caffeine, taurine, B-group vitamins, sugars, and alpine spring water Did you know: One 250ml can of Red Bull Energy Drink contains 80mg of caffeine, about the same amount as in a cup of coffee Red Bull Energy Drink is a functional beverage providing wiiings whenever you need them!",
         "descriptionTable": [
             {
-                "tableTitle": "Product Information",
+                "tableTitle": "معلومات المنتج",
                 "tableRows": [
                     {
-                        "rowTitle": "Categories",
-                        "rowText": "Beauty / Hair Care / Shampoo & Conditioner"
+                        "rowTitle": "أبعاد المنتج",
+                        "rowText": "19,5 × 37,1 × 21 سم؛ 12,94 كيلوغرام"
                     },
                     {
-                        "rowTitle": "Brand",
-                        "rowText": "Shakebar"
+                        "rowTitle": "رقم الموديل",
+                        "rowText": "1011"
                     },
                     {
-                        "rowTitle": "is vegan",
-                        "rowText": "Yes"
+                        "rowTitle": "عدد الوحدات",
+                        "rowText": "12 لتر"
                     },
                     {
-                        "rowTitle": "Warranty",
-                        "rowText": "Limited (6 months)"
+                        "rowTitle": "تعليمات التخزين",
+                        "rowText": "احفظه في مكان بارد"
                     },
                     {
-                        "rowTitle": "Hair Type",
-                        "rowText": "Colour Treated"
+                        "rowTitle": "بلد المنشأ",
+                        "rowText": "المملكة العربية السعودية"
                     },
                     {
-                        "rowTitle": "Is Organic",
-                        "rowText": "Yes"
+                        "rowTitle": "العلامة التجارية",
+                        "rowText": "السعودية"
                     },
                     {
-                        "rowTitle": "Hair Concerns",
-                        "rowText": "Colour Treated"
+                        "rowTitle": "الشكل",
+                        "rowText": "سائل"
                     },
                     {
-                        "rowTitle": "What's in the box",
-                        "rowText": "1x Shakebar Colour Protect Shampoo \n1x Shakebar Colour Protect Conditioner"
+                        "rowTitle": "معلومات التغليف",
+                        "rowText": "زجاجة"
                     },
                     {
-                        "rowTitle": "Is Hypoallergenic",
-                        "rowText": "No"
-                    },
-                    {
-                        "rowTitle": "Ingredients",
-                        "rowText": "Argan oil"
-                    },
-                    {
-                        "rowTitle": "free from sulphate",
-                        "rowText": "Yes"
-                    },
-                    {
-                        "rowTitle": "Barcode",
-                        "rowText": "MPTALX19986381-2"
+                        "rowTitle": "الشركة المصنعة",
+                        "rowText": "السعودية"
                     }
                 ]
             }
         ]
     },
     "timer": {
-        "timerSetsStart": "The product is almost sold out. Your turn to purchase is reserved for",
-        "timerSetsEnd": "minutes."
+        "timerSetsStart": "المنتج يكاد ينفد. دورك للشراء محفوظ لمدة",
+        "timerSetsEnd": "دقائق."
     },
     "checkout": {
-        "countryCode": "za",
-        "countryPhone": "27",
+        "countryCode": "sa",
+        "countryPhone": "966",
         "delivery": {
-            "title": "Delivery",
-            "city": "City",
-            "address": "Delivery Address",
-            "postcode": "Postal Code"
+            "title": "التوصيل",
+            "city": "المدينة",
+            "address": "عنوان التوصيل",
+            "postcode": "الرمز البريدي"
         },
         "info": {
-            "title": "Personal Information",
-            "firstName": "First Name",
-            "lastName": "Last Name",
-            "phone": "Phone Number",
-            "email": "Email Address"
+            "title": "المعلومات الشخصية",
+            "firstName": "الاسم الأول",
+            "lastName": "اسم العائلة",
+            "phone": "رقم الهاتف",
+            "email": "عنوان البريد الإلكتروني"
         },
         "payment": {
-            "title": "Payment Methods",
-            "text": "Online payment with credit card"
+            "title": "طرق الدفع",
+            "text": "الدفع الإلكتروني باستخدام بطاقة الائتمان"
         },
         "summary": {
-            "title": "Order Details",
-            "deliveryTime": "Delivery Time",
-            "deliveryDays": "3 days",
-            "subtotal": "Subtotal",
-            "deliveryAmountTitle": "Delivery",
-            "total": "Total"
+            "title": "تفاصيل الطلب",
+            "deliveryTime": "وقت التوصيل",
+            "deliveryDays": "3 أيام",
+            "subtotal": "المجموع الفرعي",
+            "deliveryAmountTitle": "التوصيل",
+            "total": "الإجمالي"
         }
     },
     "products": [
         {
-            "productName": "Shakebar Colour Protect Shampoo and Conditioner set",
+            "productName": "حليب كامل الدسم من السعودية، 12 × 1 لتر",
             "productImage": "./img/products/offer.webp",
-            "newPrice": "R 35",
-            "oldPrice": "R 225",
+            "newPrice": "8.00 ريال",
+            "oldPrice": "88.00 ريال",
             "sliderName": "black",
             "sliderSelectorIcon": "./img/slides/slide_1/s1.jpg",
             "slider": [

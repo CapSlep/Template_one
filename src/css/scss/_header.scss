@@ -4,10 +4,10 @@
 
 header nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: .2rem 1rem;
-    background-color: variables.$header-background-color;
+    padding: 0.2rem 1rem;
+    background-color: #131921;
     gap: 1rem;
 }
 
@@ -16,7 +16,6 @@ header {
 }
 
 .nav__component {
-    width: 100%;
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
@@ -28,7 +27,7 @@ header {
     font-size: variables.$font-size-small;
     align-items: center;
     justify-content: center;
-    fill: #000;
+    fill: #fff;
 }
 
 .icon img {
@@ -36,8 +35,9 @@ header {
 }
 
 .logo {
+    direction: ltr;
     fill: #000;
-    color: #000;
+    color: #fff;
     height: 5rem;
     padding: 1rem 0;
     display: flex;
@@ -51,6 +51,7 @@ header {
 }
 
 .logo span {
+    direction: ltr;
     margin: 0 0 12px 2px;
 }
 

@@ -7,7 +7,7 @@
     gap: 1rem;
     padding: 1rem 1rem 5rem;
     background-color: variables.$header-background-color;
-    color: #000;
+    color: #fff;
     border-top: 1px solid rgb(216, 216, 216);
 }
 
@@ -16,6 +16,12 @@
     height: 3rem;
     fill: #000;
     text-align: center;
+    direction: ltr;
+}
+
+.footer__logo-wrapper span {
+    direction: ltr;
+    color: #fff;
 }
 
 .footer__logo-wrapper img {
@@ -30,5 +36,4 @@
 
 .footer__text {
     font-size: variables.$font-size-smaller;
-    color: #000;
 }

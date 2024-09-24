@@ -14,9 +14,6 @@ export default function Description() {
                     </p>
                 );
             })}
-            {/* <p className="descriptin__text">
-                {data.description.descriptionTextMain}
-            </p> */}
             <table className="table">
                 {data.description.descriptionTable.map(
                     (tableElement, index) => {
