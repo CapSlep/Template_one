@@ -145,7 +145,7 @@ export default function Checkout({ product, formSendHandler }) {
                                 <input
                                     id="phoneField"
                                     type="tel"
-                                    className="form-control"
+                                    className="form-control phone__form-control"
                                     name="phone"
                                     required
                                 ></input>

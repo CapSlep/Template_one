@@ -61,6 +61,7 @@
 .form__phone-wrapper {
     display: flex;
     flex-direction: row;
+    direction: ltr;
 }
 
 .form-control-label {
@@ -73,6 +74,16 @@
     flex-direction: row;
     align-items: center;
     gap: .25rem;
+    direction: ltr;
+}
+
+.form__phone-dial-code {
+    direction: ltr;
+}
+
+.phone__form-control {
+    direction: ltr;
+    padding-left: .1rem;
 }
 
 .form__phone-flag {

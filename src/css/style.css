@@ -842,6 +842,7 @@ header {
   font-weight: 700;
   color: #25303B;
   gap: 0.5rem;
+  direction: ltr;
 }
 
 .timer__text-promo {
@@ -920,6 +921,7 @@ header {
 .form__phone-wrapper {
   display: flex;
   flex-direction: row;
+  direction: ltr;
 }
 
 .form-control-label {
@@ -931,6 +933,16 @@ header {
   flex-direction: row;
   align-items: center;
   gap: 0.25rem;
+  direction: ltr;
+}
+
+.form__phone-dial-code {
+  direction: ltr;
+}
+
+.phone__form-control {
+  direction: ltr;
+  padding-left: 0.1rem;
 }
 
 .form__phone-flag {
