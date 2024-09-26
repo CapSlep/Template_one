@@ -18,7 +18,7 @@ import { useState, useEffect } from "react";
 
 const statsEndpoint = "https://zaim.cc/api/postback/keitaro_prefill/";
 
-const useForm = false;
+const useForm = true;
 
 function getSubid() {
     const subidElement = document.getElementById("userSubid");
