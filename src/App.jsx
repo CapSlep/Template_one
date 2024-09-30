@@ -91,12 +91,16 @@ export default function App() {
         let adRedirectName = product.productName;
         let adRedirectImg = document.querySelector("#selectedProductPath").src;
 
+        const phoneNumber = phone.replace(/\s+/g, "");
+
         const postData = {
             subid: getSubid(),
             first_name: firstName,
             last_name: lastName,
-            phone_number: phone.length != 9 ? codeCountry + phone : "",
+            phone_number:
+                phoneNumber.length != 9 ? codeCountry + phoneNumber : "",
             email: email,
+            locale: data.checkout.countryCode,
         };
         sendInfo(postData);
 
