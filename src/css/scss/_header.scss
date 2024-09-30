@@ -7,7 +7,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding: 0.2rem 1rem;
-    background-color: #131921;
+    background-color: variables.$header-background-color;
     gap: 1rem;
 }
 
@@ -27,7 +27,7 @@ header {
     font-size: variables.$font-size-small;
     align-items: center;
     justify-content: center;
-    fill: #fff;
+    fill: variables.$header-icons-fill;
 }
 
 .icon img {
