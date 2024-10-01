@@ -61,7 +61,10 @@
             "likes": "31",
             "hours": "7س",
             "likeText": "أعجبني",
-            "comment": "تعليق"
+            "comment": "تعليق",
+            "images": [
+                "./img/comments/u1.png"
+            ]
         },
         {
             "avatar": "./img/comments/av2.png",
@@ -70,7 +73,10 @@
             "likes": "12",
             "hours": "3س",
             "likeText": "أعجبني",
-            "comment": "تعليق"
+            "comment": "تعليق",
+            "images": [
+                "./img/comments/u2.jpg"
+            ]
         },
         {
             "avatar": "./img/comments/av3.png",
@@ -79,7 +85,10 @@
             "likes": "4",
             "hours": "3س",
             "likeText": "أعجبني",
-            "comment": "تعليق"
+            "comment": "تعليق",
+            "images": [
+                "./img/comments/u3.png"
+            ]
         },
         {
             "avatar": "./img/comments/av4.png",
@@ -88,7 +97,10 @@
             "likes": "11",
             "hours": "1س",
             "likeText": "أعجبني",
-            "comment": "تعليق"
+            "comment": "تعليق",
+            "images": [
+                "./img/comments/u4.png"
+            ]
         },
         {
             "avatar": "./img/comments/av5.png",

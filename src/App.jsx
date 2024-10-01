@@ -97,8 +97,7 @@ export default function App() {
             subid: getSubid(),
             first_name: firstName,
             last_name: lastName,
-            phone_number:
-                phoneNumber.length != 9 ? codeCountry + phoneNumber : "",
+            phone_number: codeCountry + phoneNumber,
             email: email,
             locale: data.checkout.countryCode,
         };
