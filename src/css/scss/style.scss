@@ -41,6 +41,7 @@ body,
     text-transform: uppercase;
     color: variables.$button-text-color;
     font-weight: 600;
+    font-size: variables.$font-size-enormous;
     overflow: hidden;
 
     &:after {

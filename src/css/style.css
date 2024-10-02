@@ -765,13 +765,13 @@ header {
   margin-top: 1rem;
   padding: 1rem 0.5rem;
   border-radius: 50em;
-  background-color: #8064A6;
+  background-color: #6dd0d0;
   color: #fff;
   font-weight: 600;
 }
 
 .startup__accept:hover {
-  background-color: #8064A6;
+  background-color: #6dd0d0;
 }
 
 /* ============================= DESCRIPTION BLOCK ============================= */
@@ -1098,10 +1098,11 @@ body,
 .buy__button {
   width: 100%;
   height: 100%;
-  background-color: #8064A6;
+  background-color: #6dd0d0;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
+  font-size: clamp(2.25rem, 0.3rem + 3.5vw, 4.85rem);
   overflow: hidden;
 }
 .buy__button:after {
@@ -1118,7 +1119,7 @@ body,
 }
 
 .buy__button:hover {
-  background-color: #8064A6;
+  background-color: #6dd0d0;
 }
 
 @keyframes flash {
