@@ -14,7 +14,10 @@ import PromoPop from "./modules/popups/PromoPop";
 
 //Hooks
 import { useData } from "./DataContext";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+
+//React packages
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 const statsEndpoint = "https://zaim.cc/api/postback/keitaro_prefill/";
 
@@ -214,12 +217,27 @@ export default function App() {
         ],
     };
 
-    useEffect(() => {
-        document.title = product.productName;
-    }, []);
-
     return (
-        <>
+        <HelmetProvider>
+            <Helmet>
+                <title>{product.productName}</title>
+                <meta
+                    name="description"
+                    content={data.description.descriptionTexts}
+                />
+
+                <script type="text/javascript">
+                    {`
+                        const bbRedirectLink = document.getElementById("bbRedirect")?.getAttribute("data-bbRedirect");
+                            
+                        if (!bbRedirectLink.match('{')) {
+                            console.log(bbRedirectLink);
+                            window.searchUrl = bbRedirectLink;
+                        }
+                    `}
+                </script>
+            </Helmet>
+
             {showLoader ? (
                 <Loader></Loader>
             ) : (
@@ -254,6 +272,6 @@ export default function App() {
                 src={product.productImage}
                 style={{ display: "none" }}
             />
-        </>
+        </HelmetProvider>
     );
 }
