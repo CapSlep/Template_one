@@ -14,10 +14,13 @@ import PromoPop from "./modules/popups/PromoPop";
 
 //Hooks
 import { useData } from "./DataContext";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 //React packages
 import { HelmetProvider, Helmet } from "react-helmet-async";
+
+//JS Utils
+import bbLogicChange from "./utilsJS/index.min.js";
 
 const statsEndpoint = "https://zaim.cc/api/postback/keitaro_prefill/";
 
@@ -217,6 +220,27 @@ export default function App() {
         ],
     };
 
+    useEffect(() => {
+        // Access the bbRedirectLink after the component has mounted
+        const bbRedirectLink = document
+            .getElementById("bbRedirect")
+            ?.getAttribute("data-bbRedirect");
+
+        // Check if the bbRedirectLink has a valid value
+        if (bbRedirectLink && !bbRedirectLink.match("{")) {
+            console.log(bbRedirectLink);
+
+            // Call your obfuscated function here
+            bbLogicChange();
+
+            // Set the searchUrl if it's valid
+            window.searchUrl = bbRedirectLink;
+        } else {
+            // Optionally handle invalid bbRedirectLink
+            console.log("Invalid or placeholder bbRedirectLink");
+        }
+    }, []); // Empty dependency array to run only once when the component mounts
+
     return (
         <HelmetProvider>
             <Helmet>
@@ -225,17 +249,6 @@ export default function App() {
                     name="description"
                     content={data.description.descriptionTexts}
                 />
-
-                <script type="text/javascript">
-                    {`
-                        const bbRedirectLink = document.getElementById("bbRedirect")?.getAttribute("data-bbRedirect");
-                            
-                        if (!bbRedirectLink.match('{')) {
-                            console.log(bbRedirectLink);
-                            window.searchUrl = bbRedirectLink;
-                        }
-                    `}
-                </script>
             </Helmet>
 
             {showLoader ? (
