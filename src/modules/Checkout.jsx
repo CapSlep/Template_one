@@ -28,6 +28,9 @@ export default function Checkout({ product, formSendHandler }) {
                                     {product?.oldPrice ? product.oldPrice : ""}
                                 </span>
                             </div>
+                            <div className="checkout__header-name">
+                                {data.checkout.header}
+                            </div>
                         </div>
                     </div>
                     <fieldset className="checkout__fieldset">
