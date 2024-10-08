@@ -25,7 +25,7 @@ a:active {
 html,
 body {
   height: 100%;
-  min-width: 320px;
+  min-width: 280px;
 }
 
 body {
@@ -124,7 +124,7 @@ header nav {
   justify-content: space-between;
   align-items: center;
   padding: 0.2rem 1rem;
-  background-color: #fff;
+  background-color: #131921;
   gap: 1rem;
 }
 
@@ -144,7 +144,7 @@ header {
   font-size: clamp(0.75rem, 0.3rem + 3vw, 1rem);
   align-items: center;
   justify-content: center;
-  fill: #000;
+  fill: #fff;
 }
 
 .icon img {
@@ -330,6 +330,12 @@ header {
   justify-content: space-between;
   padding: 1rem;
   background-color: #fff;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.product__title-element {
+  gap: 0.5rem;
 }
 
 .product__price-block {
@@ -639,7 +645,7 @@ header {
   flex-direction: column;
   gap: 1rem;
   padding: 1rem 1rem 5rem;
-  background-color: #464545;
+  background-color: #131921;
   color: #fff;
   border-top: 1px solid rgb(216, 216, 216);
 }
@@ -664,6 +670,7 @@ header {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  text-align: center;
 }
 
 .footer__text {
@@ -765,13 +772,13 @@ header {
   margin-top: 1rem;
   padding: 1rem 0.5rem;
   border-radius: 50em;
-  background-color: #6dd0d0;
+  background-color: #FFA631;
   color: #fff;
   font-weight: 600;
 }
 
 .startup__accept:hover {
-  background-color: #6dd0d0;
+  background-color: #FFA631;
 }
 
 /* ============================= DESCRIPTION BLOCK ============================= */
@@ -1089,7 +1096,7 @@ body,
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 65px;
+  max-height: 5rem;
   background-color: #fff;
   z-index: 100;
   overflow: hidden;
@@ -1098,12 +1105,13 @@ body,
 .buy__button {
   width: 100%;
   height: 100%;
-  background-color: #6dd0d0;
+  background-color: #FFA631;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
-  font-size: clamp(2.25rem, 0.3rem + 3.5vw, 4.85rem);
+  font-size: clamp(2rem, 0.3rem + 3.5vw, 3rem);
   overflow: hidden;
+  padding: 1rem 0;
 }
 .buy__button:after {
   background: #fff;
@@ -1119,7 +1127,7 @@ body,
 }
 
 .buy__button:hover {
-  background-color: #6dd0d0;
+  background-color: #FFA631;
 }
 
 @keyframes flash {

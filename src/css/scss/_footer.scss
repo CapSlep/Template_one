@@ -6,7 +6,7 @@
     flex-direction: column;
     gap: 1rem;
     padding: 1rem 1rem 5rem;
-    background-color: #464545;
+    background-color: variables.$footer-background-color;
     color: #fff;
     border-top: 1px solid rgb(216, 216, 216);
 }
@@ -32,6 +32,7 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    text-align: center;
 }
 
 .footer__text {

@@ -20,6 +20,12 @@
     justify-content: space-between;
     padding: 1rem;
     background-color: variables.$background-color;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+.product__title-element {
+    gap: .5rem;
 }
 
 .product__price-block {
